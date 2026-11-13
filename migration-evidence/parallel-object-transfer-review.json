@@ -83,5 +83,27 @@
   "retry_jobs": {
     "third_party_vk-gl-cts": 132205390870,
     "chromium_third_party_angle_vk_gl_cts": 132205390772
+  },
+  "test_scheduling_followup": {
+    "commit": "f70eeb50714e3f4c9f151b9c93de6a381c69cd4e",
+    "change": "Allow valid completion-order variation while still verifying preserved branches, reused object packs and complete cleanup",
+    "host_test_passed": true,
+    "host_test_seconds": 19.265,
+    "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43519540931",
+    "ci_conclusion": "success",
+    "production_code_changed": false
+  },
+  "production_validation": {
+    "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43518125242",
+    "job_id": 132205390870,
+    "conclusion": "failure",
+    "preparation_succeeded": true,
+    "failed_phase": "publish",
+    "failure": "GitHub remote quarantine pack file was missing during concurrent object receives; remote unpack failed: index-pack failed",
+    "accepted_object_packs_preserved": true,
+    "next_strategy": "Serial immutable-object uploads with 512 MiB batch content and retry of the specific transient remote quarantine error",
+    "local_log": "system-vk-parallel-publication-failure.log",
+    "local_log_sha256": "358fd28a5fe84c46cb5da37394313a491498974376ad502df2e622ee120968d6",
+    "superseding_workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43521794559"
   }
 }

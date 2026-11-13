@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-11-13T22:45:53.148365+00:00",
+  "repository": "openharmony-qemu/mirror-sync",
+  "commit": "a5314e79bef9d2de5938e8bef00e671c2e9ae861",
+  "object_uploads": "serial",
+  "batch_content_bytes": 536870912,
+  "host_test": {
+    "command": "python3 -m unittest discover -s tests -p 'test_sync.py' -v",
+    "passed": 22,
+    "seconds": 259.936
+  },
+  "ci": {
+    "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43521493111",
+    "conclusion": "success"
+  },
+  "production_retry_workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43521794559",
+  "prior_failure": {
+    "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43518125242",
+    "job_id": 132205390870,
+    "preparation_succeeded": true,
+    "failed_phase": "publish",
+    "reason": "GitHub quarantine pack file disappeared during concurrent receive; remote unpack failed"
+  },
+  "resume_observation": {
+    "observed_at": "2026-11-13T22:34:44.3444553Z",
+    "remaining_original_blobs": 21587,
+    "remaining_uncompressed_blob_bytes": 71678827433,
+    "note": "Plan from the prior failed publication; earlier accepted object packs were reused."
+  },
+  "build_validated": false,
+  "runtime_validated": false
+}
