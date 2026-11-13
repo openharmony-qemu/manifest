@@ -1,0 +1,30 @@
+{
+  "repository": "openharmony-qemu/global_i18n",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43451365709",
+  "artifact_id": 14052241133,
+  "artifact_created_at": "2026-11-13T15:23:24Z",
+  "upstream_branches": 326,
+  "results": {
+    "unchanged": 327
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "d71fad7f2efe0678cf707bc0281c98730be75398",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "76e82e29f33b717b0346e2c549b8805c083ea2ad"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "2de137865a7fccde02bbae499108cb50da3cb95c"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "88e167ccaf7d2e715c7fa50699d35e1c7e33eea11cd60b03660c857fa9edfe27",
+    "chunks": [
+      {
+        "file": "00000.csv.gz",
+        "rows": 2825,
+        "sha256": "88e167ccaf7d2e715c7fa50699d35e1c7e33eea11cd60b03660c857fa9edfe27"
+      }
+    ]
+  }
+}

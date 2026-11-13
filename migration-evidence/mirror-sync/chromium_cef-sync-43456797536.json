@@ -1,0 +1,24 @@
+{
+  "repository": "openharmony-qemu/chromium_cef",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43456797536",
+  "artifact_id": 14054532756,
+  "artifact_created_at": "2026-11-13T15:58:23Z",
+  "upstream_branches": 121,
+  "results": {
+    "created": 122
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": null,
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "6153d21e9a5d6f0a6718757dcf9c5cadf60fe595"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "6153d21e9a5d6f0a6718757dcf9c5cadf60fe595"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "repository": "openharmony-qemu/chromium_arkweb",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43447501923",
+  "artifact_id": 14050067010,
+  "artifact_created_at": "2026-11-13T15:18:26Z",
+  "upstream_branches": 13,
+  "results": {
+    "created": 14
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "e72c76a01924608b3cd309cb39fc2a169b96e678",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "f3d904432cc1c57468f2b7fe01979d25e0157581"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "e72c76a01924608b3cd309cb39fc2a169b96e678"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "402cf726f36f6928ad89651d34248c1ab2342806db1b6e07919370bf841fa7e5",
+    "chunks": [
+      {
+        "file": "00000.csv.gz",
+        "rows": 100000,
+        "sha256": "dae8b0ff6fc8d6914802859ac5dfa4b7a523e9a852ec84a72b11b6c062997d59"
+      },
+      {
+        "file": "00001.csv.gz",
+        "rows": 24555,
+        "sha256": "6530c521eb7498643edb0dbe35f0287d50e38e52ef976acd65f385d12a6d2cb9"
+      }
+    ]
+  }
+}

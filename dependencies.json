@@ -1,5 +1,11 @@
 {
   "schema_version": 1,
+  "scope": "repository_selection_and_cross_tree_prerequisites",
+  "component_dependency_authority": [
+    "bundle.json",
+    "BUILD.gn",
+    "vendor/ohemu product profiles"
+  ],
   "stages": [
     {
       "name": "ohos_sources",
@@ -40,7 +46,8 @@
       "name": "mesa_llvm",
       "requires": [
         "arkweb_sources",
-        "ohos_sdk"
+        "ohos_sdk",
+        "external_sources"
       ],
       "outputs": [
         "libllvm.a"
@@ -61,6 +68,299 @@
         "system_images"
       ],
       "contract": "products.json"
+    }
+  ],
+  "source_dependencies": [
+    {
+      "repository": "busmanager_serial_manager",
+      "consumers": [
+        "vendor_ohemu"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "base/busmanager/serial_manager",
+          "revision": "c05fbbf156230982aa576373da6ee04378b09ca0"
+        }
+      ]
+    },
+    {
+      "repository": "third_party_openvpn",
+      "consumers": [
+        "communication_netmanager_ext"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "third_party/openvpn",
+          "revision": "dc1f569087135894ac2703aeabd7a960ee9452d4"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_tool_gn",
+      "consumers": [
+        "build"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "tools/gn",
+          "revision": "6e0b557db44b3c164094e57687d20ba036a80667"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_sdk_llvm15",
+      "consumers": [
+        "chromium_arkweb",
+        "chromium_src",
+        "chromium_v8",
+        "chromium_third_party_swiftshader"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "tools/sdk-llvm15",
+          "revision": "3f002d04ba6b3a7659c601207c89d3a896b82546"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_dep_sherpa_onnx",
+      "consumers": [
+        "drivers_peripheral",
+        "applications_hap"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "dependencies/sherpa_onnx",
+          "revision": "419f7fea0a9a3f7b047dee53ad7da266767a425f"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_dep_node_addon_api",
+      "consumers": [
+        "drivers_peripheral",
+        "applications_hap"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "dependencies/node_addon_api",
+          "revision": "c679f6f4c9dc6bf9fc0d99cbe5982bd24a5e2c7b"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_dep_kaldi_native_fbank",
+      "consumers": [
+        "drivers_peripheral",
+        "applications_hap"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "dependencies/kaldi_native_fbank",
+          "revision": "84c24202dc56e5e25c912983f8a6ad5baed55b2c"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_dep_kaldi_decoder",
+      "consumers": [
+        "drivers_peripheral",
+        "applications_hap"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "dependencies/kaldi_decoder",
+          "revision": "503eacc12af7d7835c523a6aecb474279b906170"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_dep_simple_sentencepiece",
+      "consumers": [
+        "drivers_peripheral",
+        "applications_hap"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "dependencies/simple_sentencepiece",
+          "revision": "62dd423df1d51da5ea06f1c3a046fc04f01b4f39"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_dep_websocketpp",
+      "consumers": [
+        "drivers_peripheral",
+        "applications_hap"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "dependencies/websocketpp",
+          "revision": "b9aeec6eaf3d5610503439b4fae3581d9aff08e8"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_dep_asio",
+      "consumers": [
+        "drivers_peripheral",
+        "applications_hap"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "dependencies/asio",
+          "revision": "147f7225a96d45a2807a64e443177f621844e51c"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_dep_espeak_ng",
+      "consumers": [
+        "drivers_peripheral",
+        "applications_hap"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "dependencies/espeak_ng",
+          "revision": "f6fed6c58b5e0998b8e68c6610125e2d07d595a7"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_dep_piper_phonemize",
+      "consumers": [
+        "drivers_peripheral",
+        "applications_hap"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "dependencies/piper_phonemize",
+          "revision": "78a788e0b719013401572d70fef372e77bff8e43"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_dep_cppjieba",
+      "consumers": [
+        "drivers_peripheral",
+        "applications_hap"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "dependencies/cppjieba",
+          "revision": "f03dd931a00330c279c8590275850fd1f6749a18"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_dep_hclust_cpp",
+      "consumers": [
+        "drivers_peripheral",
+        "applications_hap"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "dependencies/hclust_cpp",
+          "revision": "aa12a4671cd3c93427da32157b9c55635e5289ff"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_dep_kaldifst",
+      "consumers": [
+        "drivers_peripheral",
+        "applications_hap"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "dependencies/kaldifst",
+          "revision": "4e226e21cc9343d4e9ecf388390cb6eb39a2406f"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_dep_openfst",
+      "consumers": [
+        "drivers_peripheral",
+        "applications_hap"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "dependencies/openfst",
+          "revision": "a1cdead2da17e15ef46a5b9fde0a07da394e3a72"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_dep_eigen",
+      "consumers": [
+        "drivers_peripheral",
+        "applications_hap"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "dependencies/eigen",
+          "revision": "3147391d946bb4b6c68edd901f2add6ac1f31f8c"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_dep_openal_soft",
+      "consumers": [
+        "multimedia_audio_framework"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "dependencies/openal_soft",
+          "revision": "dc7d7054a5b4f3bec1dc23a42fd616a0847af948"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_dep_jsoncpp",
+      "consumers": [
+        "applications_photos"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "dependencies/jsoncpp",
+          "revision": "5defb4ed1a4293b8e2bf641e16b156fb9de498cc"
+        }
+      ]
+    },
+    {
+      "repository": "qemu_dep_mesa3d_21_3",
+      "consumers": [
+        "device_qemu",
+        "third_party_mesa3d"
+      ],
+      "checkouts": [
+        {
+          "tree": "external",
+          "path": "dependencies/mesa3d_21_3",
+          "revision": "995d2506d18924b48db0cf40e6ad7de04fc4e558"
+        }
+      ]
     }
   ]
 }

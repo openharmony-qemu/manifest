@@ -1,0 +1,30 @@
+{
+  "repository": "openharmony-qemu/multimedia_audio_framework",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43446235123",
+  "artifact_id": 14052926441,
+  "artifact_created_at": "2026-11-13T15:31:51Z",
+  "upstream_branches": 403,
+  "results": {
+    "created": 404
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": null,
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "6932fa64335b8272ca4a59de7808ab0d6c9eae7a"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "742eec972e9b896c3cdade52f955b7373b4aab6b"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "95d5ee99a95a732708fcb5e179fc063d39f611cc84a731b97df2974db6b0af8a",
+    "chunks": [
+      {
+        "file": "00000.csv.gz",
+        "rows": 25869,
+        "sha256": "95d5ee99a95a732708fcb5e179fc063d39f611cc84a731b97df2974db6b0af8a"
+      }
+    ]
+  }
+}

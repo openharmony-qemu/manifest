@@ -1,0 +1,63 @@
+{
+  "snapshot_at": "2026-11-13T16:11:55.120090+00:00",
+  "journals": [
+    {
+      "file": "publications/repository-creation.jsonl.gz",
+      "uncompressed_sha256": "394c1a6258eb23cdc5a200382983b031aad47695525e8f2859dc8d8005f686fe",
+      "sha256": "bb4c0646a00d89707e5f0e8e4550dcdda8d54e47509eea804d7d73fbf0163678",
+      "records": 648,
+      "latest_status_counts": {
+        "created": 640
+      }
+    },
+    {
+      "file": "publications/baseline-publication.jsonl.gz",
+      "uncompressed_sha256": "0851ef8256ad524da968d5ec9bbddf94f72f15fbd5114ae27af282eaa8bbf9c3",
+      "sha256": "daafb36d950f63954ff56e93d159fb44247b9326413af5220758be3d4632f325",
+      "records": 592,
+      "latest_status_counts": {
+        "preserved_existing": 39,
+        "published": 472,
+        "failed": 3
+      }
+    },
+    {
+      "file": "publications/source-publication.jsonl.gz",
+      "uncompressed_sha256": "4a495a4521c3d55e31dc1becae23e000943670cfb3b0d1ed1c89c519a36c7b53",
+      "sha256": "1f8d45e375f148c9a88b16738e047804629b8af5a6f5e478166cbb512057cdfc",
+      "records": 100,
+      "latest_status_counts": {
+        "published": 95,
+        "failed": 1
+      }
+    },
+    {
+      "file": "publications/arkweb-source-publication.jsonl.gz",
+      "uncompressed_sha256": "a7d1f46b3c2ad1f4ba061eaedf922d81d2acf709527207bb5fe6e037e76674b1",
+      "sha256": "a420a05164b86e1239cd03904efbd8e4e3922d989e2fa9edcce209b1e88f544d",
+      "records": 2,
+      "latest_status_counts": {
+        "published": 2
+      }
+    },
+    {
+      "file": "publications/recipe-publication.jsonl.gz",
+      "uncompressed_sha256": "6ef98ff93b2db807df5182de7fc522efe7d33d3c1c884f2c674721f365d14bb7",
+      "sha256": "0d32e123dbeadbc77b8470b7be9168c7c3692cc59040018d9946e5d82e9b592b",
+      "records": 88,
+      "latest_status_counts": {
+        "published": 87
+      }
+    },
+    {
+      "file": "publications/helper-publication.jsonl.gz",
+      "uncompressed_sha256": "2c0fedb40c2b522d1de55899da3d2f31ad95d24e449be867a704f8804c9de859",
+      "sha256": "59918d87e9db392abdf0fa2724b24fc4551f88fdf7ffda9aa3ff5d20af28c550",
+      "records": 17,
+      "latest_status_counts": {
+        "published": 16,
+        "failed": 1
+      }
+    }
+  ]
+}

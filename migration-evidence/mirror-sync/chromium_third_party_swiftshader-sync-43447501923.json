@@ -1,0 +1,30 @@
+{
+  "repository": "openharmony-qemu/chromium_third_party_swiftshader",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43447501923",
+  "artifact_id": 14051684824,
+  "artifact_created_at": "2026-11-13T15:40:26Z",
+  "upstream_branches": 112,
+  "results": {
+    "created": 113
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": null,
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "7de929845e8d30e83be6416a15e76c235bb4784d"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "4ee746aeb3865829cc26f79a55b02fed4514764e"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "72855214b2959ddb77ba30dfdb23ef4624ad06ba5d08f25486301c430687c39a",
+    "chunks": [
+      {
+        "file": "00000.csv.gz",
+        "rows": 7410,
+        "sha256": "72855214b2959ddb77ba30dfdb23ef4624ad06ba5d08f25486301c430687c39a"
+      }
+    ]
+  }
+}

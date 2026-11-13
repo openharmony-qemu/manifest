@@ -21,4 +21,5 @@
   <project name="qemu_dep_eigen" path="dependencies/eigen" />
   <project name="qemu_dep_openal_soft" path="dependencies/openal_soft" />
   <project name="qemu_dep_jsoncpp" path="dependencies/jsoncpp" />
+  <project name="qemu_dep_mesa3d_21_3" path="dependencies/mesa3d_21_3" />
 </manifest>

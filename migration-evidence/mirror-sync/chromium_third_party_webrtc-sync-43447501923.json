@@ -1,0 +1,24 @@
+{
+  "repository": "openharmony-qemu/chromium_third_party_webrtc",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43447501923",
+  "artifact_id": 14052963707,
+  "artifact_created_at": "2026-11-13T15:48:09Z",
+  "upstream_branches": 113,
+  "results": {
+    "created": 114
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "0159a7bffb0a54551e9fa5dd25ff81f448419b05",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "0159a7bffb0a54551e9fa5dd25ff81f448419b05"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "0159a7bffb0a54551e9fa5dd25ff81f448419b05"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": []
+  }
+}

@@ -1,0 +1,4873 @@
+{
+  "schema_version": 1,
+  "complete": false,
+  "baseline_branch": "OpenHarmony-7.0-Release-qemu",
+  "adaptations_sha256": "4028f759e441c169f991e2c8ba555c1853c972344809cbff5b40d9370498a03b",
+  "repositories": [
+    {
+      "name": "applications_sample_camera",
+      "qemu_revision": "dc0da04e26898223cc4a4c5421f99c2518f0b8c6",
+      "upstream_revisions": [
+        "dc0da04e26898223cc4a4c5421f99c2518f0b8c6"
+      ]
+    },
+    {
+      "name": "applications_camera_sample_communication",
+      "qemu_revision": "34195bfe52d168a279987ce3655af7ccb0fe6bd3",
+      "upstream_revisions": [
+        "34195bfe52d168a279987ce3655af7ccb0fe6bd3"
+      ]
+    },
+    {
+      "name": "applications_camera_screensaver_app",
+      "qemu_revision": "21efcb82d22d179c3b8952e8590d80629cf26edc",
+      "upstream_revisions": [
+        "21efcb82d22d179c3b8952e8590d80629cf26edc"
+      ]
+    },
+    {
+      "name": "applications_sample_wifi_iot",
+      "qemu_revision": "162978812243c11aa51a58e4f928c4ca1243902a",
+      "upstream_revisions": [
+        "162978812243c11aa51a58e4f928c4ca1243902a"
+      ]
+    },
+    {
+      "name": "applications_admin_provisioning",
+      "qemu_revision": "1088142956b299a8be47f150b0732cb9c04de100",
+      "upstream_revisions": [
+        "352a226f5c969a14be6f711fb41c8d02fddce2d7"
+      ]
+    },
+    {
+      "name": "applications_app_samples",
+      "qemu_revision": "ac058c3b322a77090eb21992747e2b7f2aeb5b45",
+      "upstream_revisions": [
+        "ac058c3b322a77090eb21992747e2b7f2aeb5b45"
+      ]
+    },
+    {
+      "name": "applications_applications_cangjie_wrapper",
+      "qemu_revision": "7a710430f13daf4d53b152b861dde9968ae32bf5",
+      "upstream_revisions": [
+        "7a710430f13daf4d53b152b861dde9968ae32bf5"
+      ]
+    },
+    {
+      "name": "applications_auth_widget",
+      "qemu_revision": "4d8c0642bdd377640c913d7a6dc43c1f3786450f",
+      "upstream_revisions": [
+        "4d8c0642bdd377640c913d7a6dc43c1f3786450f"
+      ]
+    },
+    {
+      "name": "applications_browser",
+      "qemu_revision": "909497683c6b2df4e23957e558469fb9dbc5bfe9",
+      "upstream_revisions": [
+        "909497683c6b2df4e23957e558469fb9dbc5bfe9"
+      ]
+    },
+    {
+      "name": "applications_calendar",
+      "qemu_revision": "1136345d0820f942410344eda106c80f182f4878",
+      "upstream_revisions": [
+        "1136345d0820f942410344eda106c80f182f4878"
+      ]
+    },
+    {
+      "name": "applications_calendar_data",
+      "qemu_revision": "795c5eb08eee53fd460e4794ae102722e8443d66",
+      "upstream_revisions": [
+        "f922427ca0dc20895a0e254ae41382e5b03299a4"
+      ]
+    },
+    {
+      "name": "applications_call",
+      "qemu_revision": "7466bced138ae070becff2ac98fb913e2636a8be",
+      "upstream_revisions": [
+        "8383e1930ffb28b512929b913eadf266a4e3a55a"
+      ]
+    },
+    {
+      "name": "applications_camera",
+      "qemu_revision": "bba744e37a26ef9a169d5c3dc771f81e225f04a4",
+      "upstream_revisions": [
+        "bba744e37a26ef9a169d5c3dc771f81e225f04a4"
+      ]
+    },
+    {
+      "name": "applications_contacts",
+      "qemu_revision": "9da4ccdc854a36b9a34df290d6a9e6e4d1f02c01",
+      "upstream_revisions": [
+        "65de33df8d6d7aaa5797a5625ed0e5938e5cb050"
+      ]
+    },
+    {
+      "name": "applications_contacts_data",
+      "qemu_revision": "2f4ef938e44f25b8f6fc571b0591169b3fd713bd",
+      "upstream_revisions": [
+        "c73bd27daa3fcd8ed6099b17cbffbd7021e3873e"
+      ]
+    },
+    {
+      "name": "applications_dlp_manager",
+      "qemu_revision": "3a8875e2f5382ec2baa4b7534e56ffdf35ade3f6",
+      "upstream_revisions": [
+        "3a8875e2f5382ec2baa4b7534e56ffdf35ade3f6"
+      ]
+    },
+    {
+      "name": "applications_filepicker",
+      "qemu_revision": "0bad6e29e1d6b4f0f68ff382e9e7ec291735abea",
+      "upstream_revisions": [
+        "0bad6e29e1d6b4f0f68ff382e9e7ec291735abea"
+      ]
+    },
+    {
+      "name": "applications_hap",
+      "qemu_revision": "59aaf28770321381cc4001f40b0fc6c96e66a972",
+      "upstream_revisions": [
+        "f2e956a5dd26102f85c86e91d2bfd7c0998534f8"
+      ]
+    },
+    {
+      "name": "applications_launcher",
+      "qemu_revision": "6f54005f12daea63d8a6964934497a334eb8be44",
+      "upstream_revisions": [
+        "6f54005f12daea63d8a6964934497a334eb8be44"
+      ]
+    },
+    {
+      "name": "applications_mms",
+      "qemu_revision": "96a219dc8fb4476e3c4623f6bcdd1d853ee69f3d",
+      "upstream_revisions": [
+        "26df98e3738f4219aa45efe6a3e7f6b1be55c051"
+      ]
+    },
+    {
+      "name": "applications_notes",
+      "qemu_revision": "b1b545adb2b214b48cb1389ae6f68f6937c45cc9",
+      "upstream_revisions": [
+        "b1b545adb2b214b48cb1389ae6f68f6937c45cc9"
+      ]
+    },
+    {
+      "name": "applications_permission_manager",
+      "qemu_revision": "89b4fc3c1ff3b98ee26cc910bc70782c3e7ef3a1",
+      "upstream_revisions": [
+        "0493f7ef47813591928db29989bd7b14f05a66b4"
+      ]
+    },
+    {
+      "name": "applications_photos",
+      "qemu_revision": "2d716b95e3bffa76658cbf06f8bb5fb7284f85d2",
+      "upstream_revisions": [
+        "5d5fcdb4d65010232aca6f389be44e58cf11b18a"
+      ]
+    },
+    {
+      "name": "applications_players",
+      "qemu_revision": "befdfe1f4824e5a136e5fb88974f980a70445594",
+      "upstream_revisions": [
+        "befdfe1f4824e5a136e5fb88974f980a70445594"
+      ]
+    },
+    {
+      "name": "applications_print_spooler",
+      "qemu_revision": "dded0236a8ea8b0563cd61bd8c4901d37b242c4b",
+      "upstream_revisions": [
+        "dded0236a8ea8b0563cd61bd8c4901d37b242c4b"
+      ]
+    },
+    {
+      "name": "applications_screenlock",
+      "qemu_revision": "67825fb1bafd397485a720d3f3870272c4bf0c44",
+      "upstream_revisions": [
+        "67825fb1bafd397485a720d3f3870272c4bf0c44"
+      ]
+    },
+    {
+      "name": "applications_screenshot",
+      "qemu_revision": "904c518a49fb87dce3a63b49af0caac68b60fb0f",
+      "upstream_revisions": [
+        "904c518a49fb87dce3a63b49af0caac68b60fb0f"
+      ]
+    },
+    {
+      "name": "security_privacy_center",
+      "qemu_revision": "73160632785f0bd2427f56a5faa62d2e230d139b",
+      "upstream_revisions": [
+        "73160632785f0bd2427f56a5faa62d2e230d139b"
+      ]
+    },
+    {
+      "name": "applications_settings",
+      "qemu_revision": "ada816c17e26179608ad6b135840fec2b9b76c25",
+      "upstream_revisions": [
+        "0aba461c750fda71977c2f5186ca0e756ecfc6ca"
+      ]
+    },
+    {
+      "name": "applications_settings_data",
+      "qemu_revision": "9123c9d28a1a86546cd93b6d53cd2a17b2b96d19",
+      "upstream_revisions": [
+        "5dd2a29fd5f7284f843bfc9e46e4867427947a5f"
+      ]
+    },
+    {
+      "name": "applications_simcardmanagement",
+      "qemu_revision": "d7b85ef001fd342a9382d7b444ba0445a2816078",
+      "upstream_revisions": [
+        "d7b85ef001fd342a9382d7b444ba0445a2816078"
+      ]
+    },
+    {
+      "name": "applications_sound_recorder",
+      "qemu_revision": "74fbe3ad70283d0e52de6e8541e943ee0acd3ec0",
+      "upstream_revisions": [
+        "74fbe3ad70283d0e52de6e8541e943ee0acd3ec0"
+      ]
+    },
+    {
+      "name": "applications_startup_guide",
+      "qemu_revision": "1349d9ebd6c95e7ef662bb81e83028fef5362eac",
+      "upstream_revisions": [
+        "1349d9ebd6c95e7ef662bb81e83028fef5362eac"
+      ]
+    },
+    {
+      "name": "applications_systemui",
+      "qemu_revision": "d26a299e8aea13e43a16e72dfdac364269957243",
+      "upstream_revisions": [
+        "d0f84037f1975dd9bf13ccbd279bd2d9b56e8a01"
+      ]
+    },
+    {
+      "name": "applications_theme",
+      "qemu_revision": "245337723a833626dd21d865c11a2a86acd5a868",
+      "upstream_revisions": [
+        "a436a43f1c0948fa12df6d520ec695ae4388a057"
+      ]
+    },
+    {
+      "name": "applications_tips",
+      "qemu_revision": "39c905eb1a745e5625abbe8c8ffd49247c561247",
+      "upstream_revisions": [
+        "39c905eb1a745e5625abbe8c8ffd49247c561247"
+      ]
+    },
+    {
+      "name": "applications_user_certificate_manager",
+      "qemu_revision": "bcbbc8087c627b95a8d1f4ec70546cdc92d0c321",
+      "upstream_revisions": [
+        "0acf067c28bc3957759d288835762ee0209e9fbe"
+      ]
+    },
+    {
+      "name": "arkcompiler_cangjie_ark_interop",
+      "qemu_revision": "1f88d506aa0b991ffa1b79ef337850c9d93906f0",
+      "upstream_revisions": [
+        "1f88d506aa0b991ffa1b79ef337850c9d93906f0"
+      ]
+    },
+    {
+      "name": "arkcompiler_ets_frontend",
+      "qemu_revision": "c6d2a95360c89af65c469e9db5a4b6ab92e659b5",
+      "upstream_revisions": [
+        "de435fc5934576adedb9f07fc06b208aacf4defc"
+      ]
+    },
+    {
+      "name": "arkcompiler_ets_runtime",
+      "qemu_revision": "152fc05b90eca210b3a39127aed09ae0e8df0983",
+      "upstream_revisions": [
+        "152fc05b90eca210b3a39127aed09ae0e8df0983"
+      ]
+    },
+    {
+      "name": "arkcompiler_jsvm",
+      "qemu_revision": "ca37346f133a3f83a0df0825d07d8ca7b67bdee1",
+      "upstream_revisions": [
+        "dafa869fc2e6330322565d9276020804d9a26119"
+      ]
+    },
+    {
+      "name": "arkcompiler_runtime_core",
+      "qemu_revision": "4fba38ecc7a9264159a60a87048af831932f2c21",
+      "upstream_revisions": [
+        "4fba38ecc7a9264159a60a87048af831932f2c21"
+      ]
+    },
+    {
+      "name": "arkcompiler_taihe_ffi_gen",
+      "qemu_revision": "8e172a4f8510988dcb8b9af4424f1b74200bdc54",
+      "upstream_revisions": [
+        "8e172a4f8510988dcb8b9af4424f1b74200bdc54"
+      ]
+    },
+    {
+      "name": "arkcompiler_toolchain",
+      "qemu_revision": "a64107dbf1d53a6d798b2a3aea99a08ddadac847",
+      "upstream_revisions": [
+        "a64107dbf1d53a6d798b2a3aea99a08ddadac847"
+      ]
+    },
+    {
+      "name": "accesscontrol_accesscontrol_cangjie_wrapper",
+      "qemu_revision": "afeb7fdd9ec94da31f0710a54c3c21f0a6fd37da",
+      "upstream_revisions": [
+        "afeb7fdd9ec94da31f0710a54c3c21f0a6fd37da"
+      ]
+    },
+    {
+      "name": "accesscontrol_sandbox_manager",
+      "qemu_revision": "0fa18c4ced5b4c30bd6e5fb7367a352a06683f63",
+      "upstream_revisions": [
+        "0fa18c4ced5b4c30bd6e5fb7367a352a06683f63"
+      ]
+    },
+    {
+      "name": "account_os_account",
+      "qemu_revision": "da111cfa5b0d7eca6d327b05216a606b47a87546",
+      "upstream_revisions": [
+        "da111cfa5b0d7eca6d327b05216a606b47a87546"
+      ]
+    },
+    {
+      "name": "customization_config_policy",
+      "qemu_revision": "bf3771a57b8a186594b4773970f7f36620de90da",
+      "upstream_revisions": [
+        "bf3771a57b8a186594b4773970f7f36620de90da"
+      ]
+    },
+    {
+      "name": "customization_enterprise_device_management",
+      "qemu_revision": "131833d1ebd85b52526326b2f089b90305db4013",
+      "upstream_revisions": [
+        "131833d1ebd85b52526326b2f089b90305db4013"
+      ]
+    },
+    {
+      "name": "global_font_manager",
+      "qemu_revision": "ce4ddfbc3a91c3297265f9a9fc07b2872a2444c5",
+      "upstream_revisions": [
+        "ce4ddfbc3a91c3297265f9a9fc07b2872a2444c5"
+      ]
+    },
+    {
+      "name": "global_global_cangjie_wrapper",
+      "qemu_revision": "a0273d24cac39b3ee37dcb295508ca077d8c736d",
+      "upstream_revisions": [
+        "a0273d24cac39b3ee37dcb295508ca077d8c736d"
+      ]
+    },
+    {
+      "name": "global_i18n",
+      "qemu_revision": "aeadff9c69450fe81d4e8a44cc614be77180826c",
+      "upstream_revisions": [
+        "76e82e29f33b717b0346e2c549b8805c083ea2ad"
+      ]
+    },
+    {
+      "name": "global_i18n_lite",
+      "qemu_revision": "09583909a16a0dec69a8053c2dc2cc3ae6e88fde",
+      "upstream_revisions": [
+        "09583909a16a0dec69a8053c2dc2cc3ae6e88fde"
+      ]
+    },
+    {
+      "name": "global_resource_management",
+      "qemu_revision": "f42b03fe0e3754d5af5bfd80cab84775161fc789",
+      "upstream_revisions": [
+        "f42b03fe0e3754d5af5bfd80cab84775161fc789"
+      ]
+    },
+    {
+      "name": "global_resource_management_lite",
+      "qemu_revision": "ba8993efae27c3e94b9fb81643d6384f30a12e44",
+      "upstream_revisions": [
+        "ba8993efae27c3e94b9fb81643d6384f30a12e44"
+      ]
+    },
+    {
+      "name": "global_system_resources",
+      "qemu_revision": "8cb84b3f3dd2142826e3f09cf2c171a421a06c14",
+      "upstream_revisions": [
+        "8cb84b3f3dd2142826e3f09cf2c171a421a06c14"
+      ]
+    },
+    {
+      "name": "global_timezone",
+      "qemu_revision": "3a605462b6518a5d2cfc43049db751c191cc2ef4",
+      "upstream_revisions": [
+        "3a605462b6518a5d2cfc43049db751c191cc2ef4"
+      ]
+    },
+    {
+      "name": "hiviewdfx_blackbox_lite",
+      "qemu_revision": "ddba889abe217fda505aa7646b899313c18d66d1",
+      "upstream_revisions": [
+        "ddba889abe217fda505aa7646b899313c18d66d1"
+      ]
+    },
+    {
+      "name": "hiviewdfx_faultloggerd",
+      "qemu_revision": "2398ff7d5659b3652e32a06323f24264c63f3e6d",
+      "upstream_revisions": [
+        "2398ff7d5659b3652e32a06323f24264c63f3e6d"
+      ]
+    },
+    {
+      "name": "hiviewdfx_hiappevent",
+      "qemu_revision": "95458e2686fdccfcc887357f814b228a61244a85",
+      "upstream_revisions": [
+        "95458e2686fdccfcc887357f814b228a61244a85"
+      ]
+    },
+    {
+      "name": "hiviewdfx_hichecker",
+      "qemu_revision": "76194f8ae5432026f3aae637a9f7275e88f777ec",
+      "upstream_revisions": [
+        "76194f8ae5432026f3aae637a9f7275e88f777ec"
+      ]
+    },
+    {
+      "name": "hiviewdfx_hicollie",
+      "qemu_revision": "ea4b952ed299a91a5c88a18e296b1f0a83a04e76",
+      "upstream_revisions": [
+        "13daf4a2e18b570ff22813c192a1ffa252dfd2d2"
+      ]
+    },
+    {
+      "name": "hiviewdfx_hidumper",
+      "qemu_revision": "9e4f5640a40c50162f5e3c1a4a24bdf1788425b9",
+      "upstream_revisions": [
+        "9e4f5640a40c50162f5e3c1a4a24bdf1788425b9"
+      ]
+    },
+    {
+      "name": "hiviewdfx_hidumper_lite",
+      "qemu_revision": "ef7ee94e41afb2432df15760a1c4f03073a4deac",
+      "upstream_revisions": [
+        "ef7ee94e41afb2432df15760a1c4f03073a4deac"
+      ]
+    },
+    {
+      "name": "hiviewdfx_hievent_lite",
+      "qemu_revision": "cec814eeb9563f0ffd68125888bf672db1e8ae3a",
+      "upstream_revisions": [
+        "cec814eeb9563f0ffd68125888bf672db1e8ae3a"
+      ]
+    },
+    {
+      "name": "hiviewdfx_hilog",
+      "qemu_revision": "cb1a8c98a4677255441a7136e4e3bf99266ae9dd",
+      "upstream_revisions": [
+        "cb1a8c98a4677255441a7136e4e3bf99266ae9dd"
+      ]
+    },
+    {
+      "name": "hiviewdfx_hilog_lite",
+      "qemu_revision": "600b3efb6389357225f309dfc4ba4058926af90d",
+      "upstream_revisions": [
+        "600b3efb6389357225f309dfc4ba4058926af90d"
+      ]
+    },
+    {
+      "name": "hiviewdfx_hisysevent",
+      "qemu_revision": "5019f239528f17e41358b04b25418ee834877754",
+      "upstream_revisions": [
+        "5019f239528f17e41358b04b25418ee834877754"
+      ]
+    },
+    {
+      "name": "hiviewdfx_hitrace",
+      "qemu_revision": "105999d16510653ba6edab982d09c40e182c435c",
+      "upstream_revisions": [
+        "105999d16510653ba6edab982d09c40e182c435c"
+      ]
+    },
+    {
+      "name": "hiviewdfx_hiview",
+      "qemu_revision": "3db4c57a94366ffd70e0cfd4169f2ba2c3d6b460",
+      "upstream_revisions": [
+        "178b73c0a9a8edea8982ca9cd41b367ad5ff52f6"
+      ]
+    },
+    {
+      "name": "hiviewdfx_hiview_lite",
+      "qemu_revision": "a71ac5bd31c913c1603f49d5762a1460d370ddb7",
+      "upstream_revisions": [
+        "a71ac5bd31c913c1603f49d5762a1460d370ddb7"
+      ]
+    },
+    {
+      "name": "hiviewdfx_api_metrics",
+      "qemu_revision": "321edc08a24b865d86bc01a688c8f2389d4950e8",
+      "upstream_revisions": [
+        "321edc08a24b865d86bc01a688c8f2389d4950e8"
+      ]
+    },
+    {
+      "name": "hiviewdfx_hiviewdfx_cangjie_wrapper",
+      "qemu_revision": "2bcb59c81a970c918decafd763e01e6a8ab7ae74",
+      "upstream_revisions": [
+        "2bcb59c81a970c918decafd763e01e6a8ab7ae74"
+      ]
+    },
+    {
+      "name": "inputmethod_imf",
+      "qemu_revision": "100f6122479bdb112abfd3e5fef494a194a92990",
+      "upstream_revisions": [
+        "100f6122479bdb112abfd3e5fef494a194a92990"
+      ]
+    },
+    {
+      "name": "iothardware_peripheral",
+      "qemu_revision": "8377f3d107e1d247b48be5e494253a6a5d0ed26d",
+      "upstream_revisions": [
+        "8377f3d107e1d247b48be5e494253a6a5d0ed26d"
+      ]
+    },
+    {
+      "name": "base_location",
+      "qemu_revision": "52045793d885d4464e1c062977af3a61a4c71780",
+      "upstream_revisions": [
+        "5a0c49c2adb0623fdac73f76e4f98f2e57674c00"
+      ]
+    },
+    {
+      "name": "location_location_cangjie_wrapper",
+      "qemu_revision": "5058c5cdfb0e94bb46d6102717c64cb8cf2d1dc3",
+      "upstream_revisions": [
+        "5058c5cdfb0e94bb46d6102717c64cb8cf2d1dc3"
+      ]
+    },
+    {
+      "name": "msdp_device_status",
+      "qemu_revision": "10e176db1634f84678fdd374f5726a769cc56876",
+      "upstream_revisions": [
+        "96335211bea5ca348325d55746e14e102208354f"
+      ]
+    },
+    {
+      "name": "notification_common_event_service",
+      "qemu_revision": "f9e37cedde6c56da0691d2ff2412d65130d65da0",
+      "upstream_revisions": [
+        "a65497310fd31530bc7717151223ded0ef22656f"
+      ]
+    },
+    {
+      "name": "notification_distributed_notification_service",
+      "qemu_revision": "d220b3858857a11654d6b434e1ae16b1d8d3a2f4",
+      "upstream_revisions": [
+        "08a878a934511503bca88d3d69c686cc283c198c"
+      ]
+    },
+    {
+      "name": "notification_eventhandler",
+      "qemu_revision": "5fe2be3af50a710de40b224fff986e82332047f4",
+      "upstream_revisions": [
+        "5fe2be3af50a710de40b224fff986e82332047f4"
+      ]
+    },
+    {
+      "name": "notification_notification_cangjie_wrapper",
+      "qemu_revision": "355d55e52766190ed94fd89f610d8b2f47411705",
+      "upstream_revisions": [
+        "355d55e52766190ed94fd89f610d8b2f47411705"
+      ]
+    },
+    {
+      "name": "powermgr_battery_lite",
+      "qemu_revision": "6798d238e99c1f8f797ff566f169766deac3d8bd",
+      "upstream_revisions": [
+        "6798d238e99c1f8f797ff566f169766deac3d8bd"
+      ]
+    },
+    {
+      "name": "powermgr_battery_manager",
+      "qemu_revision": "d521ec0cb155d15f73f908f7f62ebc613972f8f0",
+      "upstream_revisions": [
+        "d521ec0cb155d15f73f908f7f62ebc613972f8f0"
+      ]
+    },
+    {
+      "name": "powermgr_battery_statistics",
+      "qemu_revision": "de2cd17ac22d74e7463c8f89cb88d35b2061d427",
+      "upstream_revisions": [
+        "de2cd17ac22d74e7463c8f89cb88d35b2061d427"
+      ]
+    },
+    {
+      "name": "powermgr_display_manager",
+      "qemu_revision": "9da794dc921d577afc9e9351e2f9014eb3eeacf1",
+      "upstream_revisions": [
+        "9da794dc921d577afc9e9351e2f9014eb3eeacf1"
+      ]
+    },
+    {
+      "name": "powermgr_power_manager",
+      "qemu_revision": "ea8929763ef6c0505a1c260b08644a14ef6afebe",
+      "upstream_revisions": [
+        "ea8929763ef6c0505a1c260b08644a14ef6afebe"
+      ]
+    },
+    {
+      "name": "powermgr_powermgr_cangjie_wrapper",
+      "qemu_revision": "ece3b6a0fee69c7dda18e6a68b88d27c192eff2e",
+      "upstream_revisions": [
+        "ece3b6a0fee69c7dda18e6a68b88d27c192eff2e"
+      ]
+    },
+    {
+      "name": "powermgr_powermgr_lite",
+      "qemu_revision": "7137cd8bce57ceb8a70f3f90324e1f3ca1dae161",
+      "upstream_revisions": [
+        "7137cd8bce57ceb8a70f3f90324e1f3ca1dae161"
+      ]
+    },
+    {
+      "name": "powermgr_thermal_manager",
+      "qemu_revision": "1fcacccfda848776825b27223489926f72485365",
+      "upstream_revisions": [
+        "dbba4e1d77e4bc2c8ff7e5a0796a36e388277461"
+      ]
+    },
+    {
+      "name": "print_print_fwk",
+      "qemu_revision": "961b2896b28b00a96709b26ba3b256762a815c03",
+      "upstream_revisions": [
+        "961b2896b28b00a96709b26ba3b256762a815c03"
+      ]
+    },
+    {
+      "name": "request_request",
+      "qemu_revision": "1f1e345ada4bff8adbc45e6de68be4554f14bfab",
+      "upstream_revisions": [
+        "1f1e345ada4bff8adbc45e6de68be4554f14bfab"
+      ]
+    },
+    {
+      "name": "request_request_cangjie_wrapper",
+      "qemu_revision": "5bfc0e57b48c06504b8ffd9b2c61fb400ee2988d",
+      "upstream_revisions": [
+        "5bfc0e57b48c06504b8ffd9b2c61fb400ee2988d"
+      ]
+    },
+    {
+      "name": "security_access_token",
+      "qemu_revision": "b1d94c06c470acdaa8f2b02daf4b2048277e82ae",
+      "upstream_revisions": [
+        "d3e0d2cdab18e6cf25279a01ad1e892e3de214f1"
+      ]
+    },
+    {
+      "name": "security_appverify",
+      "qemu_revision": "23c525515452ffe1e9dfd10c1de934ba010ed4aa",
+      "upstream_revisions": [
+        "23c525515452ffe1e9dfd10c1de934ba010ed4aa"
+      ]
+    },
+    {
+      "name": "security_asset",
+      "qemu_revision": "e654ac8d486983515fc0151b2226943e91c00ca3",
+      "upstream_revisions": [
+        "e654ac8d486983515fc0151b2226943e91c00ca3"
+      ]
+    },
+    {
+      "name": "security_certificate_framework",
+      "qemu_revision": "be1cd900cbd5541ff34538175a0c8faf4f538fcd",
+      "upstream_revisions": [
+        "be1cd900cbd5541ff34538175a0c8faf4f538fcd"
+      ]
+    },
+    {
+      "name": "security_certificate_manager",
+      "qemu_revision": "2ef169fc633344cc6142ca84dda089ed52e7fe21",
+      "upstream_revisions": [
+        "57bd41128a07c5289987cf98e04dfc66421029a6"
+      ]
+    },
+    {
+      "name": "security_code_signature",
+      "qemu_revision": "e33c1d0bdbcf81b7fd53ade1dcb4cfb2640e54a8",
+      "upstream_revisions": [
+        "a1d936e9515d1337189e2e8c8141b5b53a1a70de"
+      ]
+    },
+    {
+      "name": "security_crypto_framework",
+      "qemu_revision": "98e06ab5dd730d01c5404c90f5294ddece74d932",
+      "upstream_revisions": [
+        "98e06ab5dd730d01c5404c90f5294ddece74d932"
+      ]
+    },
+    {
+      "name": "security_dataclassification",
+      "qemu_revision": "58f832209c4a01c064211caeed158dd809b829f7",
+      "upstream_revisions": [
+        "58f832209c4a01c064211caeed158dd809b829f7"
+      ]
+    },
+    {
+      "name": "security_device_auth",
+      "qemu_revision": "250115d3a6f0f991421d8074db96d3f0f0342c4d",
+      "upstream_revisions": [
+        "250115d3a6f0f991421d8074db96d3f0f0342c4d"
+      ]
+    },
+    {
+      "name": "security_device_security_level",
+      "qemu_revision": "aedfc69cf022ce1a183acbd05293d5ec834a2fe7",
+      "upstream_revisions": [
+        "aedfc69cf022ce1a183acbd05293d5ec834a2fe7"
+      ]
+    },
+    {
+      "name": "security_dlp_permission_service",
+      "qemu_revision": "bb90171b9ed49c74f58706b84505396ca895a70c",
+      "upstream_revisions": [
+        "bb90171b9ed49c74f58706b84505396ca895a70c"
+      ]
+    },
+    {
+      "name": "security_huks",
+      "qemu_revision": "1d51b742bc38a1b3b9013471bc8704b9762ce6c3",
+      "upstream_revisions": [
+        "de427af57d2844b499c72971c56351be571d9258"
+      ]
+    },
+    {
+      "name": "security_permission_lite",
+      "qemu_revision": "f5a9fcd74b6612a434739e7421d4d8aa86216af7",
+      "upstream_revisions": [
+        "f5a9fcd74b6612a434739e7421d4d8aa86216af7"
+      ]
+    },
+    {
+      "name": "security_security_cangjie_wrapper",
+      "qemu_revision": "0debfaf4e031231fb5c3eaab33720f607c1c11f7",
+      "upstream_revisions": [
+        "0debfaf4e031231fb5c3eaab33720f607c1c11f7"
+      ]
+    },
+    {
+      "name": "security_security_component_manager",
+      "qemu_revision": "be2a8321d2568cec8dd18b582472ed4a3546db8d",
+      "upstream_revisions": [
+        "be2a8321d2568cec8dd18b582472ed4a3546db8d"
+      ]
+    },
+    {
+      "name": "security_security_guard",
+      "qemu_revision": "024019c82dc1aa4bfb9b6846968b37140703e959",
+      "upstream_revisions": [
+        "024019c82dc1aa4bfb9b6846968b37140703e959"
+      ]
+    },
+    {
+      "name": "security_selinux_adapter",
+      "qemu_revision": "a7d065b1d9340f9f25c98328d436475ef5894e90",
+      "upstream_revisions": [
+        "cfc1d5b31a7438dbc87763f9222f00337221cf21"
+      ]
+    },
+    {
+      "name": "sensors_medical_sensor",
+      "qemu_revision": "e1a374072772ed767b356d6850cb9d5d7f898661",
+      "upstream_revisions": [
+        "e1a374072772ed767b356d6850cb9d5d7f898661"
+      ]
+    },
+    {
+      "name": "sensors_miscdevice",
+      "qemu_revision": "248a21a014a0794fc8d1853387d139f815df9a56",
+      "upstream_revisions": [
+        "248a21a014a0794fc8d1853387d139f815df9a56"
+      ]
+    },
+    {
+      "name": "sensors_miscdevice_lite",
+      "qemu_revision": "ab110a125e16604a4feb3719de90962b3fc1a628",
+      "upstream_revisions": [
+        "ab110a125e16604a4feb3719de90962b3fc1a628"
+      ]
+    },
+    {
+      "name": "sensors_sensor",
+      "qemu_revision": "48299e99cb89a27ff151d74c9c1f8c0ba153c329",
+      "upstream_revisions": [
+        "48299e99cb89a27ff151d74c9c1f8c0ba153c329"
+      ]
+    },
+    {
+      "name": "sensors_sensor_lite",
+      "qemu_revision": "ac4b6af0caceccf4b02d3a37987ecfa990c389ef",
+      "upstream_revisions": [
+        "ac4b6af0caceccf4b02d3a37987ecfa990c389ef"
+      ]
+    },
+    {
+      "name": "sensors_sensors_cangjie_wrapper",
+      "qemu_revision": "ab95531567da5f98afb555788a0ae99b490e580c",
+      "upstream_revisions": [
+        "ab95531567da5f98afb555788a0ae99b490e580c"
+      ]
+    },
+    {
+      "name": "sensors_start",
+      "qemu_revision": "ddc24bcbced5a1a79a2be8d7d55093f49851e9d0",
+      "upstream_revisions": [
+        "ddc24bcbced5a1a79a2be8d7d55093f49851e9d0"
+      ]
+    },
+    {
+      "name": "startup_appspawn",
+      "qemu_revision": "b9f214d277e05a68263db16c32a1d0ae762a8452",
+      "upstream_revisions": [
+        "af295aa195f54d4f21be067c287680dec223e011"
+      ]
+    },
+    {
+      "name": "startup_bootstrap_lite",
+      "qemu_revision": "81232a7806886840d51d19cea1847c574ac8cdcd",
+      "upstream_revisions": [
+        "81232a7806886840d51d19cea1847c574ac8cdcd"
+      ]
+    },
+    {
+      "name": "startup_hvb",
+      "qemu_revision": "58914167fd588d655fd5482a8875aa713b301583",
+      "upstream_revisions": [
+        "58914167fd588d655fd5482a8875aa713b301583"
+      ]
+    },
+    {
+      "name": "startup_init",
+      "qemu_revision": "41d893d0d4a57a4e8b416247cac18aafa850704f",
+      "upstream_revisions": [
+        "475fcc1e48db623ea4a9ee03b5408a21a19b99c4"
+      ]
+    },
+    {
+      "name": "startup_startup_cangjie_wrapper",
+      "qemu_revision": "2bc5cd939c26e0a81f32bc93bb46279f086a5a6e",
+      "upstream_revisions": [
+        "2bc5cd939c26e0a81f32bc93bb46279f086a5a6e"
+      ]
+    },
+    {
+      "name": "tee_tee_client",
+      "qemu_revision": "af85a35e17c6cc5f3bfd46c9d9f6c3af48bdd201",
+      "upstream_revisions": [
+        "af85a35e17c6cc5f3bfd46c9d9f6c3af48bdd201"
+      ]
+    },
+    {
+      "name": "tee_tee_dev_kit",
+      "qemu_revision": "c337c8a571e93923f16600410be21197f3d9a5aa",
+      "upstream_revisions": [
+        "c337c8a571e93923f16600410be21197f3d9a5aa"
+      ]
+    },
+    {
+      "name": "tee_tee_os_framework",
+      "qemu_revision": "815d743e535e1d3517270adfa6294ad0b9ccb9b5",
+      "upstream_revisions": [
+        "815d743e535e1d3517270adfa6294ad0b9ccb9b5"
+      ]
+    },
+    {
+      "name": "tee_tee_os_kernel",
+      "qemu_revision": "79f4a226b6120d28ce4fa52d2d69b993fd3bb915",
+      "upstream_revisions": [
+        "79f4a226b6120d28ce4fa52d2d69b993fd3bb915"
+      ]
+    },
+    {
+      "name": "telephony_call_manager",
+      "qemu_revision": "2ed3527f04e48debbba97bb123819fec15fedc41",
+      "upstream_revisions": [
+        "42f264011d0a44a300e3e8b825863754916cb6a8"
+      ]
+    },
+    {
+      "name": "telephony_cellular_call",
+      "qemu_revision": "4e644b8a8f5e7c6be04261bd128fc71dfe9fa09c",
+      "upstream_revisions": [
+        "4e644b8a8f5e7c6be04261bd128fc71dfe9fa09c"
+      ]
+    },
+    {
+      "name": "telephony_cellular_data",
+      "qemu_revision": "e7844294ebc45516411bfc4d00ef62c48b5c582d",
+      "upstream_revisions": [
+        "a0a56af15fe15d27494af99546cf3d7da23ac93f"
+      ]
+    },
+    {
+      "name": "telephony_core_service",
+      "qemu_revision": "8e5c9ad2c439674387368e0984ed1b317fc9983f",
+      "upstream_revisions": [
+        "504dcba74da128ed446967e328e5c7162bfebbe2"
+      ]
+    },
+    {
+      "name": "applications_number_identity",
+      "qemu_revision": "9260546245470a02ab419d58ddc372fe2fcee372",
+      "upstream_revisions": [
+        "50e1330646432ce166e7981c577f25f46c90e7ac"
+      ]
+    },
+    {
+      "name": "telephony_ril_adapter",
+      "qemu_revision": "5fcc1e1315b85999e46c7eaf240e7b4da5fe62bb",
+      "upstream_revisions": [
+        "81fac83292857fcd9bee90808a81d8ad7224b4e0"
+      ]
+    },
+    {
+      "name": "telephony_sms_mms",
+      "qemu_revision": "cf052efec7f92b2a172ccbcd64e3af54dc6c2112",
+      "upstream_revisions": [
+        "ff69686aa6275d3ce0e1e801f222e28f843aa297"
+      ]
+    },
+    {
+      "name": "telephony_state_registry",
+      "qemu_revision": "a5a8c88085069234d7ff7b75d6449924daf6040b",
+      "upstream_revisions": [
+        "2327cba6f48f4274b269e530c48a919e2eed28b7"
+      ]
+    },
+    {
+      "name": "telephony_telephony_cangjie_wrapper",
+      "qemu_revision": "409f1102805e81f089b28e7638f23fe1518bee99",
+      "upstream_revisions": [
+        "409f1102805e81f089b28e7638f23fe1518bee99"
+      ]
+    },
+    {
+      "name": "telephony_telephony_data",
+      "qemu_revision": "f7c674e36bd1495e05e17a1927634b3c816d8324",
+      "upstream_revisions": [
+        "f7c674e36bd1495e05e17a1927634b3c816d8324"
+      ]
+    },
+    {
+      "name": "theme_screenlock_mgr",
+      "qemu_revision": "9a5863f06285d1390bc51a1b1217271fc589cccd",
+      "upstream_revisions": [
+        "0ee87e038fb5bcd7f23ea0bb0e91f23a0478a6bd"
+      ]
+    },
+    {
+      "name": "theme_wallpaper_mgr",
+      "qemu_revision": "46be75c5d835208d34f7513488b3f0707789b61b",
+      "upstream_revisions": [
+        "42256bdeaa504da4ae4d038c24d42a4601e3a6cf"
+      ]
+    },
+    {
+      "name": "time_time_cangjie_wrapper",
+      "qemu_revision": "32940752c17996c981110267af785a6027d5789f",
+      "upstream_revisions": [
+        "32940752c17996c981110267af785a6027d5789f"
+      ]
+    },
+    {
+      "name": "time_time_service",
+      "qemu_revision": "86ab9731551afe15d0ab95f877d3b6f6e0433cab",
+      "upstream_revisions": [
+        "86ab9731551afe15d0ab95f877d3b6f6e0433cab"
+      ]
+    },
+    {
+      "name": "update_packaging_tools",
+      "qemu_revision": "bc216e95ea11ecd1c057ab66db9f0dd1d39f0865",
+      "upstream_revisions": [
+        "bc216e95ea11ecd1c057ab66db9f0dd1d39f0865"
+      ]
+    },
+    {
+      "name": "update_sys_installer",
+      "qemu_revision": "740894269b769e89a3570f67b66c11caa481c0bd",
+      "upstream_revisions": [
+        "ec55725e5fd69fa316581c27334f5c05797bd1d0"
+      ]
+    },
+    {
+      "name": "update_sys_installer_lite",
+      "qemu_revision": "4224548fb49c9bbdc12aa772a5eb15e74bce835c",
+      "upstream_revisions": [
+        "4224548fb49c9bbdc12aa772a5eb15e74bce835c"
+      ]
+    },
+    {
+      "name": "update_update_app",
+      "qemu_revision": "7a7fba8d69999f8152ccb9eddf56eefee6ebb50e",
+      "upstream_revisions": [
+        "7a7fba8d69999f8152ccb9eddf56eefee6ebb50e"
+      ]
+    },
+    {
+      "name": "update_updater",
+      "qemu_revision": "81eae8de88d113f3c4b680188c1d8e93a0403144",
+      "upstream_revisions": [
+        "81eae8de88d113f3c4b680188c1d8e93a0403144"
+      ]
+    },
+    {
+      "name": "update_update_service",
+      "qemu_revision": "13dd106fe7a3b0588390a9edb023d82be8379607",
+      "upstream_revisions": [
+        "13dd106fe7a3b0588390a9edb023d82be8379607"
+      ]
+    },
+    {
+      "name": "busmanager_usb_manager",
+      "qemu_revision": "d2126ee49b30fc86414994df464e1f3df7ccfc3f",
+      "upstream_revisions": [
+        "4b5f23603e43628bc70449f0a043f072dcf19814"
+      ]
+    },
+    {
+      "name": "useriam_companion_device_auth",
+      "qemu_revision": "9208321d282dfb02c853e758df6faafcfbeef72b",
+      "upstream_revisions": [
+        "9208321d282dfb02c853e758df6faafcfbeef72b"
+      ]
+    },
+    {
+      "name": "useriam_face_auth",
+      "qemu_revision": "375ca203e59d94662cd0849d7e417c70e04a44d1",
+      "upstream_revisions": [
+        "375ca203e59d94662cd0849d7e417c70e04a44d1"
+      ]
+    },
+    {
+      "name": "useriam_fingerprint_auth",
+      "qemu_revision": "0a82e5d367c863191053bc1eb8355d458c54f029",
+      "upstream_revisions": [
+        "0a82e5d367c863191053bc1eb8355d458c54f029"
+      ]
+    },
+    {
+      "name": "useriam_pin_auth",
+      "qemu_revision": "1d061b01785e13f41dad6175d8404da01c79824a",
+      "upstream_revisions": [
+        "1d061b01785e13f41dad6175d8404da01c79824a"
+      ]
+    },
+    {
+      "name": "useriam_user_auth_framework",
+      "qemu_revision": "77896a507778e84d24f7b7e2eae155d787cf25d9",
+      "upstream_revisions": [
+        "77896a507778e84d24f7b7e2eae155d787cf25d9"
+      ]
+    },
+    {
+      "name": "arkweb_arkweb_cangjie_wrapper",
+      "qemu_revision": "f492851cbc49cbb112b5f0b95a2ad5d69fc4193c",
+      "upstream_revisions": [
+        "f492851cbc49cbb112b5f0b95a2ad5d69fc4193c"
+      ]
+    },
+    {
+      "name": "web_webview",
+      "qemu_revision": "44a4ad9b2793ea57151c301cc512ce2de444d009",
+      "upstream_revisions": [
+        "d421b6b549fa3038ad01cf34589b959286137be9"
+      ]
+    },
+    {
+      "name": "build",
+      "qemu_revision": "eb74585fe3596d167d2912f504f184f40d5a5e2a",
+      "upstream_revisions": [
+        "5c0623072ed9c2ee93ab909a7a01f428fee95082"
+      ]
+    },
+    {
+      "name": "commonlibrary_c_utils",
+      "qemu_revision": "755d3e6c85468d395b8210733456fc8d33f4f5b8",
+      "upstream_revisions": [
+        "755d3e6c85468d395b8210733456fc8d33f4f5b8"
+      ]
+    },
+    {
+      "name": "commonlibrary_ets_utils",
+      "qemu_revision": "a4f9ae1594a94e86ea525152ce9fd33895825810",
+      "upstream_revisions": [
+        "37cafe4c6d96858e976107d41d4f723adfde4a61"
+      ]
+    },
+    {
+      "name": "commonlibrary_memory_utils",
+      "qemu_revision": "d02cbb97efe078187cc9e7b0c42c84470fb68be1",
+      "upstream_revisions": [
+        "d02cbb97efe078187cc9e7b0c42c84470fb68be1"
+      ]
+    },
+    {
+      "name": "commonlibrary_qrcode_generator",
+      "qemu_revision": "3f214aa40957662376320db666ff73d9e92acf4d",
+      "upstream_revisions": [
+        "993bd298a703301b21bb60fc1e352626558a66e7"
+      ]
+    },
+    {
+      "name": "commonlibrary_rust_ylong_http",
+      "qemu_revision": "261ec2b60765af600885a809bac5494e6722e5e1",
+      "upstream_revisions": [
+        "261ec2b60765af600885a809bac5494e6722e5e1"
+      ]
+    },
+    {
+      "name": "commonlibrary_rust_ylong_json",
+      "qemu_revision": "6e9e29b1d1dbbd6fc6075722128b68193f7ffaec",
+      "upstream_revisions": [
+        "6e9e29b1d1dbbd6fc6075722128b68193f7ffaec"
+      ]
+    },
+    {
+      "name": "commonlibrary_rust_ylong_runtime",
+      "qemu_revision": "0538ca7b6635e0ac27cf7242d4c2dcf519ce0f5c",
+      "upstream_revisions": [
+        "0538ca7b6635e0ac27cf7242d4c2dcf519ce0f5c"
+      ]
+    },
+    {
+      "name": "commonlibrary_utils_lite",
+      "qemu_revision": "2f86dfa9c00a151a87b96a29d64b45a511cb8d7d",
+      "upstream_revisions": [
+        "2f86dfa9c00a151a87b96a29d64b45a511cb8d7d"
+      ]
+    },
+    {
+      "name": "developtools_ace_ets2bundle",
+      "qemu_revision": "1bf5835ef50129250a660986f69437f22f3ed0f0",
+      "upstream_revisions": [
+        "1bf5835ef50129250a660986f69437f22f3ed0f0"
+      ]
+    },
+    {
+      "name": "developtools_ace_js2bundle",
+      "qemu_revision": "f3c173f149c73ba81649b79e6e8deb6987174e6d",
+      "upstream_revisions": [
+        "f3c173f149c73ba81649b79e6e8deb6987174e6d"
+      ]
+    },
+    {
+      "name": "developtools_global_resource_tool",
+      "qemu_revision": "183292ff4817903d7f289de613585a3a243428b4",
+      "upstream_revisions": [
+        "183292ff4817903d7f289de613585a3a243428b4"
+      ]
+    },
+    {
+      "name": "developtools_hapsigner",
+      "qemu_revision": "013eae8637d5e853276e57ebc8921dbd8262ce34",
+      "upstream_revisions": [
+        "013eae8637d5e853276e57ebc8921dbd8262ce34"
+      ]
+    },
+    {
+      "name": "developtools_hdc",
+      "qemu_revision": "8ae22770c5d7758808ef7499b6957fcdb92d7fb4",
+      "upstream_revisions": [
+        "8ae22770c5d7758808ef7499b6957fcdb92d7fb4"
+      ]
+    },
+    {
+      "name": "developtools_hiperf",
+      "qemu_revision": "cf53f6cdac099459a9a5b6506629a82cce72e795",
+      "upstream_revisions": [
+        "cf53f6cdac099459a9a5b6506629a82cce72e795"
+      ]
+    },
+    {
+      "name": "developtools_integration_verification",
+      "qemu_revision": "7ae22f435b5975e3f2e7a4f7443d3ddeb568a8f7",
+      "upstream_revisions": [
+        "7ae22f435b5975e3f2e7a4f7443d3ddeb568a8f7"
+      ]
+    },
+    {
+      "name": "developtools_packing_tool",
+      "qemu_revision": "4347ac981150938cfbc1eda6cd135759bd8bf877",
+      "upstream_revisions": [
+        "4347ac981150938cfbc1eda6cd135759bd8bf877"
+      ]
+    },
+    {
+      "name": "developtools_profiler",
+      "qemu_revision": "6366e5309e05e93f4d27f1abc21634fad12aaa3e",
+      "upstream_revisions": [
+        "d296fc944663c80e1c8f0b0d56bbf5065ad15b58"
+      ]
+    },
+    {
+      "name": "developtools_smartperf_host",
+      "qemu_revision": "908ec7f27a6e65d2dd8a8372944d0bb0fcfee7d2",
+      "upstream_revisions": [
+        "260b028b289befa8dc2f85b98687d323c7d20fa0"
+      ]
+    },
+    {
+      "name": "developtools_syscap_codec",
+      "qemu_revision": "314b8ae9c2b90a9b7bead2f0231be7e65220ae23",
+      "upstream_revisions": [
+        "314b8ae9c2b90a9b7bead2f0231be7e65220ae23"
+      ]
+    },
+    {
+      "name": "device_board_hihope",
+      "qemu_revision": "b3ff979de8e36a9a3b4e8e4fd20bd45c78cf6df8",
+      "upstream_revisions": [
+        "b3ff979de8e36a9a3b4e8e4fd20bd45c78cf6df8"
+      ]
+    },
+    {
+      "name": "device_board_hisilicon",
+      "qemu_revision": "abd615cc4f897d231e1f404423adb65935bab55e",
+      "upstream_revisions": [
+        "abd615cc4f897d231e1f404423adb65935bab55e"
+      ]
+    },
+    {
+      "name": "device_board_revoview",
+      "qemu_revision": "e35bf35db12de76ac3950bddd32ad9f7e01c981b",
+      "upstream_revisions": [
+        "e35bf35db12de76ac3950bddd32ad9f7e01c981b"
+      ]
+    },
+    {
+      "name": "device_qemu",
+      "qemu_revision": "c389af9a00761756fd4c90a7e19948f71bb1e73f",
+      "upstream_revisions": [
+        "b017aee8e2dfc97e45aeb508facc1527c3d06f4b"
+      ]
+    },
+    {
+      "name": "device_soc_hisilicon",
+      "qemu_revision": "367abbec95802c43e9391842ea869c8200c64d9d",
+      "upstream_revisions": [
+        "367abbec95802c43e9391842ea869c8200c64d9d"
+      ]
+    },
+    {
+      "name": "device_soc_rockchip",
+      "qemu_revision": "dd5ebde1df6a8586ea45476a5e6b46de5ae77995",
+      "upstream_revisions": [
+        "0aa6ba16f89844023137fb84ac03189b30c8780b"
+      ]
+    },
+    {
+      "name": "device_soc_unisoc",
+      "qemu_revision": "4836f19e7e0fa2b1095a3fe7e0bcc43861a08e98",
+      "upstream_revisions": [
+        "4836f19e7e0fa2b1095a3fe7e0bcc43861a08e98"
+      ]
+    },
+    {
+      "name": "docs_cangjie",
+      "qemu_revision": "d31eceda211368f90b1b4726abde03c0d463dd37",
+      "upstream_revisions": [
+        "d31eceda211368f90b1b4726abde03c0d463dd37"
+      ]
+    },
+    {
+      "name": "advertising_ads_framework",
+      "qemu_revision": "a31d0874a5634771c57f1d875f596479628cdbd3",
+      "upstream_revisions": [
+        "a31d0874a5634771c57f1d875f596479628cdbd3"
+      ]
+    },
+    {
+      "name": "advertising_oaid",
+      "qemu_revision": "8f4262273373b8cb5bc88405f8096679db8b085a",
+      "upstream_revisions": [
+        "8f4262273373b8cb5bc88405f8096679db8b085a"
+      ]
+    },
+    {
+      "name": "game_game_controller_framework",
+      "qemu_revision": "9226c7254468a3a09b667ef992d9e6aaddeac2a3",
+      "upstream_revisions": [
+        "9226c7254468a3a09b667ef992d9e6aaddeac2a3"
+      ]
+    },
+    {
+      "name": "drivers_external_device_manager",
+      "qemu_revision": "06421d1596d9b5675883bef9e8656b38cbfece86",
+      "upstream_revisions": [
+        "06421d1596d9b5675883bef9e8656b38cbfece86"
+      ]
+    },
+    {
+      "name": "drivers_hdf_core",
+      "qemu_revision": "6abd61d562bf683f7fe02667401891a1d3f65149",
+      "upstream_revisions": [
+        "6abd61d562bf683f7fe02667401891a1d3f65149"
+      ]
+    },
+    {
+      "name": "drivers_interface",
+      "qemu_revision": "586a8b758e5a44c92d4963ce8991d9d13a63b123",
+      "upstream_revisions": [
+        "42289d3f8e46f5a112bd7ea6d36e4baaeac0718d"
+      ]
+    },
+    {
+      "name": "drivers_liteos",
+      "qemu_revision": "e57dd9259142f2375628c7024bfb97d428519b41",
+      "upstream_revisions": [
+        "e57dd9259142f2375628c7024bfb97d428519b41"
+      ]
+    },
+    {
+      "name": "drivers_peripheral",
+      "qemu_revision": "c2f47eb953acf9e50c0ac36be2008cdedec5850d",
+      "upstream_revisions": [
+        "69094b77aa2200160207b1b06b3c0b586ae2157c"
+      ]
+    },
+    {
+      "name": "castengine_cast_framework",
+      "qemu_revision": "d10d850cd2a6c23227f7c49cbe45d962d1e1b318",
+      "upstream_revisions": [
+        "d10d850cd2a6c23227f7c49cbe45d962d1e1b318"
+      ]
+    },
+    {
+      "name": "castengine_cast_plus_stream",
+      "qemu_revision": "259c79910f64d74714381179a6c45efd2dd7267b",
+      "upstream_revisions": [
+        "259c79910f64d74714381179a6c45efd2dd7267b"
+      ]
+    },
+    {
+      "name": "castengine_wifi_display",
+      "qemu_revision": "1e69f153dc66332598395b1ba0c248a30ef07658",
+      "upstream_revisions": [
+        "1e69f153dc66332598395b1ba0c248a30ef07658"
+      ]
+    },
+    {
+      "name": "ability_ability_base",
+      "qemu_revision": "80137119ae7c306427b7672fa744ad5c2375905d",
+      "upstream_revisions": [
+        "80137119ae7c306427b7672fa744ad5c2375905d"
+      ]
+    },
+    {
+      "name": "ability_ability_cangjie_wrapper",
+      "qemu_revision": "10947b2c76721ce6c3f98fde88ec1547afc2c57f",
+      "upstream_revisions": [
+        "10947b2c76721ce6c3f98fde88ec1547afc2c57f"
+      ]
+    },
+    {
+      "name": "ability_ability_lite",
+      "qemu_revision": "aea95e8b4d2dd78243f31d44b3e44065d8f69c2c",
+      "upstream_revisions": [
+        "aea95e8b4d2dd78243f31d44b3e44065d8f69c2c"
+      ]
+    },
+    {
+      "name": "ability_ability_runtime",
+      "qemu_revision": "d77555dfeeb2ab39def8f423130ba3bc0d2c76df",
+      "upstream_revisions": [
+        "6c18fdc9bdef6cfcf5888517cd8ed9448584f6e8"
+      ]
+    },
+    {
+      "name": "ability_dmsfwk",
+      "qemu_revision": "68abf5e06a1d5c2f615c2cd185af9fb0c619e4e1",
+      "upstream_revisions": [
+        "68abf5e06a1d5c2f615c2cd185af9fb0c619e4e1"
+      ]
+    },
+    {
+      "name": "ability_dmsfwk_lite",
+      "qemu_revision": "034aec87f02eb68a8dec6f8b6535e230ed0816c4",
+      "upstream_revisions": [
+        "034aec87f02eb68a8dec6f8b6535e230ed0816c4"
+      ]
+    },
+    {
+      "name": "ability_form_fwk",
+      "qemu_revision": "d86a2bbd25390f2fdcceffe5fa7e20076730556a",
+      "upstream_revisions": [
+        "d86a2bbd25390f2fdcceffe5fa7e20076730556a"
+      ]
+    },
+    {
+      "name": "ability_idl_tool",
+      "qemu_revision": "2d5d5b2e7e50f1f83028da3be8a946aecace12ec",
+      "upstream_revisions": [
+        "2d5d5b2e7e50f1f83028da3be8a946aecace12ec"
+      ]
+    },
+    {
+      "name": "ai_engine",
+      "qemu_revision": "8349d119d4fa3a4086ac1c479f7082a666d48565",
+      "upstream_revisions": [
+        "8349d119d4fa3a4086ac1c479f7082a666d48565"
+      ]
+    },
+    {
+      "name": "ai_intelligent_voice_framework",
+      "qemu_revision": "c6a1c4c3646f637c8121581d530264e79acf9367",
+      "upstream_revisions": [
+        "44488fa30c8c3778660b7c43af80f070b6a0cb76"
+      ]
+    },
+    {
+      "name": "ai_neural_network_runtime",
+      "qemu_revision": "097bd331a36ced8260f726d1993eea53cefad8fa",
+      "upstream_revisions": [
+        "097bd331a36ced8260f726d1993eea53cefad8fa"
+      ]
+    },
+    {
+      "name": "arkui_ace_engine",
+      "qemu_revision": "fd19c085d97a476e23f19da82d8eef4f65edb110",
+      "upstream_revisions": [
+        "e55e178228b9f6388b15d3024e8caf125fa293d7"
+      ]
+    },
+    {
+      "name": "arkui_ace_engine_lite",
+      "qemu_revision": "4cb8fa96636936c61ba7515bfa3101e5b1ed2487",
+      "upstream_revisions": [
+        "4cb8fa96636936c61ba7515bfa3101e5b1ed2487"
+      ]
+    },
+    {
+      "name": "arkui_advanced_ui_component",
+      "qemu_revision": "698d145c36e2bf4060bb08e532628b8134b5f6e3",
+      "upstream_revisions": [
+        "698d145c36e2bf4060bb08e532628b8134b5f6e3"
+      ]
+    },
+    {
+      "name": "arkui_arkui_cangjie_wrapper",
+      "qemu_revision": "7e9fb0d2d789c0918264c201e6fa53631a3223c8",
+      "upstream_revisions": [
+        "7e9fb0d2d789c0918264c201e6fa53631a3223c8"
+      ]
+    },
+    {
+      "name": "arkui_napi",
+      "qemu_revision": "0ae3008b9621ce7b9f197ec9f578ca278a6ad6cd",
+      "upstream_revisions": [
+        "0ae3008b9621ce7b9f197ec9f578ca278a6ad6cd"
+      ]
+    },
+    {
+      "name": "arkui_ui_appearance",
+      "qemu_revision": "1684ee0659cd87af90e2cadebb7147e8b01a4a11",
+      "upstream_revisions": [
+        "1684ee0659cd87af90e2cadebb7147e8b01a4a11"
+      ]
+    },
+    {
+      "name": "arkui_ui_lite",
+      "qemu_revision": "c7d46eaba08b7702026de96a624c75a5a2997d10",
+      "upstream_revisions": [
+        "c7d46eaba08b7702026de96a624c75a5a2997d10"
+      ]
+    },
+    {
+      "name": "accessibility",
+      "qemu_revision": "29f855b43e24b0cd5b3e0354831461cd29a2b48d",
+      "upstream_revisions": [
+        "c593c7e1a6149a2c13e5931b2114d3c2d0bf20ea"
+      ]
+    },
+    {
+      "name": "bundlemanager_app_domain_verify",
+      "qemu_revision": "4cb6b794a914e5712287eb5bb799969c3da6d140",
+      "upstream_revisions": [
+        "4cb6b794a914e5712287eb5bb799969c3da6d140"
+      ]
+    },
+    {
+      "name": "bundlemanager_bundle_framework",
+      "qemu_revision": "cc7f0d7a27bda6436381744c1191be90dac4f763",
+      "upstream_revisions": [
+        "537bdea9ae5634a847db774fe00ba4d190cbcc65"
+      ]
+    },
+    {
+      "name": "bundlemanager_bundle_framework_lite",
+      "qemu_revision": "9ba55ce6bd67b882536f2d9f536bf7b437a35b81",
+      "upstream_revisions": [
+        "9ba55ce6bd67b882536f2d9f536bf7b437a35b81"
+      ]
+    },
+    {
+      "name": "bundlemanager_bundle_tool",
+      "qemu_revision": "6f77a87868c4da1747ef7c8c44f946ecfc10bf9d",
+      "upstream_revisions": [
+        "6f77a87868c4da1747ef7c8c44f946ecfc10bf9d"
+      ]
+    },
+    {
+      "name": "bundlemanager_bundlemanager_cangjie_wrapper",
+      "qemu_revision": "29519da78f701be3f3542b9128addc66e672ea7b",
+      "upstream_revisions": [
+        "29519da78f701be3f3542b9128addc66e672ea7b"
+      ]
+    },
+    {
+      "name": "bundlemanager_distributed_bundle_framework",
+      "qemu_revision": "4b3557c9466a7773757859982bab4b221da230d9",
+      "upstream_revisions": [
+        "4b3557c9466a7773757859982bab4b221da230d9"
+      ]
+    },
+    {
+      "name": "bundlemanager_ecological_rule_manager",
+      "qemu_revision": "30d2c8fc0fee68b692ae55d40677cf202ef5236d",
+      "upstream_revisions": [
+        "30d2c8fc0fee68b692ae55d40677cf202ef5236d"
+      ]
+    },
+    {
+      "name": "communication_bluetooth",
+      "qemu_revision": "517af460f318fa44b5badd60e55ae0d132c56374",
+      "upstream_revisions": [
+        "1727fa05c457f697f7cf80f290c82c663f1c3aab"
+      ]
+    },
+    {
+      "name": "communication_bluetooth_service",
+      "qemu_revision": "6c3fd4069bb94ad439f3b0254e1ef9d7467a203e",
+      "upstream_revisions": [
+        "c489d0aabf77624a4f5ca80ab8b5adefd2d5cfbf"
+      ]
+    },
+    {
+      "name": "communication_communication_cangjie_wrapper",
+      "qemu_revision": "2ab1726be2e8a9d027f9b5c4a8785b9c030f7ec6",
+      "upstream_revisions": [
+        "2ab1726be2e8a9d027f9b5c4a8785b9c030f7ec6"
+      ]
+    },
+    {
+      "name": "communication_connected_nfc_tag",
+      "qemu_revision": "cef7d4f2ea47707f1d9d6d824ee1b93dd8040efa",
+      "upstream_revisions": [
+        "cef7d4f2ea47707f1d9d6d824ee1b93dd8040efa"
+      ]
+    },
+    {
+      "name": "connectivity_connectivity_cangjie_wrapper",
+      "qemu_revision": "8121d3db275319cda1ea6e561bdc84b8ce9fa892",
+      "upstream_revisions": [
+        "8121d3db275319cda1ea6e561bdc84b8ce9fa892"
+      ]
+    },
+    {
+      "name": "communication_dhcp",
+      "qemu_revision": "24072d9bb66d4e3581c07ed22e9fac12f2981761",
+      "upstream_revisions": [
+        "24072d9bb66d4e3581c07ed22e9fac12f2981761"
+      ]
+    },
+    {
+      "name": "communication_dsoftbus",
+      "qemu_revision": "7aa1de055a281d0a1279a6f76f3cf397e1ec9b4a",
+      "upstream_revisions": [
+        "7aa1de055a281d0a1279a6f76f3cf397e1ec9b4a"
+      ]
+    },
+    {
+      "name": "communication_fusion_connectivity",
+      "qemu_revision": "dd319c8b946cf6ed1f68867626333945e36424ae",
+      "upstream_revisions": [
+        "dd319c8b946cf6ed1f68867626333945e36424ae"
+      ]
+    },
+    {
+      "name": "communication_ipc",
+      "qemu_revision": "4e9d3792e47849d6d06fa90d3d6748361eafb87e",
+      "upstream_revisions": [
+        "b8d3e96cfcf382c8fae54502679ac8b3d827b428"
+      ]
+    },
+    {
+      "name": "communication_netmanager_base",
+      "qemu_revision": "279052a6c353da9cad851fbada304dc0176274f7",
+      "upstream_revisions": [
+        "9831989d54f490d046a632ab13d309580d2fa710"
+      ]
+    },
+    {
+      "name": "netmanager_netmanager_cangjie_wrapper",
+      "qemu_revision": "41460abdc4595f423b608d67c4121c506ab3006c",
+      "upstream_revisions": [
+        "41460abdc4595f423b608d67c4121c506ab3006c"
+      ]
+    },
+    {
+      "name": "communication_netmanager_ext",
+      "qemu_revision": "52aadab5bfe62e43dbc5ac6759fd85fdfba63ef6",
+      "upstream_revisions": [
+        "8c41289750820fb2ddb347b1205cee9a7b527388"
+      ]
+    },
+    {
+      "name": "communication_netstack",
+      "qemu_revision": "b1590759f4d279007ab979a1a61e37749e1fc1dc",
+      "upstream_revisions": [
+        "b1590759f4d279007ab979a1a61e37749e1fc1dc"
+      ]
+    },
+    {
+      "name": "communication_nfc",
+      "qemu_revision": "5811e8845f6d4e7b92916fe3d83bc702a35e2a1e",
+      "upstream_revisions": [
+        "5811e8845f6d4e7b92916fe3d83bc702a35e2a1e"
+      ]
+    },
+    {
+      "name": "communication_t2stack",
+      "qemu_revision": "31448e0839d111ff99213c7de15aea6622e7c300",
+      "upstream_revisions": [
+        "31448e0839d111ff99213c7de15aea6622e7c300"
+      ]
+    },
+    {
+      "name": "communication_wifi",
+      "qemu_revision": "a58b13f709a74c2952b89c318fa9c49d150f61a0",
+      "upstream_revisions": [
+        "367605c52dfaf5f09bd690f16d9ee9a301cfc98a"
+      ]
+    },
+    {
+      "name": "communication_wifi_aware",
+      "qemu_revision": "2b64ed2d586c2ad82d272003a74e69a4efc15672",
+      "upstream_revisions": [
+        "2b64ed2d586c2ad82d272003a74e69a4efc15672"
+      ]
+    },
+    {
+      "name": "communication_wifi_lite",
+      "qemu_revision": "ad028ee75dd94f62ea9f798e98bdbad6c7f6172a",
+      "upstream_revisions": [
+        "ad028ee75dd94f62ea9f798e98bdbad6c7f6172a"
+      ]
+    },
+    {
+      "name": "deviceprofile_device_info_manager",
+      "qemu_revision": "bdff4da4a8661cd5b36d2d1ede642b34e80ce6a9",
+      "upstream_revisions": [
+        "bdff4da4a8661cd5b36d2d1ede642b34e80ce6a9"
+      ]
+    },
+    {
+      "name": "distributeddatamgr_data_object",
+      "qemu_revision": "e61da9237e85219e06992c217ffc891832b4dcd3",
+      "upstream_revisions": [
+        "e61da9237e85219e06992c217ffc891832b4dcd3"
+      ]
+    },
+    {
+      "name": "distributeddatamgr_data_share",
+      "qemu_revision": "53d15baf2170e6bf9733f6139d4d864fbd514034",
+      "upstream_revisions": [
+        "53d15baf2170e6bf9733f6139d4d864fbd514034"
+      ]
+    },
+    {
+      "name": "distributeddatamgr_datamgr_service",
+      "qemu_revision": "c832f79e8f6a1ea5d35d319b45f2ae96b1ddd526",
+      "upstream_revisions": [
+        "c832f79e8f6a1ea5d35d319b45f2ae96b1ddd526"
+      ]
+    },
+    {
+      "name": "distributeddatamgr_distributeddatamgr_cangjie_wrapper",
+      "qemu_revision": "6fb927b184b2e846028b7923bbc03c80f596048e",
+      "upstream_revisions": [
+        "6fb927b184b2e846028b7923bbc03c80f596048e"
+      ]
+    },
+    {
+      "name": "distributeddatamgr_file",
+      "qemu_revision": "2aa8fdd353a7390e2e93f43d71e25a0158607b24",
+      "upstream_revisions": [
+        "2aa8fdd353a7390e2e93f43d71e25a0158607b24"
+      ]
+    },
+    {
+      "name": "distributeddatamgr_kv_store",
+      "qemu_revision": "2edc675d4807ebb71b994da3548660ea2f692dbe",
+      "upstream_revisions": [
+        "2edc675d4807ebb71b994da3548660ea2f692dbe"
+      ]
+    },
+    {
+      "name": "distributeddatamgr_pasteboard",
+      "qemu_revision": "7e0afbb958416544270dce237d302d14a13fa40d",
+      "upstream_revisions": [
+        "6909fc2dc334c03afaf1e7c131d0f82639393a4d"
+      ]
+    },
+    {
+      "name": "distributeddatamgr_preferences",
+      "qemu_revision": "341bcfa4058f2573065880efd45b2e03891ae034",
+      "upstream_revisions": [
+        "341bcfa4058f2573065880efd45b2e03891ae034"
+      ]
+    },
+    {
+      "name": "distributeddatamgr_relational_store",
+      "qemu_revision": "89139618e460f9baf308b4fcf2996b51b83b4b35",
+      "upstream_revisions": [
+        "41f08a8ee0140ebc525f9f9152906a312c6cf30e"
+      ]
+    },
+    {
+      "name": "distributeddatamgr_udmf",
+      "qemu_revision": "fd89a77203fd9d6d95204f0ca20d34b3be165081",
+      "upstream_revisions": [
+        "fd89a77203fd9d6d95204f0ca20d34b3be165081"
+      ]
+    },
+    {
+      "name": "distributedhardware_device_manager",
+      "qemu_revision": "2f04886bd958ef05d44879df6ce1bea55e58844f",
+      "upstream_revisions": [
+        "2eae052259e141788396570fcf66b165f2578242"
+      ]
+    },
+    {
+      "name": "distributedhardware_distributed_audio",
+      "qemu_revision": "61e375e5a8e82f07b76fe9e3d1a56e87f2640673",
+      "upstream_revisions": [
+        "61e375e5a8e82f07b76fe9e3d1a56e87f2640673"
+      ]
+    },
+    {
+      "name": "distributedhardware_distributed_camera",
+      "qemu_revision": "e712256e891ff0575d079966808fa8702c45c6c1",
+      "upstream_revisions": [
+        "e712256e891ff0575d079966808fa8702c45c6c1"
+      ]
+    },
+    {
+      "name": "distributedhardware_distributed_hardware_fwk",
+      "qemu_revision": "3f80b952a8588435fc2392150d4aa57fc0612281",
+      "upstream_revisions": [
+        "3f80b952a8588435fc2392150d4aa57fc0612281"
+      ]
+    },
+    {
+      "name": "distributedhardware_distributed_input",
+      "qemu_revision": "30b523fdff3043ee06788f6301d449ef1662f03d",
+      "upstream_revisions": [
+        "30b523fdff3043ee06788f6301d449ef1662f03d"
+      ]
+    },
+    {
+      "name": "distributedhardware_distributed_screen",
+      "qemu_revision": "fb98c2b2cc22bc2efa5bbf64c88856a2e2df3c3e",
+      "upstream_revisions": [
+        "fb98c2b2cc22bc2efa5bbf64c88856a2e2df3c3e"
+      ]
+    },
+    {
+      "name": "distributedhardware_mechbody_controller",
+      "qemu_revision": "299eb8f6c7635e6d44d2144c77db988151e55524",
+      "upstream_revisions": [
+        "299eb8f6c7635e6d44d2144c77db988151e55524"
+      ]
+    },
+    {
+      "name": "filemanagement_app_file_service",
+      "qemu_revision": "1c8a2656357b5bbdeff422d3a4eb7ba2e8a49c22",
+      "upstream_revisions": [
+        "450bd9f22b71fcc08d148030a377ed6fe8c2543e"
+      ]
+    },
+    {
+      "name": "filemanagement_dfs_service",
+      "qemu_revision": "7352a4c4a3488e5dd23f0d0dffc4d94658a1205f",
+      "upstream_revisions": [
+        "7352a4c4a3488e5dd23f0d0dffc4d94658a1205f"
+      ]
+    },
+    {
+      "name": "filemanagement_disk_manager",
+      "qemu_revision": "674efa0e99b0b3e6251086826d46cc76ae9632b5",
+      "upstream_revisions": [
+        "674efa0e99b0b3e6251086826d46cc76ae9632b5"
+      ]
+    },
+    {
+      "name": "filemanagement_file_api",
+      "qemu_revision": "700b8d5cf1dcd273638637c678bfa4d9096b7f3d",
+      "upstream_revisions": [
+        "700b8d5cf1dcd273638637c678bfa4d9096b7f3d"
+      ]
+    },
+    {
+      "name": "filemanagement_filemanagement_cangjie_wrapper",
+      "qemu_revision": "9d92d7b33a3ed8880b044b163f0e7150944905b3",
+      "upstream_revisions": [
+        "9d92d7b33a3ed8880b044b163f0e7150944905b3"
+      ]
+    },
+    {
+      "name": "filemanagement_storage_service",
+      "qemu_revision": "37fd4b0c4ac39d97de9da69c888bfbe469f32ae7",
+      "upstream_revisions": [
+        "37fd4b0c4ac39d97de9da69c888bfbe469f32ae7"
+      ]
+    },
+    {
+      "name": "filemanagement_user_file_service",
+      "qemu_revision": "1380eadcd325558a10ab3dc59dbd5e7fd3fc8050",
+      "upstream_revisions": [
+        "1380eadcd325558a10ab3dc59dbd5e7fd3fc8050"
+      ]
+    },
+    {
+      "name": "graphic_graphic_2d",
+      "qemu_revision": "c3e551d3ac041e252e683b1060a2039e7204aabc",
+      "upstream_revisions": [
+        "81cc9ca9509bccd86c435064136fe45591d29eeb"
+      ]
+    },
+    {
+      "name": "graphic_graphic_3d",
+      "qemu_revision": "e9e43fd5e2ea9e69d3685b5a2668bc093e32c7ad",
+      "upstream_revisions": [
+        "b2d7af910f2d4b941697630020b0940245d5bd99"
+      ]
+    },
+    {
+      "name": "graphic_graphic_cangjie_wrapper",
+      "qemu_revision": "0553bc1ce150407db4be388528d2942b72a0446c",
+      "upstream_revisions": [
+        "0553bc1ce150407db4be388528d2942b72a0446c"
+      ]
+    },
+    {
+      "name": "graphic_graphic_surface",
+      "qemu_revision": "00a2a01f7a6e1dc8dbc8584eddb750905093aae9",
+      "upstream_revisions": [
+        "bd80c28b14d74226533e25e11176eee140aa9567"
+      ]
+    },
+    {
+      "name": "graphic_graphic_utils_lite",
+      "qemu_revision": "0a76a0fd9313346249a25ae8ef9cb0a2bdbbd397",
+      "upstream_revisions": [
+        "0a76a0fd9313346249a25ae8ef9cb0a2bdbbd397"
+      ]
+    },
+    {
+      "name": "graphic_graphics_effect",
+      "qemu_revision": "9638a3096a278a4618294bddd40e8c7c65548450",
+      "upstream_revisions": [
+        "9638a3096a278a4618294bddd40e8c7c65548450"
+      ]
+    },
+    {
+      "name": "graphic_surface_lite",
+      "qemu_revision": "d3b91c4a98ce08222aa6e0ad5a1b637ba99cf057",
+      "upstream_revisions": [
+        "d3b91c4a98ce08222aa6e0ad5a1b637ba99cf057"
+      ]
+    },
+    {
+      "name": "multimedia_audio_framework",
+      "qemu_revision": "0bdb13f7ef293f5fdc6f16d17e4d44fa7630d6cb",
+      "upstream_revisions": [
+        "6932fa64335b8272ca4a59de7808ab0d6c9eae7a"
+      ]
+    },
+    {
+      "name": "multimedia_audio_lite",
+      "qemu_revision": "411785b6b5ab4e2bda82501b28d2a03373002959",
+      "upstream_revisions": [
+        "411785b6b5ab4e2bda82501b28d2a03373002959"
+      ]
+    },
+    {
+      "name": "multimedia_av_codec",
+      "qemu_revision": "da8a054be939dcbbfa5783bd916a6d7b3b6a937c",
+      "upstream_revisions": [
+        "e5c525670d1f6622d441c9e5bf975ea0579ea177"
+      ]
+    },
+    {
+      "name": "multimedia_av_session",
+      "qemu_revision": "2e4964422352930781d8b06153bfc702443a6729",
+      "upstream_revisions": [
+        "47a2014c7040a039303109f0ebe817ebc31bfe6b"
+      ]
+    },
+    {
+      "name": "multimedia_camera_framework",
+      "qemu_revision": "a85a9290bd9b85d0dbe29de92e45a2259acbaeb7",
+      "upstream_revisions": [
+        "a421fc5b11593deb06a1b3928ebdf81b2655870b"
+      ]
+    },
+    {
+      "name": "multimedia_camera_lite",
+      "qemu_revision": "13d6f405d162c8eb4a748ef5285d144268264833",
+      "upstream_revisions": [
+        "13d6f405d162c8eb4a748ef5285d144268264833"
+      ]
+    },
+    {
+      "name": "multimedia_drm_framework",
+      "qemu_revision": "b8f563306b7cc43121dcc9b8cebcdef16e635aa8",
+      "upstream_revisions": [
+        "b8f563306b7cc43121dcc9b8cebcdef16e635aa8"
+      ]
+    },
+    {
+      "name": "multimedia_image_effect",
+      "qemu_revision": "d1a269d8b787056c592afbb96ed38ca323b1727b",
+      "upstream_revisions": [
+        "d1a269d8b787056c592afbb96ed38ca323b1727b"
+      ]
+    },
+    {
+      "name": "multimedia_image_framework",
+      "qemu_revision": "0707ce3613095fe9448fc4ca0bd6f5cd0317f0e8",
+      "upstream_revisions": [
+        "711db218c8d1c4d6546b28d8cf466059644dfa77"
+      ]
+    },
+    {
+      "name": "multimedia_media_foundation",
+      "qemu_revision": "a9d40eb0bfcb61626ea6780527d2235cbd9bc5dc",
+      "upstream_revisions": [
+        "a9d40eb0bfcb61626ea6780527d2235cbd9bc5dc"
+      ]
+    },
+    {
+      "name": "multimedia_media_library",
+      "qemu_revision": "85226d67d314af2553ee0137a728c0e1ba5f9548",
+      "upstream_revisions": [
+        "564ae888e7dcc7e0ec4c17ec9c77bf780e9cb380"
+      ]
+    },
+    {
+      "name": "multimedia_media_lite",
+      "qemu_revision": "f7201f87c94fceffe2dddf7d5c6dc5bfadb38190",
+      "upstream_revisions": [
+        "f7201f87c94fceffe2dddf7d5c6dc5bfadb38190"
+      ]
+    },
+    {
+      "name": "multimedia_media_utils_lite",
+      "qemu_revision": "ec33289139f8ea0c39cd005388c3b8c1f759b9df",
+      "upstream_revisions": [
+        "ec33289139f8ea0c39cd005388c3b8c1f759b9df"
+      ]
+    },
+    {
+      "name": "multimedia_midi_framework",
+      "qemu_revision": "73451437d0af23a5a3d32e831ef35b4f6f68196b",
+      "upstream_revisions": [
+        "73451437d0af23a5a3d32e831ef35b4f6f68196b"
+      ]
+    },
+    {
+      "name": "multimedia_multimedia_cangjie_wrapper",
+      "qemu_revision": "503482d065e996296578744f98c9dbd4be275072",
+      "upstream_revisions": [
+        "503482d065e996296578744f98c9dbd4be275072"
+      ]
+    },
+    {
+      "name": "multimedia_player_framework",
+      "qemu_revision": "b7798f4ef6e225436d85264cd09f1e392b6374ad",
+      "upstream_revisions": [
+        "3d3b1231db27561e8978652d7ae867c12f488d9a"
+      ]
+    },
+    {
+      "name": "multimedia_ringtone_library",
+      "qemu_revision": "51e9637cdebe2472f547f0b6322539999890c713",
+      "upstream_revisions": [
+        "51e9637cdebe2472f547f0b6322539999890c713"
+      ]
+    },
+    {
+      "name": "multimedia_video_processing_engine",
+      "qemu_revision": "f75967e2a642efe0dc34dbf6230484375259d9ef",
+      "upstream_revisions": [
+        "f75967e2a642efe0dc34dbf6230484375259d9ef"
+      ]
+    },
+    {
+      "name": "multimodalinput_input",
+      "qemu_revision": "e8ae47cac95401c8b8333ff5e86c98f7bc83f5fc",
+      "upstream_revisions": [
+        "64a0e42f22c9c6739651bf79b33746c500788322"
+      ]
+    },
+    {
+      "name": "officeservice_object_editor",
+      "qemu_revision": "c8026c38cd15b19bb919eeb5fd04b5e53c4cbe95",
+      "upstream_revisions": [
+        "c8026c38cd15b19bb919eeb5fd04b5e53c4cbe95"
+      ]
+    },
+    {
+      "name": "resourceschedule_background_task_mgr",
+      "qemu_revision": "ada26aa972cc85b94949a3abf2b1fc7053b19bb8",
+      "upstream_revisions": [
+        "ada26aa972cc85b94949a3abf2b1fc7053b19bb8"
+      ]
+    },
+    {
+      "name": "resourceschedule_device_standby",
+      "qemu_revision": "467921741b41fb129fe0e93680e5294faec5895b",
+      "upstream_revisions": [
+        "467921741b41fb129fe0e93680e5294faec5895b"
+      ]
+    },
+    {
+      "name": "resourceschedule_device_usage_statistics",
+      "qemu_revision": "e9c25d9cbbcff082b60225935275e6401e6f0ec3",
+      "upstream_revisions": [
+        "d73d804a01031dda0e76194b64f06090a214db09"
+      ]
+    },
+    {
+      "name": "resourceschedule_ffrt",
+      "qemu_revision": "bcaabdb891e2be0c3e004c6db87d0c6e79515886",
+      "upstream_revisions": [
+        "bcaabdb891e2be0c3e004c6db87d0c6e79515886"
+      ]
+    },
+    {
+      "name": "linux_frame_aware_sched",
+      "qemu_revision": "9205f38a5f06b624dbc7195ae3ea543bf3d10551",
+      "upstream_revisions": [
+        "9205f38a5f06b624dbc7195ae3ea543bf3d10551"
+      ]
+    },
+    {
+      "name": "resourceschedule_memmgr",
+      "qemu_revision": "b22db8f1ffddd1092eae5252a5e46a7bf3a4a97a",
+      "upstream_revisions": [
+        "b22db8f1ffddd1092eae5252a5e46a7bf3a4a97a"
+      ]
+    },
+    {
+      "name": "resourceschedule_qos_manager",
+      "qemu_revision": "da1c621c5ea85d94beb5ad283507bec3e5831f46",
+      "upstream_revisions": [
+        "217f40b648b5c663d939b4a485bbe2f21416ea2b"
+      ]
+    },
+    {
+      "name": "resourceschedule_resource_schedule_service",
+      "qemu_revision": "c3f73c4683b67a9b84a00149188814c720d5ec56",
+      "upstream_revisions": [
+        "c3f73c4683b67a9b84a00149188814c720d5ec56"
+      ]
+    },
+    {
+      "name": "resourceschedule_soc_perf",
+      "qemu_revision": "1b77ec1ac2582193cccca8f512d0245aebd332e0",
+      "upstream_revisions": [
+        "1b77ec1ac2582193cccca8f512d0245aebd332e0"
+      ]
+    },
+    {
+      "name": "resourceschedule_work_scheduler",
+      "qemu_revision": "ec17e3153830eeb019fe11c56c297dfafd1ba589",
+      "upstream_revisions": [
+        "ec17e3153830eeb019fe11c56c297dfafd1ba589"
+      ]
+    },
+    {
+      "name": "systemabilitymgr_safwk",
+      "qemu_revision": "288892fb2550b0fdaf2adb7c5c59f800e83f7747",
+      "upstream_revisions": [
+        "288892fb2550b0fdaf2adb7c5c59f800e83f7747"
+      ]
+    },
+    {
+      "name": "systemabilitymgr_safwk_lite",
+      "qemu_revision": "e4295d56f83bdecdb75a883dab5e363a7b6a1cd2",
+      "upstream_revisions": [
+        "e4295d56f83bdecdb75a883dab5e363a7b6a1cd2"
+      ]
+    },
+    {
+      "name": "systemabilitymgr_samgr",
+      "qemu_revision": "a22ffb5dc01d66431771983804c01a1ad9857779",
+      "upstream_revisions": [
+        "e8c6b7007c0898a552db5eca1018c21b126ec27a"
+      ]
+    },
+    {
+      "name": "systemabilitymgr_samgr_lite",
+      "qemu_revision": "ca0aefa851f76122a496e730dc9035e8209bc0da",
+      "upstream_revisions": [
+        "ca0aefa851f76122a496e730dc9035e8209bc0da"
+      ]
+    },
+    {
+      "name": "systemabilitymgr_selectionfwk",
+      "qemu_revision": "7b3a6e5084cd2e63022e2b9ad03c97268a40dff0",
+      "upstream_revisions": [
+        "7b3a6e5084cd2e63022e2b9ad03c97268a40dff0"
+      ]
+    },
+    {
+      "name": "window_window_cangjie_wrapper",
+      "qemu_revision": "f932641565fa271be73e0bf0cc0a513084d96239",
+      "upstream_revisions": [
+        "f932641565fa271be73e0bf0cc0a513084d96239"
+      ]
+    },
+    {
+      "name": "window_window_manager",
+      "qemu_revision": "2ba17cf5dcb8a3e6ea845ae43da337464b4d3213",
+      "upstream_revisions": [
+        "c9e0c375301ef3fc5cb08d4e5ab69bc7fe04bf73"
+      ]
+    },
+    {
+      "name": "window_window_manager_lite",
+      "qemu_revision": "62b8cbc951418cc65e0e8a63a32561a9eee4f007",
+      "upstream_revisions": [
+        "62b8cbc951418cc65e0e8a63a32561a9eee4f007"
+      ]
+    },
+    {
+      "name": "ide_previewer",
+      "qemu_revision": "86b7b6fb40c1e29dcf634cc818dc876b32c90355",
+      "upstream_revisions": [
+        "86b7b6fb40c1e29dcf634cc818dc876b32c90355"
+      ]
+    },
+    {
+      "name": "interface_sdk-js",
+      "qemu_revision": "c67e5f1aca2c2653549b1f95df9c8cf4c21327e4",
+      "upstream_revisions": [
+        "43e34facc58b9c0f15c58571554ddd7eaa004455"
+      ]
+    },
+    {
+      "name": "interface_sdk_c",
+      "qemu_revision": "41b00f09528cf514b566553b2503c54e6347786b",
+      "upstream_revisions": [
+        "41b00f09528cf514b566553b2503c54e6347786b"
+      ]
+    },
+    {
+      "name": "interface_sdk_cangjie",
+      "qemu_revision": "80162f46bdea533276288294602d802dc555baf6",
+      "upstream_revisions": [
+        "80162f46bdea533276288294602d802dc555baf6"
+      ]
+    },
+    {
+      "name": "kernel_linux_build",
+      "qemu_revision": "84d533f5b11e7efbc8285ed33ea4d8ebb27bd860",
+      "upstream_revisions": [
+        "84d533f5b11e7efbc8285ed33ea4d8ebb27bd860"
+      ]
+    },
+    {
+      "name": "kernel_linux_common_modules",
+      "qemu_revision": "01de19d1b454ad705a8d68da0c32ea47a0d299b9",
+      "upstream_revisions": [
+        "b76d914d0f09fa3d4abfa124048c56fa150b57e3"
+      ]
+    },
+    {
+      "name": "kernel_linux_config",
+      "qemu_revision": "2f85a471bee806afe8bd71e923c992a2f54b603a",
+      "upstream_revisions": [
+        "2f85a471bee806afe8bd71e923c992a2f54b603a"
+      ]
+    },
+    {
+      "name": "kernel_linux_5.10",
+      "qemu_revision": "37b6f8ff1aa494250a361e65e208a71a412df304",
+      "upstream_revisions": [
+        "70e6c83fc02e1607ac341c056af949ae7ad51b41"
+      ]
+    },
+    {
+      "name": "kernel_linux_6.6",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "14c77f1541a53e814d89ad6dea5f7f211f9895a6"
+      ]
+    },
+    {
+      "name": "kernel_linux_patches",
+      "qemu_revision": "4a74180ee538b08acc8f1bc7f13649ceb82ed51f",
+      "upstream_revisions": [
+        "4a74180ee538b08acc8f1bc7f13649ceb82ed51f"
+      ]
+    },
+    {
+      "name": "kernel_liteos_a",
+      "qemu_revision": "92cab0135ae51bc36718db994a13a2bf1a6018b1",
+      "upstream_revisions": [
+        "92cab0135ae51bc36718db994a13a2bf1a6018b1"
+      ]
+    },
+    {
+      "name": "kernel_liteos_m",
+      "qemu_revision": "bca80e0bc4b4925ac3c14819bcf3ba7ae04c590c",
+      "upstream_revisions": [
+        "bca80e0bc4b4925ac3c14819bcf3ba7ae04c590c"
+      ]
+    },
+    {
+      "name": "kernel_uniproton",
+      "qemu_revision": "8547b402f0a8605a1ba555237138a1047fb33c53",
+      "upstream_revisions": [
+        "8547b402f0a8605a1ba555237138a1047fb33c53"
+      ]
+    },
+    {
+      "name": "napi_generator",
+      "qemu_revision": "5d0aada4cc297bffc41c93b883904f8e0904248e",
+      "upstream_revisions": [
+        "5d0aada4cc297bffc41c93b883904f8e0904248e"
+      ]
+    },
+    {
+      "name": "productdefine_common",
+      "qemu_revision": "28e111dc181cadde46dda3f61170c37c83d7639b",
+      "upstream_revisions": [
+        "28e111dc181cadde46dda3f61170c37c83d7639b"
+      ]
+    },
+    {
+      "name": "ostest_wukong",
+      "qemu_revision": "368d50b52a4a33bc12e15df5ba0481d25721a10c",
+      "upstream_revisions": [
+        "368d50b52a4a33bc12e15df5ba0481d25721a10c"
+      ]
+    },
+    {
+      "name": "testfwk_arkxtest",
+      "qemu_revision": "b956f48caba16ff23e8cff3a36b4a1992e12c860",
+      "upstream_revisions": [
+        "b956f48caba16ff23e8cff3a36b4a1992e12c860"
+      ]
+    },
+    {
+      "name": "testfwk_developer_test",
+      "qemu_revision": "1174687a3ffd0ca78bd5761cb2db04ac1d847004",
+      "upstream_revisions": [
+        "1174687a3ffd0ca78bd5761cb2db04ac1d847004"
+      ]
+    },
+    {
+      "name": "testfwk_testfwk_cangjie_wrapper",
+      "qemu_revision": "46fac38025d3a6fe528aca30d0ced73fce9a844e",
+      "upstream_revisions": [
+        "46fac38025d3a6fe528aca30d0ced73fce9a844e"
+      ]
+    },
+    {
+      "name": "testfwk_xdevice",
+      "qemu_revision": "4bc2d78cf2b192cc4cc97cb5175244a415011dc5",
+      "upstream_revisions": [
+        "4bc2d78cf2b192cc4cc97cb5175244a415011dc5"
+      ]
+    },
+    {
+      "name": "xts_acts",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "12ed38d7aec9c680ed1510a77a96efcc7b101489"
+      ]
+    },
+    {
+      "name": "xts_dcts",
+      "qemu_revision": "16277cb8939a31e457f33b790fa9cfcd366e7a92",
+      "upstream_revisions": [
+        "16277cb8939a31e457f33b790fa9cfcd366e7a92"
+      ]
+    },
+    {
+      "name": "xts_device_attest",
+      "qemu_revision": "0c237eb28301ba4315c8b3f399db827d1d143caa",
+      "upstream_revisions": [
+        "0c237eb28301ba4315c8b3f399db827d1d143caa"
+      ]
+    },
+    {
+      "name": "xts_device_attest_lite",
+      "qemu_revision": "0d8554eafb6c98890af82272de75b22a84fc8cc0",
+      "upstream_revisions": [
+        "0d8554eafb6c98890af82272de75b22a84fc8cc0"
+      ]
+    },
+    {
+      "name": "xts_hats",
+      "qemu_revision": "ea8a1b0c469771bdb3f5987bce8353a521cd4a8f",
+      "upstream_revisions": [
+        "ea8a1b0c469771bdb3f5987bce8353a521cd4a8f"
+      ]
+    },
+    {
+      "name": "xts_tools",
+      "qemu_revision": "334e6d5392feeed4e3c7bb73fb6ff4febb460d64",
+      "upstream_revisions": [
+        "334e6d5392feeed4e3c7bb73fb6ff4febb460d64"
+      ]
+    },
+    {
+      "name": "third_party_egl",
+      "qemu_revision": "f873cded2f876f5f2a832c51b77496ef9d3a7f49",
+      "upstream_revisions": [
+        "f873cded2f876f5f2a832c51b77496ef9d3a7f49"
+      ]
+    },
+    {
+      "name": "third_party_FatFs",
+      "qemu_revision": "1e303a3da729d066b55d7576fa63108932bea5a1",
+      "upstream_revisions": [
+        "1e303a3da729d066b55d7576fa63108932bea5a1"
+      ]
+    },
+    {
+      "name": "third_party_FreeBSD",
+      "qemu_revision": "74f769337b059bc4ee13123e7ce159b8b7447e71",
+      "upstream_revisions": [
+        "74f769337b059bc4ee13123e7ce159b8b7447e71"
+      ]
+    },
+    {
+      "name": "third_party_NuttX",
+      "qemu_revision": "769a2719db93c115cd69f29d122587a72ce9c5ef",
+      "upstream_revisions": [
+        "769a2719db93c115cd69f29d122587a72ce9c5ef"
+      ]
+    },
+    {
+      "name": "third_party_pyyaml",
+      "qemu_revision": "234a8fd99a908faf18b4019f91134a931af7b649",
+      "upstream_revisions": [
+        "234a8fd99a908faf18b4019f91134a931af7b649"
+      ]
+    },
+    {
+      "name": "third_party_abseil-cpp",
+      "qemu_revision": "0fec8aba2edfb6021e5823e5f25e56c5d5466531",
+      "upstream_revisions": [
+        "0fec8aba2edfb6021e5823e5f25e56c5d5466531"
+      ]
+    },
+    {
+      "name": "third_party_alsa-lib",
+      "qemu_revision": "bcfa5f419dfe18b53fa4be0cd622f36af3591aa9",
+      "upstream_revisions": [
+        "dececa15b19fba7445fbdb5559b60e88f53f6960"
+      ]
+    },
+    {
+      "name": "third_party_alsa-utils",
+      "qemu_revision": "e231370a43541362983835e4658d4597229a4b36",
+      "upstream_revisions": [
+        "e231370a43541362983835e4658d4597229a4b36"
+      ]
+    },
+    {
+      "name": "third_party_astc-encoder",
+      "qemu_revision": "00caff1c1768c84bda00a64b19c34acb5a0f270c",
+      "upstream_revisions": [
+        "00caff1c1768c84bda00a64b19c34acb5a0f270c"
+      ]
+    },
+    {
+      "name": "third_party_backends",
+      "qemu_revision": "90dc1ec1183e0f89fd01e4ea76a7e69ca302506d",
+      "upstream_revisions": [
+        "90dc1ec1183e0f89fd01e4ea76a7e69ca302506d"
+      ]
+    },
+    {
+      "name": "third_party_benchmark",
+      "qemu_revision": "9ef675c871779af6310977a3684ff7cd54ae13fb",
+      "upstream_revisions": [
+        "9ef675c871779af6310977a3684ff7cd54ae13fb"
+      ]
+    },
+    {
+      "name": "third_party_bounds_checking_function",
+      "qemu_revision": "21b2aa8de59debbbf3f5ed3f53cf1584c9447298",
+      "upstream_revisions": [
+        "61baa7a3eb9347efca58397d1d0504faa96d79f0"
+      ]
+    },
+    {
+      "name": "third_party_brotli",
+      "qemu_revision": "c873180bd93138d91dc33a64a2b7e62cf4cd0e3c",
+      "upstream_revisions": [
+        "c873180bd93138d91dc33a64a2b7e62cf4cd0e3c"
+      ]
+    },
+    {
+      "name": "third_party_bzip2",
+      "qemu_revision": "520344ba5c1baea38c2e56aaaa3f0d2fb8bc270c",
+      "upstream_revisions": [
+        "520344ba5c1baea38c2e56aaaa3f0d2fb8bc270c"
+      ]
+    },
+    {
+      "name": "third_party_cJSON",
+      "qemu_revision": "96ec51f9776ca08079d7804df747b388eba88e47",
+      "upstream_revisions": [
+        "96ec51f9776ca08079d7804df747b388eba88e47"
+      ]
+    },
+    {
+      "name": "third_party_cangjie_compiler",
+      "qemu_revision": "a5b91429baca3bce3b030cba15d0eaffb7a5f0c2",
+      "upstream_revisions": [
+        "a5b91429baca3bce3b030cba15d0eaffb7a5f0c2"
+      ]
+    },
+    {
+      "name": "third_party_cangjie_runtime",
+      "qemu_revision": "cb48ed75dae66bb37fc68771fa444adb18c81313",
+      "upstream_revisions": [
+        "cb48ed75dae66bb37fc68771fa444adb18c81313"
+      ]
+    },
+    {
+      "name": "third_party_cangjie_tools",
+      "qemu_revision": "d2705c98aac9c894f02eebed4c7cb7798c8ddea0",
+      "upstream_revisions": [
+        "d2705c98aac9c894f02eebed4c7cb7798c8ddea0"
+      ]
+    },
+    {
+      "name": "third_party_cares",
+      "qemu_revision": "a5ae9460417b54cc32e6d48e7bb89450345654ae",
+      "upstream_revisions": [
+        "a5ae9460417b54cc32e6d48e7bb89450345654ae"
+      ]
+    },
+    {
+      "name": "third_party_cmsis",
+      "qemu_revision": "22eba97725ef919017fcce23fc1671dd75faec63",
+      "upstream_revisions": [
+        "22eba97725ef919017fcce23fc1671dd75faec63"
+      ]
+    },
+    {
+      "name": "third_party_css-what",
+      "qemu_revision": "5bf1b02e5d471baa648933ad06a2d0ee830c03a6",
+      "upstream_revisions": [
+        "5bf1b02e5d471baa648933ad06a2d0ee830c03a6"
+      ]
+    },
+    {
+      "name": "third_party_cups",
+      "qemu_revision": "954c09b3534c46c93d9ee5ca3748a792c87fd6b5",
+      "upstream_revisions": [
+        "954c09b3534c46c93d9ee5ca3748a792c87fd6b5"
+      ]
+    },
+    {
+      "name": "third_party_cups-filters",
+      "qemu_revision": "c7f0e96f1f3cc903609a35b4b0aeb3e6b64eb1d3",
+      "upstream_revisions": [
+        "c7f0e96f1f3cc903609a35b4b0aeb3e6b64eb1d3"
+      ]
+    },
+    {
+      "name": "third_party_curl",
+      "qemu_revision": "50d05dc7df3b5ecd977a02f3f2cdbfc1e4c12ebf",
+      "upstream_revisions": [
+        "50d05dc7df3b5ecd977a02f3f2cdbfc1e4c12ebf"
+      ]
+    },
+    {
+      "name": "third_party_dav1d",
+      "qemu_revision": "2f6aec92e9cc81a610a53ccde3fd0bcc06c5dad8",
+      "upstream_revisions": [
+        "2f6aec92e9cc81a610a53ccde3fd0bcc06c5dad8"
+      ]
+    },
+    {
+      "name": "third_party_decimal.js",
+      "qemu_revision": "def7ff60bf57630d4771350d107153a53aa682a8",
+      "upstream_revisions": [
+        "def7ff60bf57630d4771350d107153a53aa682a8"
+      ]
+    },
+    {
+      "name": "third_party_e2fsprogs",
+      "qemu_revision": "2e9885131cc18fbbb92a69db02c79a68559485ba",
+      "upstream_revisions": [
+        "2e9885131cc18fbbb92a69db02c79a68559485ba"
+      ]
+    },
+    {
+      "name": "third_party_elfio",
+      "qemu_revision": "177cb4a063460fdeb31bbb04c5a1c0380d73f3ad",
+      "upstream_revisions": [
+        "177cb4a063460fdeb31bbb04c5a1c0380d73f3ad"
+      ]
+    },
+    {
+      "name": "third_party_elfutils",
+      "qemu_revision": "b9158263368a994a5434c08c84ed55484c56eef9",
+      "upstream_revisions": [
+        "b9158263368a994a5434c08c84ed55484c56eef9"
+      ]
+    },
+    {
+      "name": "third_party_exfatprogs",
+      "qemu_revision": "8ef43c5a790f324450155a804ca7eea351e46d47",
+      "upstream_revisions": [
+        "8ef43c5a790f324450155a804ca7eea351e46d47"
+      ]
+    },
+    {
+      "name": "third_party_expat",
+      "qemu_revision": "5d36e7c02fbba8b4572031d3ffddbc5d48ba2f5e",
+      "upstream_revisions": [
+        "5d36e7c02fbba8b4572031d3ffddbc5d48ba2f5e"
+      ]
+    },
+    {
+      "name": "third_party_f2fs-tools",
+      "qemu_revision": "680fef46e9f6208ee4e7c2c1bf284606a8b3e954",
+      "upstream_revisions": [
+        "680fef46e9f6208ee4e7c2c1bf284606a8b3e954"
+      ]
+    },
+    {
+      "name": "third_party_ffmpeg",
+      "qemu_revision": "bceaf12f648b7ef5917f26616793d09d88cb62b5",
+      "upstream_revisions": [
+        "bceaf12f648b7ef5917f26616793d09d88cb62b5"
+      ]
+    },
+    {
+      "name": "third_party_flatbuffers",
+      "qemu_revision": "c2c74e9cc8ce734c03864cd489d4c91eab61f05d",
+      "upstream_revisions": [
+        "c2c74e9cc8ce734c03864cd489d4c91eab61f05d"
+      ]
+    },
+    {
+      "name": "third_party_freetype",
+      "qemu_revision": "549566d2e7ebcbd7cb48afd2eae3d3d3d08e816f",
+      "upstream_revisions": [
+        "549566d2e7ebcbd7cb48afd2eae3d3d3d08e816f"
+      ]
+    },
+    {
+      "name": "third_party_fsverity-utils",
+      "qemu_revision": "16dfbd47d20a8606a84091bdf546a48c15024165",
+      "upstream_revisions": [
+        "16dfbd47d20a8606a84091bdf546a48c15024165"
+      ]
+    },
+    {
+      "name": "third_party_glfw",
+      "qemu_revision": "841ae5306c5e7a6e1913bb34fbc1ae05380e209c",
+      "upstream_revisions": [
+        "841ae5306c5e7a6e1913bb34fbc1ae05380e209c"
+      ]
+    },
+    {
+      "name": "third_party_glslang",
+      "qemu_revision": "7435e231421a663324bf8ef322c70f7597b370c9",
+      "upstream_revisions": [
+        "7435e231421a663324bf8ef322c70f7597b370c9"
+      ]
+    },
+    {
+      "name": "third_party_gn",
+      "qemu_revision": "71c506b7db0e7dd8684994bb0e3f6eeea583054a",
+      "upstream_revisions": [
+        "71c506b7db0e7dd8684994bb0e3f6eeea583054a"
+      ]
+    },
+    {
+      "name": "third_party_googletest",
+      "qemu_revision": "cc04e6f4e30df6a3e1c913ee14ffb30eee203c30",
+      "upstream_revisions": [
+        "cc04e6f4e30df6a3e1c913ee14ffb30eee203c30"
+      ]
+    },
+    {
+      "name": "third_party_gptfdisk",
+      "qemu_revision": "3ba408b8b0e219c9dba434b3e6497e1103f710a5",
+      "upstream_revisions": [
+        "3ba408b8b0e219c9dba434b3e6497e1103f710a5"
+      ]
+    },
+    {
+      "name": "third_party_grpc",
+      "qemu_revision": "ac9e5488980940565a6a6d7e2b62f303beab4d95",
+      "upstream_revisions": [
+        "ac9e5488980940565a6a6d7e2b62f303beab4d95"
+      ]
+    },
+    {
+      "name": "third_party_harfbuzz",
+      "qemu_revision": "5b8f1d6de169ce2a125861d85248cdc841cca668",
+      "upstream_revisions": [
+        "5b8f1d6de169ce2a125861d85248cdc841cca668"
+      ]
+    },
+    {
+      "name": "third_party_icu",
+      "qemu_revision": "b04331d0efe4dad9aec36b2f5539c0fde64bfe06",
+      "upstream_revisions": [
+        "b04331d0efe4dad9aec36b2f5539c0fde64bfe06"
+      ]
+    },
+    {
+      "name": "third_party_iptables",
+      "qemu_revision": "fa731245529869ddd443b01a7db5e81611e5ba05",
+      "upstream_revisions": [
+        "735f75a4a669e3452c2b7d5e2a22c9d7a73032cf"
+      ]
+    },
+    {
+      "name": "third_party_jerryscript",
+      "qemu_revision": "d775a2d56f8a817388dd37a50eb32c09b570bb3b",
+      "upstream_revisions": [
+        "d775a2d56f8a817388dd37a50eb32c09b570bb3b"
+      ]
+    },
+    {
+      "name": "third_party_jinja2",
+      "qemu_revision": "852463cbb0678037f5ca9ed80924c30def600438",
+      "upstream_revisions": [
+        "852463cbb0678037f5ca9ed80924c30def600438"
+      ]
+    },
+    {
+      "name": "third_party_jsframework",
+      "qemu_revision": "996dbae855bed87ae029638e07be4117e5f22c85",
+      "upstream_revisions": [
+        "abb00e2f162379c008b71fbaccd015dce5706322"
+      ]
+    },
+    {
+      "name": "third_party_json",
+      "qemu_revision": "899cae79d1accbd475b9737167417eabc82c4b52",
+      "upstream_revisions": [
+        "899cae79d1accbd475b9737167417eabc82c4b52"
+      ]
+    },
+    {
+      "name": "third_party_jsoncpp",
+      "qemu_revision": "2ccace3040960e3e4f1602156eeb070150ab151a",
+      "upstream_revisions": [
+        "ea808a0b6318fbe1fee1d3acb8cb0fa36d4748d0"
+      ]
+    },
+    {
+      "name": "third_party_lame",
+      "qemu_revision": "dbef2a4f2c52b1ac9694e91424e7842e3841eed1",
+      "upstream_revisions": [
+        "dbef2a4f2c52b1ac9694e91424e7842e3841eed1"
+      ]
+    },
+    {
+      "name": "third_party_libabigail",
+      "qemu_revision": "bd8a8e750bd5a690cb7e1b7069a25cfab3993d7e",
+      "upstream_revisions": [
+        "bd8a8e750bd5a690cb7e1b7069a25cfab3993d7e"
+      ]
+    },
+    {
+      "name": "third_party_libbpf",
+      "qemu_revision": "7c0fb68ee1f3f599064fb49d48a9d75a45bcb5aa",
+      "upstream_revisions": [
+        "7c0fb68ee1f3f599064fb49d48a9d75a45bcb5aa"
+      ]
+    },
+    {
+      "name": "third_party_libcoap",
+      "qemu_revision": "90d3c3f9ceac2b25aea132bfce080af851315097",
+      "upstream_revisions": [
+        "90d3c3f9ceac2b25aea132bfce080af851315097"
+      ]
+    },
+    {
+      "name": "third_party_libdrm",
+      "qemu_revision": "eaa67d5fdabd5968e6c553e06c5a5976a573ee01",
+      "upstream_revisions": [
+        "eaa67d5fdabd5968e6c553e06c5a5976a573ee01"
+      ]
+    },
+    {
+      "name": "third_party_libedit",
+      "qemu_revision": "57a7dd15119830c0adb39d66a0f31bbf013f798d",
+      "upstream_revisions": [
+        "57a7dd15119830c0adb39d66a0f31bbf013f798d"
+      ]
+    },
+    {
+      "name": "third_party_libevdev",
+      "qemu_revision": "8c146f75071f4adfa53a96b52f6ef95e344fee26",
+      "upstream_revisions": [
+        "8c146f75071f4adfa53a96b52f6ef95e344fee26"
+      ]
+    },
+    {
+      "name": "third_party_libexif",
+      "qemu_revision": "2154dccb4fc31c2d1f4a240d4a3093e1d86e0835",
+      "upstream_revisions": [
+        "2154dccb4fc31c2d1f4a240d4a3093e1d86e0835"
+      ]
+    },
+    {
+      "name": "third_party_libfuse",
+      "qemu_revision": "ca1384998b3bd3a675ac96b88b426be8623962ef",
+      "upstream_revisions": [
+        "ca1384998b3bd3a675ac96b88b426be8623962ef"
+      ]
+    },
+    {
+      "name": "third_party_libinput",
+      "qemu_revision": "64dde5b2f969dcaa64a1631126e213db0ddabd94",
+      "upstream_revisions": [
+        "64dde5b2f969dcaa64a1631126e213db0ddabd94"
+      ]
+    },
+    {
+      "name": "third_party_libjpeg-turbo",
+      "qemu_revision": "89b658838aac862c4155a387d619331c5e5758a2",
+      "upstream_revisions": [
+        "19603e5c6d67d7bf73cfafe097182f6d029ac571"
+      ]
+    },
+    {
+      "name": "third_party_libnl",
+      "qemu_revision": "f418e5f4dc6642d4a6e4e0efcef72a3a2062f276",
+      "upstream_revisions": [
+        "f418e5f4dc6642d4a6e4e0efcef72a3a2062f276"
+      ]
+    },
+    {
+      "name": "third_party_libphonenumber",
+      "qemu_revision": "13f194a8419be00aae5263ca89c6b5a8576d1b0a",
+      "upstream_revisions": [
+        "13f194a8419be00aae5263ca89c6b5a8576d1b0a"
+      ]
+    },
+    {
+      "name": "third_party_libpng",
+      "qemu_revision": "7c3c744b1b825059978ec713a53482ede8a5998e",
+      "upstream_revisions": [
+        "55ccafd48dabf5355887765faa6e92568622a9a6"
+      ]
+    },
+    {
+      "name": "third_party_libtiff",
+      "qemu_revision": "f3146768b1364edf579e5b1876ba3cc300c4e786",
+      "upstream_revisions": [
+        "f3146768b1364edf579e5b1876ba3cc300c4e786"
+      ]
+    },
+    {
+      "name": "third_party_libunwind",
+      "qemu_revision": "564026d0769285be5735a088585aadbb34f9789b",
+      "upstream_revisions": [
+        "564026d0769285be5735a088585aadbb34f9789b"
+      ]
+    },
+    {
+      "name": "third_party_liburing",
+      "qemu_revision": "89994945d659332035855a19d17e6eae45e959dd",
+      "upstream_revisions": [
+        "89994945d659332035855a19d17e6eae45e959dd"
+      ]
+    },
+    {
+      "name": "third_party_libusb",
+      "qemu_revision": "f48740b7bcb2d8ee713cc0b5e9a4e68fab41277c",
+      "upstream_revisions": [
+        "f48740b7bcb2d8ee713cc0b5e9a4e68fab41277c"
+      ]
+    },
+    {
+      "name": "third_party_libuv",
+      "qemu_revision": "f8143ba4a2c4facd3437641aa2f900faf0db6fce",
+      "upstream_revisions": [
+        "f8143ba4a2c4facd3437641aa2f900faf0db6fce"
+      ]
+    },
+    {
+      "name": "third_party_libvpx",
+      "qemu_revision": "e671e85037ed9b65ae68098df9f025eb465938b2",
+      "upstream_revisions": [
+        "a4085bb3be63db13e6908c24be52bd2698aa57c7"
+      ]
+    },
+    {
+      "name": "third_party_libwebsockets",
+      "qemu_revision": "88901237b680bb2fb7efd335ce06895560f363c1",
+      "upstream_revisions": [
+        "88901237b680bb2fb7efd335ce06895560f363c1"
+      ]
+    },
+    {
+      "name": "third_party_libxml2",
+      "qemu_revision": "53b1b6ca62c0ed272f36546c66e24378109be184",
+      "upstream_revisions": [
+        "53b1b6ca62c0ed272f36546c66e24378109be184"
+      ]
+    },
+    {
+      "name": "third_party_littlefs",
+      "qemu_revision": "dfe9d04d30de9e3475c561f408e7ee227531c716",
+      "upstream_revisions": [
+        "dfe9d04d30de9e3475c561f408e7ee227531c716"
+      ]
+    },
+    {
+      "name": "third_party_ltp",
+      "qemu_revision": "229660069ed0f06c2afdb5249d9ea3c18a4afb51",
+      "upstream_revisions": [
+        "229660069ed0f06c2afdb5249d9ea3c18a4afb51"
+      ]
+    },
+    {
+      "name": "third_party_lwip",
+      "qemu_revision": "83886e5c2bebe98dc85976deceaccecfd627b950",
+      "upstream_revisions": [
+        "83886e5c2bebe98dc85976deceaccecfd627b950"
+      ]
+    },
+    {
+      "name": "third_party_lz4",
+      "qemu_revision": "67c1d8d4eaf58dd58004488c6fcace8a6b849ee8",
+      "upstream_revisions": [
+        "67c1d8d4eaf58dd58004488c6fcace8a6b849ee8"
+      ]
+    },
+    {
+      "name": "third_party_lzma",
+      "qemu_revision": "de5a4ec90f91f9b4299d659a066c243aec1e168c",
+      "upstream_revisions": [
+        "de5a4ec90f91f9b4299d659a066c243aec1e168c"
+      ]
+    },
+    {
+      "name": "third_party_markupsafe",
+      "qemu_revision": "e6770a1e4dbace5b3ecf7957bac64cf80932749c",
+      "upstream_revisions": [
+        "e6770a1e4dbace5b3ecf7957bac64cf80932749c"
+      ]
+    },
+    {
+      "name": "third_party_mbedtls",
+      "qemu_revision": "3d3f165a2ccb09f8162cf32e249d6cee9639a587",
+      "upstream_revisions": [
+        "3d3f165a2ccb09f8162cf32e249d6cee9639a587"
+      ]
+    },
+    {
+      "name": "third_party_mesa3d",
+      "qemu_revision": "5573a94566a98d75cb123a60c1606f03ad73da42",
+      "upstream_revisions": [
+        "952a438c56ce20610d88f0c4d8c673485aefeff7"
+      ]
+    },
+    {
+      "name": "third_party_meshoptimizer",
+      "qemu_revision": "317dd03ddbadae61fcac4616f32eb4f38efdc5b0",
+      "upstream_revisions": [
+        "317dd03ddbadae61fcac4616f32eb4f38efdc5b0"
+      ]
+    },
+    {
+      "name": "third_party_mindspore",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "c34a149209fb4dfb81f2af0cc167d7e7be96559b"
+      ]
+    },
+    {
+      "name": "third_party_mksh",
+      "qemu_revision": "d05184eaab44fc58927237f49ad69345edbb2478",
+      "upstream_revisions": [
+        "d05184eaab44fc58927237f49ad69345edbb2478"
+      ]
+    },
+    {
+      "name": "third_party_mtdev",
+      "qemu_revision": "88ece84a8095f58d24230bf58b29823893857c3e",
+      "upstream_revisions": [
+        "88ece84a8095f58d24230bf58b29823893857c3e"
+      ]
+    },
+    {
+      "name": "third_party_musl",
+      "qemu_revision": "78b8011dfcf964a7fbd6c7750454cfdb5fe6de5f",
+      "upstream_revisions": [
+        "415a7e7e24c2e1a97ca1cc4c4122f3b12a032cee"
+      ]
+    },
+    {
+      "name": "third_party_ncurses",
+      "qemu_revision": "b867caba6f0f8345b2e2e536688ee37c9d94326e",
+      "upstream_revisions": [
+        "b867caba6f0f8345b2e2e536688ee37c9d94326e"
+      ]
+    },
+    {
+      "name": "third_party_nghttp2",
+      "qemu_revision": "584e1782ff0d7981892c54426f0da6fda1805f75",
+      "upstream_revisions": [
+        "584e1782ff0d7981892c54426f0da6fda1805f75"
+      ]
+    },
+    {
+      "name": "third_party_ninja",
+      "qemu_revision": "dc674abe270d5ec0664342b7d588c72dc1485b24",
+      "upstream_revisions": [
+        "dc674abe270d5ec0664342b7d588c72dc1485b24"
+      ]
+    },
+    {
+      "name": "third_party_node",
+      "qemu_revision": "de27540291771dbde6f4097997cae63840684e37",
+      "upstream_revisions": [
+        "de27540291771dbde6f4097997cae63840684e37"
+      ]
+    },
+    {
+      "name": "third_party_noto-cjk",
+      "qemu_revision": "34ef2b40154738ee7e6c178ae8c2ef130e60d315",
+      "upstream_revisions": [
+        "34ef2b40154738ee7e6c178ae8c2ef130e60d315"
+      ]
+    },
+    {
+      "name": "third_party_notofonts",
+      "qemu_revision": "33eb1641520fdf00bb8d657b7479461d31769232",
+      "upstream_revisions": [
+        "33eb1641520fdf00bb8d657b7479461d31769232"
+      ]
+    },
+    {
+      "name": "third_party_ntfs-3g",
+      "qemu_revision": "c5cbcefe43469cd73b873ccb2311711ea27d28c9",
+      "upstream_revisions": [
+        "c5cbcefe43469cd73b873ccb2311711ea27d28c9"
+      ]
+    },
+    {
+      "name": "third_party_opengles",
+      "qemu_revision": "12d8e91f30921ceee5b70e31f0ec7607638d83e2",
+      "upstream_revisions": [
+        "12d8e91f30921ceee5b70e31f0ec7607638d83e2"
+      ]
+    },
+    {
+      "name": "third_party_opensles",
+      "qemu_revision": "77418cd0ccf0ea5bd968f2affe64133245162e9e",
+      "upstream_revisions": [
+        "77418cd0ccf0ea5bd968f2affe64133245162e9e"
+      ]
+    },
+    {
+      "name": "third_party_opencl-headers",
+      "qemu_revision": "a9305c0f9923386ac8b5dcd818112e4249314be4",
+      "upstream_revisions": [
+        "a9305c0f9923386ac8b5dcd818112e4249314be4"
+      ]
+    },
+    {
+      "name": "third_party_opencore-amr",
+      "qemu_revision": "b91d7171ddcec7acb99eaa32b138f7e5ae051aeb",
+      "upstream_revisions": [
+        "b91d7171ddcec7acb99eaa32b138f7e5ae051aeb"
+      ]
+    },
+    {
+      "name": "third_party_openhitls",
+      "qemu_revision": "65bafa176cbe25a837262f57175faa5ce34d237b",
+      "upstream_revisions": [
+        "65bafa176cbe25a837262f57175faa5ce34d237b"
+      ]
+    },
+    {
+      "name": "third_party_openmax",
+      "qemu_revision": "48489a367dccea31532c846ac4572da6394c8a94",
+      "upstream_revisions": [
+        "48489a367dccea31532c846ac4572da6394c8a94"
+      ]
+    },
+    {
+      "name": "third_party_openssl",
+      "qemu_revision": "448a110352e8c36cc29828f53ffe0a44c1d56500",
+      "upstream_revisions": [
+        "448a110352e8c36cc29828f53ffe0a44c1d56500"
+      ]
+    },
+    {
+      "name": "third_party_optimized_routines",
+      "qemu_revision": "a52a7d4792ef1618a854271e2421e2ab66d24f99",
+      "upstream_revisions": [
+        "a52a7d4792ef1618a854271e2421e2ab66d24f99"
+      ]
+    },
+    {
+      "name": "third_party_opus",
+      "qemu_revision": "51b2602089f501ebf96e33f7ac6aee3b06b0d813",
+      "upstream_revisions": [
+        "51b2602089f501ebf96e33f7ac6aee3b06b0d813"
+      ]
+    },
+    {
+      "name": "third_party_parse5",
+      "qemu_revision": "c06fb9085228cecba9983c170d572dd717479ada",
+      "upstream_revisions": [
+        "c06fb9085228cecba9983c170d572dd717479ada"
+      ]
+    },
+    {
+      "name": "third_party_pcre2",
+      "qemu_revision": "86a46615b011a68df68072cab9fe6d597ca2d8b5",
+      "upstream_revisions": [
+        "86a46615b011a68df68072cab9fe6d597ca2d8b5"
+      ]
+    },
+    {
+      "name": "third_party_popt",
+      "qemu_revision": "051ab160bd23767e5de90ec3d7ef67ac0b905d98",
+      "upstream_revisions": [
+        "051ab160bd23767e5de90ec3d7ef67ac0b905d98"
+      ]
+    },
+    {
+      "name": "third_party_protobuf",
+      "qemu_revision": "a29b13a02b382449aa3f1c70df787b46d4cc479a",
+      "upstream_revisions": [
+        "a29b13a02b382449aa3f1c70df787b46d4cc479a"
+      ]
+    },
+    {
+      "name": "third_party_pulseaudio",
+      "qemu_revision": "66ab5d57fef2718e38b50cc53fae0b7358a4ada1",
+      "upstream_revisions": [
+        "66ab5d57fef2718e38b50cc53fae0b7358a4ada1"
+      ]
+    },
+    {
+      "name": "third_party_python",
+      "qemu_revision": "c2f5273b2033f09080838d1d9e2ac250c8dabcb3",
+      "upstream_revisions": [
+        "c2f5273b2033f09080838d1d9e2ac250c8dabcb3"
+      ]
+    },
+    {
+      "name": "third_party_re2",
+      "qemu_revision": "a9ecb2d52e01180347d1ea5d08a15e5c422d9ee3",
+      "upstream_revisions": [
+        "a9ecb2d52e01180347d1ea5d08a15e5c422d9ee3"
+      ]
+    },
+    {
+      "name": "third_party_rust_aho-corasick",
+      "qemu_revision": "54b0403bcba833301fe200bab21be0502acbea97",
+      "upstream_revisions": [
+        "54b0403bcba833301fe200bab21be0502acbea97"
+      ]
+    },
+    {
+      "name": "third_party_rust_atty",
+      "qemu_revision": "076a3accf08a1bef06e76c114347817b707f51fe",
+      "upstream_revisions": [
+        "076a3accf08a1bef06e76c114347817b707f51fe"
+      ]
+    },
+    {
+      "name": "third_party_rust_autocfg",
+      "qemu_revision": "d4bf45d00b1041d8e3d0c7c1fc0c80788e60b4f3",
+      "upstream_revisions": [
+        "d4bf45d00b1041d8e3d0c7c1fc0c80788e60b4f3"
+      ]
+    },
+    {
+      "name": "third_party_rust_bindgen",
+      "qemu_revision": "63b4efa5c523c68558b03bbdbdf332c527c9fcd8",
+      "upstream_revisions": [
+        "63b4efa5c523c68558b03bbdbdf332c527c9fcd8"
+      ]
+    },
+    {
+      "name": "third_party_rust_bitflags",
+      "qemu_revision": "c85fa455ecba64e73ac3cf4ec0ef1254392936d9",
+      "upstream_revisions": [
+        "c85fa455ecba64e73ac3cf4ec0ef1254392936d9"
+      ]
+    },
+    {
+      "name": "third_party_rust_cfg-if",
+      "qemu_revision": "39bb93e5a1f1cf7cc1b2bf9f79e9e88c3858abd3",
+      "upstream_revisions": [
+        "39bb93e5a1f1cf7cc1b2bf9f79e9e88c3858abd3"
+      ]
+    },
+    {
+      "name": "third_party_rust_clang-sys",
+      "qemu_revision": "d0fb15fb74d742c6a78c9ca0a2709ca32f721c17",
+      "upstream_revisions": [
+        "d0fb15fb74d742c6a78c9ca0a2709ca32f721c17"
+      ]
+    },
+    {
+      "name": "third_party_rust_clap",
+      "qemu_revision": "87ebcc657344a855639e81be87ba53cfef21579a",
+      "upstream_revisions": [
+        "87ebcc657344a855639e81be87ba53cfef21579a"
+      ]
+    },
+    {
+      "name": "third_party_rust_codespan",
+      "qemu_revision": "1e215d4181cfbd40d0366833d8df5bf69164336c",
+      "upstream_revisions": [
+        "1e215d4181cfbd40d0366833d8df5bf69164336c"
+      ]
+    },
+    {
+      "name": "third_party_rust_cxx",
+      "qemu_revision": "b5b9ba474068c480dfff89176f539c6de2de12f2",
+      "upstream_revisions": [
+        "b5b9ba474068c480dfff89176f539c6de2de12f2"
+      ]
+    },
+    {
+      "name": "third_party_rust_either",
+      "qemu_revision": "30420ec062531d529d54cc9b0601280926b669d1",
+      "upstream_revisions": [
+        "30420ec062531d529d54cc9b0601280926b669d1"
+      ]
+    },
+    {
+      "name": "third_party_rust_env_logger",
+      "qemu_revision": "d1e097e91134c2cc54ca153aad4463904e66a01c",
+      "upstream_revisions": [
+        "d1e097e91134c2cc54ca153aad4463904e66a01c"
+      ]
+    },
+    {
+      "name": "third_party_rust_foreign-types",
+      "qemu_revision": "ab142a0bd07300ce35fa74305fc5a3f6f6101b62",
+      "upstream_revisions": [
+        "ab142a0bd07300ce35fa74305fc5a3f6f6101b62"
+      ]
+    },
+    {
+      "name": "third_party_rust_glob",
+      "qemu_revision": "8b3e812b1427ff8c895b060818be745b7519af77",
+      "upstream_revisions": [
+        "8b3e812b1427ff8c895b060818be745b7519af77"
+      ]
+    },
+    {
+      "name": "third_party_rust_heck",
+      "qemu_revision": "d054aa59f052d272e72924d7f519dbc655664dec",
+      "upstream_revisions": [
+        "d054aa59f052d272e72924d7f519dbc655664dec"
+      ]
+    },
+    {
+      "name": "third_party_rust_humantime",
+      "qemu_revision": "5aedab74c87614f3523b19ea31c2766b0206e0ce",
+      "upstream_revisions": [
+        "5aedab74c87614f3523b19ea31c2766b0206e0ce"
+      ]
+    },
+    {
+      "name": "third_party_rust_io-lifetimes",
+      "qemu_revision": "d9e5aceb1d36a6630bb2480d224cd884e100498c",
+      "upstream_revisions": [
+        "d9e5aceb1d36a6630bb2480d224cd884e100498c"
+      ]
+    },
+    {
+      "name": "third_party_rust_is-terminal",
+      "qemu_revision": "1bed5a0ce0ee0e97efcef84ec343dc8a1c52aec4",
+      "upstream_revisions": [
+        "1bed5a0ce0ee0e97efcef84ec343dc8a1c52aec4"
+      ]
+    },
+    {
+      "name": "third_party_rust_lazy-static.rs",
+      "qemu_revision": "46f62512459a5dd3a4c8478e6b975ed72c755993",
+      "upstream_revisions": [
+        "46f62512459a5dd3a4c8478e6b975ed72c755993"
+      ]
+    },
+    {
+      "name": "third_party_rust_lazycell",
+      "qemu_revision": "c391770a72563b43790b4959d618069b787e27de",
+      "upstream_revisions": [
+        "c391770a72563b43790b4959d618069b787e27de"
+      ]
+    },
+    {
+      "name": "third_party_rust_libc",
+      "qemu_revision": "90b8832365d33a78722d2dcb23bfda3e71784830",
+      "upstream_revisions": [
+        "90b8832365d33a78722d2dcb23bfda3e71784830"
+      ]
+    },
+    {
+      "name": "third_party_rust_libloading",
+      "qemu_revision": "7bf9dbe2329cf95005f653231cad6307dad569aa",
+      "upstream_revisions": [
+        "7bf9dbe2329cf95005f653231cad6307dad569aa"
+      ]
+    },
+    {
+      "name": "third_party_rust_link-cplusplus",
+      "qemu_revision": "8bb918587463867672f906536a946a3a0290637e",
+      "upstream_revisions": [
+        "8bb918587463867672f906536a946a3a0290637e"
+      ]
+    },
+    {
+      "name": "third_party_rust_linux-raw-sys",
+      "qemu_revision": "8e8696f67139c280100af9a579678dd06f415444",
+      "upstream_revisions": [
+        "8e8696f67139c280100af9a579678dd06f415444"
+      ]
+    },
+    {
+      "name": "third_party_rust_log",
+      "qemu_revision": "ea11f9088c12e69777cc23235fff669aec9c28cc",
+      "upstream_revisions": [
+        "ea11f9088c12e69777cc23235fff669aec9c28cc"
+      ]
+    },
+    {
+      "name": "third_party_rust_memchr",
+      "qemu_revision": "82f0e8bcf7b3403c3383dd07afc7d05248bf7671",
+      "upstream_revisions": [
+        "82f0e8bcf7b3403c3383dd07afc7d05248bf7671"
+      ]
+    },
+    {
+      "name": "third_party_rust_memoffset",
+      "qemu_revision": "21cf2383258bdec24bebfab713a3df8b57bf5957",
+      "upstream_revisions": [
+        "21cf2383258bdec24bebfab713a3df8b57bf5957"
+      ]
+    },
+    {
+      "name": "third_party_rust_minimal-lexical",
+      "qemu_revision": "4c4f04e72abd4920257b12701496d3e3afc0ebbd",
+      "upstream_revisions": [
+        "4c4f04e72abd4920257b12701496d3e3afc0ebbd"
+      ]
+    },
+    {
+      "name": "third_party_rust_nix",
+      "qemu_revision": "a12cda3ce2c8c28496228858b413ea8329e02d6b",
+      "upstream_revisions": [
+        "a12cda3ce2c8c28496228858b413ea8329e02d6b"
+      ]
+    },
+    {
+      "name": "third_party_rust_nom",
+      "qemu_revision": "fd17d9035190e7d7a90efca771ae8b4a5d9e1193",
+      "upstream_revisions": [
+        "fd17d9035190e7d7a90efca771ae8b4a5d9e1193"
+      ]
+    },
+    {
+      "name": "third_party_rust_once_cell",
+      "qemu_revision": "ad855aa18ca83a96b5fffcc0a70bee388fc09347",
+      "upstream_revisions": [
+        "ad855aa18ca83a96b5fffcc0a70bee388fc09347"
+      ]
+    },
+    {
+      "name": "third_party_rust_os_str_bytes",
+      "qemu_revision": "9b1c1834afc84fcb55bc039c507a16d153ee9499",
+      "upstream_revisions": [
+        "9b1c1834afc84fcb55bc039c507a16d153ee9499"
+      ]
+    },
+    {
+      "name": "third_party_rust_peeking_take_while",
+      "qemu_revision": "0fd8847fa79284da87ead6354076e064fe697ae5",
+      "upstream_revisions": [
+        "0fd8847fa79284da87ead6354076e064fe697ae5"
+      ]
+    },
+    {
+      "name": "third_party_rust_pin-utils",
+      "qemu_revision": "2752855aa98793b333d805a56b8134b95d5456d8",
+      "upstream_revisions": [
+        "2752855aa98793b333d805a56b8134b95d5456d8"
+      ]
+    },
+    {
+      "name": "third_party_rust_proc-macro-error",
+      "qemu_revision": "b619db8f1ae4984a9e17727f538ee9973d59712b",
+      "upstream_revisions": [
+        "b619db8f1ae4984a9e17727f538ee9973d59712b"
+      ]
+    },
+    {
+      "name": "third_party_rust_proc-macro2",
+      "qemu_revision": "aa5d7c5b1966cadf4d46f9912b87eef304ea4095",
+      "upstream_revisions": [
+        "aa5d7c5b1966cadf4d46f9912b87eef304ea4095"
+      ]
+    },
+    {
+      "name": "third_party_rust_quote",
+      "qemu_revision": "0a3ca249aaff014ff9ba12783d316241ec757659",
+      "upstream_revisions": [
+        "0a3ca249aaff014ff9ba12783d316241ec757659"
+      ]
+    },
+    {
+      "name": "third_party_rust_regex",
+      "qemu_revision": "e1048c35ed9d5c6d8a14e5636b944c2e96ec3fdb",
+      "upstream_revisions": [
+        "e1048c35ed9d5c6d8a14e5636b944c2e96ec3fdb"
+      ]
+    },
+    {
+      "name": "third_party_rust_rust-cexpr",
+      "qemu_revision": "dbfd8f603484ea197b8c5be0daba4c59700e2b63",
+      "upstream_revisions": [
+        "dbfd8f603484ea197b8c5be0daba4c59700e2b63"
+      ]
+    },
+    {
+      "name": "third_party_rust_rust-openssl",
+      "qemu_revision": "69c28e25030d731945ed8734de197a2a3cbcce59",
+      "upstream_revisions": [
+        "69c28e25030d731945ed8734de197a2a3cbcce59"
+      ]
+    },
+    {
+      "name": "third_party_rust_rustc-hash",
+      "qemu_revision": "95f7623ec901633978fd2c9d3a5e5ebd94d2d4ad",
+      "upstream_revisions": [
+        "95f7623ec901633978fd2c9d3a5e5ebd94d2d4ad"
+      ]
+    },
+    {
+      "name": "third_party_rust_rustix",
+      "qemu_revision": "2b8c3cc46a9d02e44d8a0719991bfc7565818e7e",
+      "upstream_revisions": [
+        "2b8c3cc46a9d02e44d8a0719991bfc7565818e7e"
+      ]
+    },
+    {
+      "name": "third_party_rust_serde",
+      "qemu_revision": "9dae17d74fbfb56729e0dfe051610159b7cf17a9",
+      "upstream_revisions": [
+        "9dae17d74fbfb56729e0dfe051610159b7cf17a9"
+      ]
+    },
+    {
+      "name": "third_party_rust_shlex",
+      "qemu_revision": "885430644452b250256a9b1dc803e5a61980f845",
+      "upstream_revisions": [
+        "885430644452b250256a9b1dc803e5a61980f845"
+      ]
+    },
+    {
+      "name": "third_party_rust_static-assertions-rs",
+      "qemu_revision": "5a366776e1518bda2e05e64ca4341eb6c86afa9d",
+      "upstream_revisions": [
+        "5a366776e1518bda2e05e64ca4341eb6c86afa9d"
+      ]
+    },
+    {
+      "name": "third_party_rust_strsim-rs",
+      "qemu_revision": "71e0bbaba1123d79e57277ae9dec72a078975e8e",
+      "upstream_revisions": [
+        "71e0bbaba1123d79e57277ae9dec72a078975e8e"
+      ]
+    },
+    {
+      "name": "third_party_rust_syn",
+      "qemu_revision": "8bcc6c97ede6626898644e220cf2cc77637eadbb",
+      "upstream_revisions": [
+        "8bcc6c97ede6626898644e220cf2cc77637eadbb"
+      ]
+    },
+    {
+      "name": "third_party_rust_termcolor",
+      "qemu_revision": "2cc888f86d56f5e99566455df944399dde8aec28",
+      "upstream_revisions": [
+        "2cc888f86d56f5e99566455df944399dde8aec28"
+      ]
+    },
+    {
+      "name": "third_party_rust_unicode-ident",
+      "qemu_revision": "2ef0c11cb08203f46f732f67fe295a000ed9ab20",
+      "upstream_revisions": [
+        "2ef0c11cb08203f46f732f67fe295a000ed9ab20"
+      ]
+    },
+    {
+      "name": "third_party_rust_unicode-width",
+      "qemu_revision": "2acb8b6a734292bea680ed7a1c91346fd1fbdc87",
+      "upstream_revisions": [
+        "2acb8b6a734292bea680ed7a1c91346fd1fbdc87"
+      ]
+    },
+    {
+      "name": "third_party_rust_version_check",
+      "qemu_revision": "3c1b24972bc74c6a47e025df481ea7ab6b740994",
+      "upstream_revisions": [
+        "3c1b24972bc74c6a47e025df481ea7ab6b740994"
+      ]
+    },
+    {
+      "name": "third_party_rust_which-rs",
+      "qemu_revision": "22962cf63cda0b8ba456a545f7461d9f9072a81e",
+      "upstream_revisions": [
+        "22962cf63cda0b8ba456a545f7461d9f9072a81e"
+      ]
+    },
+    {
+      "name": "third_party_rust_rust",
+      "qemu_revision": "3a7a241e520c76780b6b9ab9223e4453979d7601",
+      "upstream_revisions": [
+        "3a7a241e520c76780b6b9ab9223e4453979d7601"
+      ]
+    },
+    {
+      "name": "third_party_sane-airscan",
+      "qemu_revision": "01e2f67b2e3a1fd8bd531cb1091d84a64864a294",
+      "upstream_revisions": [
+        "01e2f67b2e3a1fd8bd531cb1091d84a64864a294"
+      ]
+    },
+    {
+      "name": "third_party_selinux",
+      "qemu_revision": "50551684481f036feed566d30676f08867015d6b",
+      "upstream_revisions": [
+        "50551684481f036feed566d30676f08867015d6b"
+      ]
+    },
+    {
+      "name": "third_party_skia",
+      "qemu_revision": "e90be76815b2d01c00237c7ab4cee527aca6576f",
+      "upstream_revisions": [
+        "e90be76815b2d01c00237c7ab4cee527aca6576f"
+      ]
+    },
+    {
+      "name": "third_party_sonic",
+      "qemu_revision": "35e8b746b53c59e36589c8140ddfe501b83f1cbf",
+      "upstream_revisions": [
+        "8d4c9a54ed508f9cc43e3362b85358349d3c3df2"
+      ]
+    },
+    {
+      "name": "third_party_spirv-headers",
+      "qemu_revision": "a74bcfd405c336c6076e304fdcda690ed7e72a8e",
+      "upstream_revisions": [
+        "a74bcfd405c336c6076e304fdcda690ed7e72a8e"
+      ]
+    },
+    {
+      "name": "third_party_spirv-tools",
+      "qemu_revision": "5dc13cc32cbe4c829e738c9e8fb8e895d238f6f8",
+      "upstream_revisions": [
+        "5dc13cc32cbe4c829e738c9e8fb8e895d238f6f8"
+      ]
+    },
+    {
+      "name": "third_party_sqlite",
+      "qemu_revision": "d4583b9f12ec65b7fe316e49f4102cb3f35d6906",
+      "upstream_revisions": [
+        "d4583b9f12ec65b7fe316e49f4102cb3f35d6906"
+      ]
+    },
+    {
+      "name": "third_party_tex-hyphen",
+      "qemu_revision": "a6370d35abe986548425933743083aff64c45c33",
+      "upstream_revisions": [
+        "a6370d35abe986548425933743083aff64c45c33"
+      ]
+    },
+    {
+      "name": "third_party_toybox",
+      "qemu_revision": "6e7d558fe7bfb55880073e36f18b7d8f9e31ea16",
+      "upstream_revisions": [
+        "6e7d558fe7bfb55880073e36f18b7d8f9e31ea16"
+      ]
+    },
+    {
+      "name": "third_party_typescript",
+      "qemu_revision": "9807f3fd8754d91cf3f18891a277408ae741d8d3",
+      "upstream_revisions": [
+        "9807f3fd8754d91cf3f18891a277408ae741d8d3"
+      ]
+    },
+    {
+      "name": "third_party_tzdata",
+      "qemu_revision": "eb9cebdfb5a748f99551e27886c42de926f22629",
+      "upstream_revisions": [
+        "eb9cebdfb5a748f99551e27886c42de926f22629"
+      ]
+    },
+    {
+      "name": "third_party_unity",
+      "qemu_revision": "d3ffab559a177a171b87cb1bbd4c6d611a439e28",
+      "upstream_revisions": [
+        "d3ffab559a177a171b87cb1bbd4c6d611a439e28"
+      ]
+    },
+    {
+      "name": "third_party_vixl",
+      "qemu_revision": "53ba5b4392242d67cbeaa9a95da5514bd62f09c5",
+      "upstream_revisions": [
+        "53ba5b4392242d67cbeaa9a95da5514bd62f09c5"
+      ]
+    },
+    {
+      "name": "third_party_vk-gl-cts",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "9536bc43fa66beb1a89fad20030156c49ad4e982"
+      ]
+    },
+    {
+      "name": "third_party_vma",
+      "qemu_revision": "c410a5c6d510ca5f7127c8932360176b1efa8975",
+      "upstream_revisions": [
+        "c410a5c6d510ca5f7127c8932360176b1efa8975"
+      ]
+    },
+    {
+      "name": "third_party_vulkan-headers",
+      "qemu_revision": "05dad78c59f7e40d2c05708aae59e716c777c9ec",
+      "upstream_revisions": [
+        "05dad78c59f7e40d2c05708aae59e716c777c9ec"
+      ]
+    },
+    {
+      "name": "third_party_vulkan-loader",
+      "qemu_revision": "b10bd106b9c521bf858a8c391d771c6acecd7010",
+      "upstream_revisions": [
+        "2a3e35b84a405e5f66102a16b978baed268953e3"
+      ]
+    },
+    {
+      "name": "third_party_weex-loader",
+      "qemu_revision": "16c8da2d8ba45a6c5f40e8d3a67fef7c858b4b36",
+      "upstream_revisions": [
+        "16c8da2d8ba45a6c5f40e8d3a67fef7c858b4b36"
+      ]
+    },
+    {
+      "name": "third_party_wpa_supplicant",
+      "qemu_revision": "818dea0df93bea8d03dc607b98fb5b81db552d7a",
+      "upstream_revisions": [
+        "966df143fda86a2ef75ca2a182d853d5fa480495"
+      ]
+    },
+    {
+      "name": "third_party_xmp_toolkit_sdk",
+      "qemu_revision": "9c78ab05e587a7cdfed68425c27e6068b0d7e3df",
+      "upstream_revisions": [
+        "9c78ab05e587a7cdfed68425c27e6068b0d7e3df"
+      ]
+    },
+    {
+      "name": "third_party_zlib",
+      "qemu_revision": "511031649072e0ab25558c5b837243fff35f4fc3",
+      "upstream_revisions": [
+        "511031649072e0ab25558c5b837243fff35f4fc3"
+      ]
+    },
+    {
+      "name": "vendor_hihope",
+      "qemu_revision": "c168631ffe39d4c556361841d7ffe30d1f5ef207",
+      "upstream_revisions": [
+        "c168631ffe39d4c556361841d7ffe30d1f5ef207"
+      ]
+    },
+    {
+      "name": "vendor_hisilicon",
+      "qemu_revision": "8e93f06abf258293ddab40988533e49203cda349",
+      "upstream_revisions": [
+        "8e93f06abf258293ddab40988533e49203cda349"
+      ]
+    },
+    {
+      "name": "vendor_ohemu",
+      "qemu_revision": "30c1897b8eee5365b47f4aa18775a882a2e4b64e",
+      "upstream_revisions": [
+        "b56c5a95ec590543691278b85afe9fe228744163"
+      ]
+    },
+    {
+      "name": "vendor_revoview",
+      "qemu_revision": "5a409163b97f2c9ca6d601a6d2a21ecf959df43c",
+      "upstream_revisions": [
+        "5a409163b97f2c9ca6d601a6d2a21ecf959df43c"
+      ]
+    },
+    {
+      "name": "chromium_src",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "a8168622b056f25c2e68d5f12fe2759bad2d9a44"
+      ]
+    },
+    {
+      "name": "chromium_arkweb",
+      "qemu_revision": "61e21bdb32bab07549a1d802ccbba000f26a3ecb",
+      "upstream_revisions": [
+        "f3d904432cc1c57468f2b7fe01979d25e0157581"
+      ]
+    },
+    {
+      "name": "chromium_cef",
+      "qemu_revision": "6153d21e9a5d6f0a6718757dcf9c5cadf60fe595",
+      "upstream_revisions": [
+        "6153d21e9a5d6f0a6718757dcf9c5cadf60fe595"
+      ]
+    },
+    {
+      "name": "chromium_chrome_test_canvas_bench",
+      "qemu_revision": "a7b40ea5ae0239517d78845a5fc9b12976bfc732",
+      "upstream_revisions": [
+        "a7b40ea5ae0239517d78845a5fc9b12976bfc732"
+      ]
+    },
+    {
+      "name": "chromium_chrome_test_frame_rate",
+      "qemu_revision": "c10272c88463efeef6bb19c9ec07c42bc8fe22b9",
+      "upstream_revisions": [
+        "c10272c88463efeef6bb19c9ec07c42bc8fe22b9"
+      ]
+    },
+    {
+      "name": "chromium_chrome_test_xr",
+      "qemu_revision": "c58ae99b9ff9e2aa4c524633519570bf33536248",
+      "upstream_revisions": [
+        "c58ae99b9ff9e2aa4c524633519570bf33536248"
+      ]
+    },
+    {
+      "name": "chromium_docs_website",
+      "qemu_revision": "3c47b51f67014f243237e0f73c4572944030b4e5",
+      "upstream_revisions": [
+        "3c47b51f67014f243237e0f73c4572944030b4e5"
+      ]
+    },
+    {
+      "name": "chromium_cdm",
+      "qemu_revision": "a4cbc4325e6de42ead733f2af43c08292d0e65a8",
+      "upstream_revisions": [
+        "a4cbc4325e6de42ead733f2af43c08292d0e65a8"
+      ]
+    },
+    {
+      "name": "chromium_quiche",
+      "qemu_revision": "dd5f831424b2b60023028f7081634022e0cc7535",
+      "upstream_revisions": [
+        "dd5f831424b2b60023028f7081634022e0cc7535"
+      ]
+    },
+    {
+      "name": "chromium_fuzzer_wasm_corpus",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "1df5e50a45db9518a56ebb42cb020a94a090258b"
+      ]
+    },
+    {
+      "name": "chromium_third_party_angle",
+      "qemu_revision": "e4de217e37363d775f3856bed3009da3cc1f61d9",
+      "upstream_revisions": [
+        "34514f8d32961f69378a25957b5fb380ddf42a1f"
+      ]
+    },
+    {
+      "name": "chromium_third_party_angle_vk_gl_cts",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "74b1c1d8ea3f30af1b9a76fadcdf9d469afc2a57"
+      ]
+    },
+    {
+      "name": "chromium_third_party_angle_glmark2",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "6edcf02205fd1e8979dc3f3964257a81959b80c8"
+      ]
+    },
+    {
+      "name": "chromium_third_party_angle_rapidjson",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "781a4e667d84aeedbeb8184b7b62425ea66ec59f"
+      ]
+    },
+    {
+      "name": "chromium_anonymous-tokens",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "50e04fb27eacd49a5e2bfde5977ac689e13ebeeb"
+      ]
+    },
+    {
+      "name": "chromium_third_party_boringssl",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "b94d71f87ff943a617d77f3ff029f9a01a1ec6bc"
+      ]
+    },
+    {
+      "name": "chromium_third_party_breakpad",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "d0b41ca2a38c7b14c4b7853254eb5bf3b4039691"
+      ]
+    },
+    {
+      "name": "chromium_third_party_cast_core",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "f5ee589bdaea60418f670fa176be15ccb9a34942"
+      ]
+    },
+    {
+      "name": "chromium_third_party_catapult",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "a202c86635d505fa893d73bad1e220a66bb644e6"
+      ]
+    },
+    {
+      "name": "chromium_third_party_ced",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "ba412eaaacd3186085babcd901679a48863c7dd5"
+      ]
+    },
+    {
+      "name": "chromium_clang-format",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "c2725e0622e1a86d55f14514f2177a39efea4a0e"
+      ]
+    },
+    {
+      "name": "chromium_third_party_cld_3",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "b48dc46512566f5a2d41118c8c1116c4f96dc661"
+      ]
+    },
+    {
+      "name": "chromium_third_party_colorama",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "3de9f013df4b470069d03d250224062e8cf15c49"
+      ]
+    },
+    {
+      "name": "chromium_compiler-rt",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "cb2de163a470f2e9d56ec8a4f912f644378b7191"
+      ]
+    },
+    {
+      "name": "chromium_content_analysis_sdk",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "9a408736204513e0e95dd2ab3c08de0d95963efc"
+      ]
+    },
+    {
+      "name": "chromium_cpu_features",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "936b9ab5515dead115606559502e3864958f7f6e"
+      ]
+    },
+    {
+      "name": "chromium_cpuinfo",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "161a9ec374884f4b3e85725cb22e05f9458fdc93"
+      ]
+    },
+    {
+      "name": "chromium_crabbyavif",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "640d2758f8d2e59d1a55ae0933673f0f65de68c4"
+      ]
+    },
+    {
+      "name": "chromium_third_party_crc32c",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "d3d60ac6e0f16780bcfcc825385e1d338801a558"
+      ]
+    },
+    {
+      "name": "chromium_cros_components",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "7ccdbf60606671c2c057628125908fbfef9bd0c8"
+      ]
+    },
+    {
+      "name": "chromium_third_party_cros_system_api",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "5f1ffac5e855229e27c6e4356ffb189f3010283f"
+      ]
+    },
+    {
+      "name": "chromium_crossbench",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "77240be1ccd1dc99b73be332223a8856641a2073"
+      ]
+    },
+    {
+      "name": "chromium_web-tests",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "3c76c8201f0732fe9781742229ab8ac43bf90cbf"
+      ]
+    },
+    {
+      "name": "chromium_third_party_dav1d",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "fcbc3d1b93f91c709293ed9faea8b7cbcac9030b"
+      ]
+    },
+    {
+      "name": "chromium_third_party_dawn",
+      "qemu_revision": "ea00c9ce6368b685ee0009e479425977e28b2689",
+      "upstream_revisions": [
+        "ea00c9ce6368b685ee0009e479425977e28b2689"
+      ]
+    },
+    {
+      "name": "chromium_directxshadercompiler",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "3f85295cfc982e5447f9faaa36f345366faca11d"
+      ]
+    },
+    {
+      "name": "chromium_directx-headers",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "980971e835876dc0cde415e8f9bc646e64667bf7"
+      ]
+    },
+    {
+      "name": "chromium_third_party_glfw",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "b35641f4a3c62aa86a0b3c983d163bc0fe36026d"
+      ]
+    },
+    {
+      "name": "chromium_egl-registry",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "7dea2ed79187cd13f76183c4b9100159b9e3e071"
+      ]
+    },
+    {
+      "name": "chromium_opengl-registry",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "5bae8738b23d06968e7c3a41308568120943ae77"
+      ]
+    },
+    {
+      "name": "chromium_third_party_webgpu_cts",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "ecd2f1963e1c4c31beb579e99d6ba144ae1e01b2"
+      ]
+    },
+    {
+      "name": "chromium_webgpu-headers",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "079d4e5153eaabc4033584cc399c27f1acbb2548"
+      ]
+    },
+    {
+      "name": "chromium_third_party_depot_tools",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "6182daef96f6bcf4a61afcba676e87f871d0423f"
+      ]
+    },
+    {
+      "name": "chromium_third_party_devtools_frontend",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "31bb4e203f0bf83335578f43e00cccaac9ff0f28"
+      ]
+    },
+    {
+      "name": "chromium_third_party_dom_distiller_js",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "b619b54601ad02e4ba396f40ad5cbd8a57b20ef7"
+      ]
+    },
+    {
+      "name": "chromium_domato",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "053714bccbda79cf76dac3fee48ab2b27f21925e"
+      ]
+    },
+    {
+      "name": "chromium_dragonbox",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "6c7c925b571d54486b9ffae8d9d18a822801cbda"
+      ]
+    },
+    {
+      "name": "chromium_third_party_eigen3",
+      "qemu_revision": "49623d0c4e1af3c680845191948d10f6d3e92f8a",
+      "upstream_revisions": [
+        "49623d0c4e1af3c680845191948d10f6d3e92f8a"
+      ]
+    },
+    {
+      "name": "chromium_third_party_emoji_segmenter",
+      "qemu_revision": "955936be8b391e00835257059607d7c5b72ce744",
+      "upstream_revisions": [
+        "955936be8b391e00835257059607d7c5b72ce744"
+      ]
+    },
+    {
+      "name": "chromium_third_party_expat",
+      "qemu_revision": "69d6c054c1bd5258c2a13405a7f5628c72c177c2",
+      "upstream_revisions": [
+        "69d6c054c1bd5258c2a13405a7f5628c72c177c2"
+      ]
+    },
+    {
+      "name": "chromium_third_party_farmhash",
+      "qemu_revision": "816a4ae622e964763ca0862d9dbd19324a1eaf45",
+      "upstream_revisions": [
+        "816a4ae622e964763ca0862d9dbd19324a1eaf45"
+      ]
+    },
+    {
+      "name": "chromium_fast_float",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "cb1d42aaa1e14b09e1452cfdef373d051b8c02a4"
+      ]
+    },
+    {
+      "name": "chromium_federated-compute",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "e51058dfe7888094ecc09cda38bfceffd4d4664b"
+      ]
+    },
+    {
+      "name": "chromium_third_party_ffmpeg",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "089b28673a1a01aafe0d2b8d47da04d2589bf7d0"
+      ]
+    },
+    {
+      "name": "chromium_third_party_flac",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "807e251d9f8c5dd6059e547931e9c6a4251967af"
+      ]
+    },
+    {
+      "name": "chromium_third_party_flatbuffers",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "187240970746d00bbd26b0f5873ed54d2477f9f3"
+      ]
+    },
+    {
+      "name": "chromium_third_party_fontconfig",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "23b3fc6e58a13d126b9c30fafc9a16f8bd7143e9"
+      ]
+    },
+    {
+      "name": "chromium_third_party_fp16",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "0a603df2a49756f65284625ca58a4db2e789b8bb"
+      ]
+    },
+    {
+      "name": "chromium_third_party_freetype",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "4a3f908f4ef3870837023e1bcaaef90e369192c7"
+      ]
+    },
+    {
+      "name": "chromium_fuzztest",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "7406afb783ff5e7f3a1a66aebb81090622716412"
+      ]
+    },
+    {
+      "name": "chromium_fxdiv",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "63058eff77e11aa15bf531df5dd34395ec3017c8"
+      ]
+    },
+    {
+      "name": "chromium_third_party_gemmlowp",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "16e8662c34917be0065110bfcd9cc27d30f52fdf"
+      ]
+    },
+    {
+      "name": "chromium_third_party_vulkan_deps_glslang",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "7a47e2531cb334982b2a2dd8513dca0a3de4373d"
+      ]
+    },
+    {
+      "name": "chromium_benchmark",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "188e8278990a9069ffc84441cb5a024fd0bede37"
+      ]
+    },
+    {
+      "name": "chromium_third_party_googletest",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "4fe3307fb2d9f86d19777c7eb0e4809e9694dde7"
+      ]
+    },
+    {
+      "name": "chromium_third_party_harfbuzz_ng",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "20b8ca9acc661990280bc2c87c27831c7482aa32"
+      ]
+    },
+    {
+      "name": "chromium_third_party_highway",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "84379d1c73de9681b54fbe1c035a23c7bd5d272d"
+      ]
+    },
+    {
+      "name": "chromium_third_party_hunspell_dictionaries",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "cccf64a8acc951afe3f47fee023908e55699bc58"
+      ]
+    },
+    {
+      "name": "chromium_third_party_icu",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "4652914326450b9674a8f61883c961fecdd611f3"
+      ]
+    },
+    {
+      "name": "chromium_ink",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "11ca89062782d7e5a57741a303a925f510b91015"
+      ]
+    },
+    {
+      "name": "chromium_ink-stroke-modeler",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "2cd45e8683025c28fa2efcf672ad46607e8af869"
+      ]
+    },
+    {
+      "name": "chromium_instrumented_libraries",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "69015643b3f68dbd438c010439c59adc52cac808"
+      ]
+    },
+    {
+      "name": "chromium_jetstream",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "f88580ef6265b59295f37eb0c6666466b11a0e74"
+      ]
+    },
+    {
+      "name": "chromium_third_party_jsoncpp",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "42e892d96e47b1f6e29844cc705e148ec4856448"
+      ]
+    },
+    {
+      "name": "chromium_third_party_leveldatabase",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "4ee78d7ea98330f7d7599c42576ca99e3c6ff9c5"
+      ]
+    },
+    {
+      "name": "chromium_third_party_libFuzzer",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "bea408a6e01f0f7e6c82a43121fe3af4506c932e"
+      ]
+    },
+    {
+      "name": "chromium_third_party_libaddressinput",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "0c7e9434dc08d2f3ee0a912567340b6f207e5488"
+      ]
+    },
+    {
+      "name": "chromium_third_party_libaom",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "5afceb5c874e7aa278ee524f2fc7f08bbacad1df"
+      ]
+    },
+    {
+      "name": "chromium_buildtools_libcpp",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "07572e7b169225ef3a999584cba9d9004631ae66"
+      ]
+    },
+    {
+      "name": "chromium_buildtools_libcppapi",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "83a852080747b9a362e8f9e361366b7a601f302c"
+      ]
+    },
+    {
+      "name": "chromium_third_party_libdrm",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "ad78bb591d02162d3b90890aa4d0a238b2a37cde"
+      ]
+    },
+    {
+      "name": "chromium_third_party_libgav1",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "c05bf9be660cf170d7c26bd06bb42b3322180e58"
+      ]
+    },
+    {
+      "name": "chromium_libipp",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "4be5f77f672a3a9f1bbf3c935fb0ea8b3f86ce61"
+      ]
+    },
+    {
+      "name": "chromium_third_party_libjpeg_turbo",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "4a25a308a1f30767de80386cfb77a6267be97302"
+      ]
+    },
+    {
+      "name": "chromium_third_party_liblouis",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "9700847afb92cb35969bdfcbbfbbb74b9c7b3376"
+      ]
+    },
+    {
+      "name": "chromium_third_party_libphonenumber",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "9d46308f313f2bf8dbce1dfd4f364633ca869ca7"
+      ]
+    },
+    {
+      "name": "chromium_third_party_libprotobuf_mutator",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "7bf98f78a30b067e22420ff699348f084f802e12"
+      ]
+    },
+    {
+      "name": "chromium_third_party_libsrtp",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "a52756acb1c5e133089c798736dd171567df11f5"
+      ]
+    },
+    {
+      "name": "chromium_third_party_libsync",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "fcb40c9ae8ea5738b3a9d5e8df696ef729e17fde"
+      ]
+    },
+    {
+      "name": "chromium_buildtools_libunwind",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "c65639bf792928e0d38aed822dc34d3e72066a6c"
+      ]
+    },
+    {
+      "name": "chromium_libva-fake-driver",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "a9bcab9cd6b15d4e3634ca44d5e5f7652c612194"
+      ]
+    },
+    {
+      "name": "chromium_third_party_libvpx",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "01c36277c0d0e6fbb54ce1f0dde08266cddce748"
+      ]
+    },
+    {
+      "name": "chromium_third_party_libwebm",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "8c75fdb5a93e9449272904b68f7baa15e7a4180b"
+      ]
+    },
+    {
+      "name": "chromium_libwebp",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "c00d83f6642e7838a12bb03bca94237f03cc2e00"
+      ]
+    },
+    {
+      "name": "chromium_third_party_libyuv",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "8c791052ce648e45e73ee4467440946bf1d08caa"
+      ]
+    },
+    {
+      "name": "chromium_libc",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "fe97633934c21742a74962d52c17b3bcba7ad824"
+      ]
+    },
+    {
+      "name": "chromium_third_party_lss",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "639c8b9a1dbf3aab5030ae04eb2e243f98d3ce8d"
+      ]
+    },
+    {
+      "name": "chromium_material-color-utilities",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "13434b50dcb64a482cc91191f8cf6151d90f5465"
+      ]
+    },
+    {
+      "name": "chromium_third_party_minigbm",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "3018207f4d89395cc271278fb9a6558b660885f5"
+      ]
+    },
+    {
+      "name": "chromium_third_party_nasm",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "af5eeeb054bebadfbb79c7bcd100a95e2ad4525f"
+      ]
+    },
+    {
+      "name": "chromium_nearby-connections",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "0bad8b0c9877f92eeeb550654f1ea51a71a085e4"
+      ]
+    },
+    {
+      "name": "chromium_third_party_neon_2_sse",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "eb8b80b28f956275e291ea04a7beb5ed8289e872"
+      ]
+    },
+    {
+      "name": "chromium_oak",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "96c00a6c99ac382f3f3a8f376bc7a70890d1adaa"
+      ]
+    },
+    {
+      "name": "chromium_third_party_openh264",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "652bdb7719f30b52b08e506645a7322ff1b2cc6f"
+      ]
+    },
+    {
+      "name": "chromium_third_party_openscreen",
+      "qemu_revision": "c5f78b119a5c68153a41ca0fff8ebf98a87f23be",
+      "upstream_revisions": [
+        "c5f78b119a5c68153a41ca0fff8ebf98a87f23be"
+      ]
+    },
+    {
+      "name": "chromium_buildtools",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "fba2905150c974240f14aa5334c3e5c93f873032"
+      ]
+    },
+    {
+      "name": "chromium_third_party_openscreen_tinycbor",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "fc42a049853b802e45f49588f8148fc29d7b4d9c"
+      ]
+    },
+    {
+      "name": "chromium_ots",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "46bea9879127d0ff1c6601b078e2ce98e83fcd33"
+      ]
+    },
+    {
+      "name": "chromium_third_party_pdfium",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "f467ad7b6de4e6026a8c70f9a4f840fc9a3de4dd"
+      ]
+    },
+    {
+      "name": "chromium_third_party_perfetto",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "bf7c3ad9e9698ded537c2f068c2b1132ac77a22c"
+      ]
+    },
+    {
+      "name": "chromium_protobuf-javascript",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "e6d763860001ba1a76a63adcff5efb12b1c96024"
+      ]
+    },
+    {
+      "name": "chromium_pthreadpool",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "d90cd6f1493e09d12c407243f7f331a8cda55efb"
+      ]
+    },
+    {
+      "name": "chromium_third_party_pyelftools",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "19b3e610c86fcadb837d252c794cb5e8008826ae"
+      ]
+    },
+    {
+      "name": "chromium_third_party_pywebsocket3",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "50602a14f1b6da17e0b619833a13addc6ea78bc2"
+      ]
+    },
+    {
+      "name": "chromium_third_party_quic_trace",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "352288a06d2c83ae68b5a402b2219f4678be9f39"
+      ]
+    },
+    {
+      "name": "chromium_third_party_re2",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "e7aec5985072c1dbe735add802653ef4b36c231a"
+      ]
+    },
+    {
+      "name": "chromium_readability",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "d7949dc47dd9ed9ee1d3b34ffdcf3bce28cde435"
+      ]
+    },
+    {
+      "name": "chromium_third_party_ruy",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "1e6e50872655a73b5250f954d7b9da9a87292fd3"
+      ]
+    },
+    {
+      "name": "chromium_search_engines_data",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "97355b69daee73d74ac38f2227788458bd95d372"
+      ]
+    },
+    {
+      "name": "chromium_third_party_securemessage",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "fa07beb12babc3b25e0c5b1f38c16aa8cb6b8f84"
+      ]
+    },
+    {
+      "name": "chromium_third_party_skia",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "e742cbf7a397b11aef80c664999b758fb8d01a58"
+      ]
+    },
+    {
+      "name": "chromium_third_party_smhasher",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "0ff96f7835817a27d0487325b6c16033e2992eb5"
+      ]
+    },
+    {
+      "name": "chromium_third_party_snappy",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "32ded457c0b1fe78ceb8397632c416568d6714a0"
+      ]
+    },
+    {
+      "name": "chromium_speedometer",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "e2e2538900938c5d6819e9456bf33d48f806c96c"
+      ]
+    },
+    {
+      "name": "chromium_third_party_vulkan_deps_spirv_cross",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "b8fcf307f1f347089e3c46eb4451d27f32ebc8d3"
+      ]
+    },
+    {
+      "name": "chromium_third_party_vulkan_deps_spirv_headers",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "b824a462d4256d720bebb40e78b9eb8f78bbb305"
+      ]
+    },
+    {
+      "name": "chromium_third_party_vulkan_deps_spirv_tools",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "f410b3c178740f9f5bd28d5b22a71d4bc10acd49"
+      ]
+    },
+    {
+      "name": "chromium_third_party_sqlite",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "7d348fc79216a09b864ff881d8561a6222301666"
+      ]
+    },
+    {
+      "name": "chromium_third_party_swiftshader",
+      "qemu_revision": "4b373c6dd494fdf76e3559e99e3647e26cc1989d",
+      "upstream_revisions": [
+        "7de929845e8d30e83be6416a15e76c235bb4784d"
+      ]
+    },
+    {
+      "name": "chromium_text-fragments-polyfill",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "c036420683f672d685e27415de0a5f5e85bdc23f"
+      ]
+    },
+    {
+      "name": "chromium_third_party_tflite",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "621ffb9c2120c8d1d54a604bfc260a2f83fbec64"
+      ]
+    },
+    {
+      "name": "chromium_third_party_ukey2",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "0275885d8e6038c39b8a8ca55e75d1d4d1727f47"
+      ]
+    },
+    {
+      "name": "chromium_third_party_vulkan_deps",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "327bc9dec2a42806ad78c284829363657bb728dc"
+      ]
+    },
+    {
+      "name": "chromium_third_party_vulkan_deps_vulkan_headers",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "234f716cb893a145c6c8d0ca6508954f2aa9f5bc"
+      ]
+    },
+    {
+      "name": "chromium_third_party_vulkan_deps_vulkan_loader",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "000ea70d499339da68178b47d0ce2a797844fef2"
+      ]
+    },
+    {
+      "name": "chromium_third_party_vulkan_deps_vulkan_tools",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "48b5d246b2d0b1a41ee7ea1b69525ae7bb38a2ae"
+      ]
+    },
+    {
+      "name": "chromium_vulkan-utility-libraries",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "c010c19e796035e92fb3b0462cb887518a41a7c1"
+      ]
+    },
+    {
+      "name": "chromium_third_party_vulkan_deps_vulkan_validation_layers",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "5e175a92548d1a507bd81fdc5db6fa1d2572a6ea"
+      ]
+    },
+    {
+      "name": "chromium_third_party_vulkan_memory_allocator",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "cb0597213b0fcb999caa9ed08c2f88dc45eb7d50"
+      ]
+    },
+    {
+      "name": "chromium_third_party_wayland_protocols_gtk",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "40ebed3a03aef096addc0af09fec4ec529d882a0"
+      ]
+    },
+    {
+      "name": "chromium_third_party_wayland_protocols_kde",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "0b07950714b3a36c9b9f71fc025fc7783e82926e"
+      ]
+    },
+    {
+      "name": "chromium_third_party_wayland_protocols_src",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "efbc060534be948b63e1f395d69b583eebba3235"
+      ]
+    },
+    {
+      "name": "chromium_third_party_wayland",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "b317806f93aba691cb94e5075e6dc72345dffc34"
+      ]
+    },
+    {
+      "name": "chromium_third_party_webdriver",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "1e954903022e9386b9acf452c24f4458dd4c4fc1"
+      ]
+    },
+    {
+      "name": "chromium_third_party_webgl",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "c01b768bce4a143e152c1870b6ba99ea6267d2b0"
+      ]
+    },
+    {
+      "name": "chromium_webpagereplay",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "052833a44dd2f538b85936092bad545b6062e193"
+      ]
+    },
+    {
+      "name": "chromium_third_party_webrtc",
+      "qemu_revision": "0159a7bffb0a54551e9fa5dd25ff81f448419b05",
+      "upstream_revisions": [
+        "0159a7bffb0a54551e9fa5dd25ff81f448419b05"
+      ]
+    },
+    {
+      "name": "chromium_third_party_weston",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "bdba2f9adaca673fd58339d8140bc04727ee279d"
+      ]
+    },
+    {
+      "name": "chromium_third_party_wuffs",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "e3f919ccfe3ef542cfc983a82146070258fb57f8"
+      ]
+    },
+    {
+      "name": "chromium_third_party_xdg_utils",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "cb54d9db2e535ee4ef13cc91b65a1e2741a94a44"
+      ]
+    },
+    {
+      "name": "chromium_xnnpack",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "d3efd0a2fcd944931416811da6d24222c91ddd9d"
+      ]
+    },
+    {
+      "name": "chromium_zstd",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "a25c1fc96f431e69abea38f52cb31e6bc074e9f1"
+      ]
+    },
+    {
+      "name": "chromium_v8",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "bb352490a41083cfb4fba0fadcb0c5099f4aafa7"
+      ]
+    },
+    {
+      "name": "busmanager_serial_manager",
+      "qemu_revision": "155fc741d1c9c371ebf058c8c3a20b5803ff8b7d",
+      "upstream_revisions": [
+        "c05fbbf156230982aa576373da6ee04378b09ca0"
+      ]
+    },
+    {
+      "name": "third_party_openvpn",
+      "qemu_revision": "dc1f569087135894ac2703aeabd7a960ee9452d4",
+      "upstream_revisions": [
+        "dc1f569087135894ac2703aeabd7a960ee9452d4"
+      ]
+    },
+    {
+      "name": "qemu_tool_gn",
+      "qemu_revision": "6e0b557db44b3c164094e57687d20ba036a80667",
+      "upstream_revisions": [
+        "6e0b557db44b3c164094e57687d20ba036a80667"
+      ]
+    },
+    {
+      "name": "qemu_sdk_llvm15",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "3f002d04ba6b3a7659c601207c89d3a896b82546"
+      ]
+    },
+    {
+      "name": "qemu_dep_sherpa_onnx",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "419f7fea0a9a3f7b047dee53ad7da266767a425f"
+      ]
+    },
+    {
+      "name": "qemu_dep_node_addon_api",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "c679f6f4c9dc6bf9fc0d99cbe5982bd24a5e2c7b"
+      ]
+    },
+    {
+      "name": "qemu_dep_kaldi_native_fbank",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "84c24202dc56e5e25c912983f8a6ad5baed55b2c"
+      ]
+    },
+    {
+      "name": "qemu_dep_kaldi_decoder",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "503eacc12af7d7835c523a6aecb474279b906170"
+      ]
+    },
+    {
+      "name": "qemu_dep_simple_sentencepiece",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "62dd423df1d51da5ea06f1c3a046fc04f01b4f39"
+      ]
+    },
+    {
+      "name": "qemu_dep_websocketpp",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "b9aeec6eaf3d5610503439b4fae3581d9aff08e8"
+      ]
+    },
+    {
+      "name": "qemu_dep_asio",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "147f7225a96d45a2807a64e443177f621844e51c"
+      ]
+    },
+    {
+      "name": "qemu_dep_espeak_ng",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "f6fed6c58b5e0998b8e68c6610125e2d07d595a7"
+      ]
+    },
+    {
+      "name": "qemu_dep_piper_phonemize",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "78a788e0b719013401572d70fef372e77bff8e43"
+      ]
+    },
+    {
+      "name": "qemu_dep_cppjieba",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "f03dd931a00330c279c8590275850fd1f6749a18"
+      ]
+    },
+    {
+      "name": "qemu_dep_hclust_cpp",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "aa12a4671cd3c93427da32157b9c55635e5289ff"
+      ]
+    },
+    {
+      "name": "qemu_dep_kaldifst",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "4e226e21cc9343d4e9ecf388390cb6eb39a2406f"
+      ]
+    },
+    {
+      "name": "qemu_dep_openfst",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "a1cdead2da17e15ef46a5b9fde0a07da394e3a72"
+      ]
+    },
+    {
+      "name": "qemu_dep_eigen",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "3147391d946bb4b6c68edd901f2add6ac1f31f8c"
+      ]
+    },
+    {
+      "name": "qemu_dep_openal_soft",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "dc7d7054a5b4f3bec1dc23a42fd616a0847af948"
+      ]
+    },
+    {
+      "name": "qemu_dep_jsoncpp",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "5defb4ed1a4293b8e2bf641e16b156fb9de498cc"
+      ]
+    },
+    {
+      "name": "arkweb_web_webview",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "4237e061441ea9392e83a353c0d52cb1c44404b3"
+      ]
+    },
+    {
+      "name": "arkweb_bounds_checking_function",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "2ae82839ecaaa7d031e66ccbd2076d671acfd615"
+      ]
+    },
+    {
+      "name": "qemu_dep_mesa3d_21_3",
+      "qemu_revision": null,
+      "upstream_revisions": [
+        "995d2506d18924b48db0cf40e6ad7de04fc4e558"
+      ]
+    }
+  ]
+}

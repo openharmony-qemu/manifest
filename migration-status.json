@@ -7,7 +7,7 @@
   "build_validated": false,
   "runtime_validated": false,
   "shared_revision_conflicts": [],
-  "note": "Creation/ref/import journals are retained in the migration checkout; replace this status only after remote verification.",
+  "note": "Point-in-time publication receipts; components.lock.json remains incomplete until final remote verification and legacy input cutover.",
   "resolved_checkout_variants": [
     {
       "upstream_project": "web_webview",
@@ -60,5 +60,77 @@
       }
     }
   ],
-  "source_components_published": 54
+  "source_components_published": 97,
+  "catalog_repositories": 695,
+  "repositories_created": 640,
+  "qemu_branches_recorded": 535,
+  "publication_phases": [
+    {
+      "journal": "source-publication.jsonl",
+      "required": 98,
+      "published": 95,
+      "pending": [
+        "kernel_linux_6.6",
+        "third_party_mindspore",
+        "third_party_openvpn"
+      ]
+    },
+    {
+      "journal": "arkweb-source-publication.jsonl",
+      "required": 7,
+      "published": 2,
+      "pending": [
+        "arkweb_web_webview",
+        "chromium_src",
+        "chromium_third_party_swiftshader",
+        "chromium_third_party_webrtc",
+        "chromium_v8"
+      ]
+    },
+    {
+      "journal": "recipe-publication.jsonl",
+      "required": 102,
+      "published": 87,
+      "pending": [
+        "arkweb_web_webview",
+        "busmanager_serial_manager",
+        "chromium_arkweb",
+        "chromium_src",
+        "chromium_third_party_swiftshader",
+        "chromium_third_party_webrtc",
+        "chromium_v8",
+        "kernel_linux_6.6",
+        "multimedia_audio_framework",
+        "qemu_dep_mesa3d_21_3",
+        "third_party_openvpn",
+        "third_party_sonic",
+        "third_party_vulkan-loader",
+        "third_party_wpa_supplicant",
+        "vendor_ohemu"
+      ]
+    },
+    {
+      "journal": "helper-publication.jsonl",
+      "required": 21,
+      "published": 16,
+      "pending": [
+        "chromium_src",
+        "chromium_v8",
+        "qemu_dep_mesa3d_21_3",
+        "qemu_sdk_llvm15",
+        "third_party_openvpn"
+      ]
+    },
+    {
+      "journal": "restored-input-publication.jsonl",
+      "required": 2,
+      "published": 0,
+      "pending": [
+        "third_party_icu",
+        "third_party_libphonenumber"
+      ]
+    }
+  ],
+  "mirrors_requiring_daily_sync": 186,
+  "mirrors_with_verified_production_sync": 24
 }

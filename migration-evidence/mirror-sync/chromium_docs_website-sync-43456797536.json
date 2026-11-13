@@ -1,0 +1,24 @@
+{
+  "repository": "openharmony-qemu/chromium_docs_website",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43456797536",
+  "artifact_id": 14054088756,
+  "artifact_created_at": "2026-11-13T16:00:57Z",
+  "upstream_branches": 112,
+  "results": {
+    "created": 113
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": null,
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "3c47b51f67014f243237e0f73c4572944030b4e5"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "3c47b51f67014f243237e0f73c4572944030b4e5"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": []
+  }
+}

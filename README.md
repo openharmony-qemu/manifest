@@ -20,7 +20,7 @@ conversion. Conversion records and fixed baseline provenance are maintained in
 `migration-evidence/mirror-sync/` and the synchronization workflow artifacts. Component repositories do
 not contain mirror synchronization scripts or configuration.
 
-After source migration is complete, initialize each source tree with:
+After source migration is complete, install Git LFS (`git lfs install`) and initialize each source tree with:
 
 ```sh
 repo init -u https://github.com/openharmony-qemu/manifest.git -b OpenHarmony-7.0-Release-qemu -m default.xml
@@ -40,3 +40,13 @@ repository selection and cross-tree build prerequisites, not a second patch stac
 
 Current scope follows the user's instruction to complete migration prerequisites
 without starting package builds or guest validation.
+
+The ownership index `adaptations.json` maps legacy source-preparation inputs to
+component repositories and preserves the original file hashes and permissions.
+It contains no patch payloads. Component recipes live under `.qemu/adaptations/`;
+the materializer is maintained in the `build` repository. `components.lock.json`
+will authorize retrieval only after all referenced publications are verified.
+The old packaging checkout's `scripts/prepare_component_inputs.py` retrieves those
+locked inputs into an ignored generated directory; it does not apply patches or
+start a build. Historical source guards are retained with the transferred recipes.
+The standalone build entry point remains outside this source-only migration scope.
