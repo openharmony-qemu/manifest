@@ -50,3 +50,10 @@ The old packaging checkout's `scripts/prepare_component_inputs.py` retrieves tho
 locked inputs into an ignored generated directory; it does not apply patches or
 start a build. Historical source guards are retained with the transferred recipes.
 The standalone build entry point remains outside this source-only migration scope.
+
+Later local edits in the packaging checkout are preserved separately from this
+published baseline. `migration-status.json` records any such inputs under
+`unpublished_local_input_changes`; they are not included in the component lock.
+An independent exact reconstruction verifies the migrated files without replacing
+that local work. New source changes must be committed in the owning components
+before updating the manifest lock.
