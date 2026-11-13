@@ -1,0 +1,87 @@
+{
+  "checked_at": "2026-11-13T22:18:43.226520+00:00",
+  "repository": "openharmony-qemu/mirror-sync",
+  "commit": "fcb49e6b480c724b3fc616791e1521db000774b1",
+  "scope": "source mirror transfer only",
+  "parallel_object_uploads": 4,
+  "batch_content_bytes": 134217728,
+  "branch_updates": "serialized after all object uploads finish and destination ancestry is rechecked",
+  "host_test": {
+    "command": "python3 -m unittest discover -s tests -p 'test_sync.py' -v",
+    "passed": 21,
+    "seconds": 235.442
+  },
+  "ci": {
+    "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43517883524",
+    "conclusion": "success"
+  },
+  "prior_run": {
+    "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43503109180",
+    "chromium_job": "completed_successfully_and_evidence_archived",
+    "remaining_jobs": "cancelled after preserving remote object packs; new run resumes them",
+    "last_transfer_observation": {
+      "observed_at": "2026-11-13T22:17:28.974458+00:00",
+      "scope": "progress_only_NOT_full_branch_verification",
+      "repositories": [
+        {
+          "repository": "third_party_vk-gl-cts",
+          "returncode": 0,
+          "transfer_refs": 1204,
+          "staged_target_commits": 1,
+          "branches": 0,
+          "baseline": [],
+          "qemu": []
+        },
+        {
+          "repository": "chromium_src",
+          "returncode": 0,
+          "transfer_refs": 0,
+          "staged_target_commits": 0,
+          "branches": 138,
+          "baseline": [
+            "81adb7a3cbeaf89ab90c3848e1c8f829e87636fe"
+          ],
+          "qemu": [
+            "2ff0941ba0da06aeb432f1745c3e36f3792de3d6"
+          ]
+        },
+        {
+          "repository": "chromium_third_party_angle_vk_gl_cts",
+          "returncode": 0,
+          "transfer_refs": 610,
+          "staged_target_commits": 1,
+          "branches": 95,
+          "baseline": [],
+          "qemu": []
+        }
+      ]
+    },
+    "local_log_receipts": [
+      {
+        "file": "system-vk-serial-transfer-canceled.log",
+        "sha256": "8c253920bedb744ed0c145784459ebbafef01d94f1f387a8816635edc8558708",
+        "log_bytes": 145742,
+        "announced_batches": 1212,
+        "announced_blob_bytes": 132999401277,
+        "cancellation_recorded": true,
+        "artifact_upload_recorded": false
+      },
+      {
+        "file": "angle-vk-serial-transfer-canceled.log",
+        "sha256": "59de034b3670e8f9783c916ea73a04a7b3eab589eb553d0490652bf1f193209c",
+        "log_bytes": 82555,
+        "announced_batches": 616,
+        "announced_blob_bytes": 69299428848,
+        "cancellation_recorded": true,
+        "artifact_upload_recorded": false
+      }
+    ]
+  },
+  "retry_workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43518125242",
+  "build_validated": false,
+  "runtime_validated": false,
+  "retry_jobs": {
+    "third_party_vk-gl-cts": 132205390870,
+    "chromium_third_party_angle_vk_gl_cts": 132205390772
+  }
+}
