@@ -1,13 +1,13 @@
 {
-  "snapshot_at": "2026-11-13T16:11:55.120090+00:00",
+  "snapshot_at": "2026-11-13T16:55:37.198190+00:00",
   "journals": [
     {
       "file": "publications/repository-creation.jsonl.gz",
-      "uncompressed_sha256": "394c1a6258eb23cdc5a200382983b031aad47695525e8f2859dc8d8005f686fe",
-      "sha256": "bb4c0646a00d89707e5f0e8e4550dcdda8d54e47509eea804d7d73fbf0163678",
-      "records": 648,
+      "uncompressed_sha256": "d24f3319d226e4d574eb884db3b3ef0ffcda671b7f8e931405995493174b0723",
+      "sha256": "bc7b64a216ce7cdfa2debcc30e40716bd8aaade00502de439501a389fb8effec",
+      "records": 689,
       "latest_status_counts": {
-        "created": 640
+        "created": 680
       }
     },
     {
@@ -23,40 +23,47 @@
     },
     {
       "file": "publications/source-publication.jsonl.gz",
-      "uncompressed_sha256": "4a495a4521c3d55e31dc1becae23e000943670cfb3b0d1ed1c89c519a36c7b53",
-      "sha256": "1f8d45e375f148c9a88b16738e047804629b8af5a6f5e478166cbb512057cdfc",
-      "records": 100,
+      "uncompressed_sha256": "986f3a3fdd77136af8999a384b5d4dab45a369058417e7bae8702603496b5501",
+      "sha256": "4319d4e42ada2ac6e2f0f3ad0e27a0d59eb1c9b0e9facc308490edc901a5089c",
+      "records": 104,
       "latest_status_counts": {
-        "published": 95,
-        "failed": 1
+        "published": 97
       }
     },
     {
       "file": "publications/arkweb-source-publication.jsonl.gz",
-      "uncompressed_sha256": "a7d1f46b3c2ad1f4ba061eaedf922d81d2acf709527207bb5fe6e037e76674b1",
-      "sha256": "a420a05164b86e1239cd03904efbd8e4e3922d989e2fa9edcce209b1e88f544d",
-      "records": 2,
+      "uncompressed_sha256": "e314b452981ab632445cacd9ca39cf3a899269d5250d5a14e9ace3bb29b8d0b2",
+      "sha256": "9303e8dd6d545d247c183c63eb9a961480f80ba2b384e3e78bd85e5c1422a3bb",
+      "records": 6,
       "latest_status_counts": {
-        "published": 2
+        "published": 6
       }
     },
     {
       "file": "publications/recipe-publication.jsonl.gz",
-      "uncompressed_sha256": "6ef98ff93b2db807df5182de7fc522efe7d33d3c1c884f2c674721f365d14bb7",
-      "sha256": "0d32e123dbeadbc77b8470b7be9168c7c3692cc59040018d9946e5d82e9b592b",
-      "records": 88,
+      "uncompressed_sha256": "50af2abf828dae999fd332a3e658909e8f825c14090d3eafbbb4a7bd737cda3f",
+      "sha256": "f9e47a7acd4b1f317532527095823a28b508923e19a5380bf7e10ac84eaf155d",
+      "records": 101,
       "latest_status_counts": {
-        "published": 87
+        "published": 99
       }
     },
     {
       "file": "publications/helper-publication.jsonl.gz",
-      "uncompressed_sha256": "2c0fedb40c2b522d1de55899da3d2f31ad95d24e449be867a704f8804c9de859",
-      "sha256": "59918d87e9db392abdf0fa2724b24fc4551f88fdf7ffda9aa3ff5d20af28c550",
-      "records": 17,
+      "uncompressed_sha256": "0e68a3e4e4088450ce157028b2877bdfb582e68adfe8744139590b94d22e564a",
+      "sha256": "7db76e3050b91a4c591071da24db75e8c3ee66a9090336ad7295e413806d2184",
+      "records": 19,
       "latest_status_counts": {
-        "published": 16,
-        "failed": 1
+        "published": 18
+      }
+    },
+    {
+      "file": "publications/restored-input-publication.jsonl.gz",
+      "uncompressed_sha256": "e0145c84f687be2b3cead612059d36164701888873e9dfcc1a71c6394b6d4779",
+      "sha256": "3b873afcbdc89cb4c80a7d590a0313d485088d28cf2b8b490c5c4aa370a9b975",
+      "records": 2,
+      "latest_status_counts": {
+        "published": 2
       }
     }
   ]

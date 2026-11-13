@@ -1,0 +1,12 @@
+{
+  "repository": "openharmony-qemu/kernel_linux_6.6",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43436966342",
+  "job_id": 131924607609,
+  "observed_at": "2026-11-13T16:23:48.228362+00:00",
+  "token_issued_at": "2026-11-13T15:09:21Z",
+  "published_remote_heads": 0,
+  "decision": "Cancel the old one-hour credential attempt after expiry; preserve preparation artifacts and restart with renewable credentials",
+  "full_branch_sync_complete": false,
+  "build_validated": false,
+  "runtime_validated": false
+}

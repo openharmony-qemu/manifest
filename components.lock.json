@@ -1889,7 +1889,7 @@
     },
     {
       "name": "multimedia_audio_framework",
-      "qemu_revision": "0bdb13f7ef293f5fdc6f16d17e4d44fa7630d6cb",
+      "qemu_revision": "441ffddb4be0fb98e560a30576ef3c89ca8efa39",
       "upstream_revisions": [
         "6932fa64335b8272ca4a59de7808ab0d6c9eae7a"
       ]
@@ -2638,7 +2638,7 @@
     },
     {
       "name": "third_party_icu",
-      "qemu_revision": "b04331d0efe4dad9aec36b2f5539c0fde64bfe06",
+      "qemu_revision": "3866f951bae0caa782006d3dec40c663c6eb9531",
       "upstream_revisions": [
         "b04331d0efe4dad9aec36b2f5539c0fde64bfe06"
       ]
@@ -2771,7 +2771,7 @@
     },
     {
       "name": "third_party_libphonenumber",
-      "qemu_revision": "13f194a8419be00aae5263ca89c6b5a8576d1b0a",
+      "qemu_revision": "df0ad0bfefcac2a029a45b75d73dd535c0fab67d",
       "upstream_revisions": [
         "13f194a8419be00aae5263ca89c6b5a8576d1b0a"
       ]
@@ -2904,7 +2904,7 @@
     },
     {
       "name": "third_party_mindspore",
-      "qemu_revision": null,
+      "qemu_revision": "85fa9e0507f4eae34191d9d4a8b9c8c14e6a13b0",
       "upstream_revisions": [
         "c34a149209fb4dfb81f2af0cc167d7e7be96559b"
       ]
@@ -3485,7 +3485,7 @@
     },
     {
       "name": "third_party_sonic",
-      "qemu_revision": "35e8b746b53c59e36589c8140ddfe501b83f1cbf",
+      "qemu_revision": "9e74adc0f022bcbf1d71a57a661c4f4a2069e400",
       "upstream_revisions": [
         "8d4c9a54ed508f9cc43e3362b85358349d3c3df2"
       ]
@@ -3576,7 +3576,7 @@
     },
     {
       "name": "third_party_vulkan-loader",
-      "qemu_revision": "b10bd106b9c521bf858a8c391d771c6acecd7010",
+      "qemu_revision": "693e0720df36c4c715e17dfe5fb8d14dcae56072",
       "upstream_revisions": [
         "2a3e35b84a405e5f66102a16b978baed268953e3"
       ]
@@ -3590,7 +3590,7 @@
     },
     {
       "name": "third_party_wpa_supplicant",
-      "qemu_revision": "818dea0df93bea8d03dc607b98fb5b81db552d7a",
+      "qemu_revision": "9db76767868d188feac36339d185e5875c21afda",
       "upstream_revisions": [
         "966df143fda86a2ef75ca2a182d853d5fa480495"
       ]
@@ -3625,7 +3625,7 @@
     },
     {
       "name": "vendor_ohemu",
-      "qemu_revision": "30c1897b8eee5365b47f4aa18775a882a2e4b64e",
+      "qemu_revision": "c66cb620460d897ff089ca644db77d504c94b1b7",
       "upstream_revisions": [
         "b56c5a95ec590543691278b85afe9fe228744163"
       ]
@@ -3646,7 +3646,7 @@
     },
     {
       "name": "chromium_arkweb",
-      "qemu_revision": "61e21bdb32bab07549a1d802ccbba000f26a3ecb",
+      "qemu_revision": "4064d48822480ffe84191014e825e7eb848fe7b8",
       "upstream_revisions": [
         "f3d904432cc1c57468f2b7fe01979d25e0157581"
       ]
@@ -3702,7 +3702,7 @@
     },
     {
       "name": "chromium_fuzzer_wasm_corpus",
-      "qemu_revision": null,
+      "qemu_revision": "1df5e50a45db9518a56ebb42cb020a94a090258b",
       "upstream_revisions": [
         "1df5e50a45db9518a56ebb42cb020a94a090258b"
       ]
@@ -3723,14 +3723,14 @@
     },
     {
       "name": "chromium_third_party_angle_glmark2",
-      "qemu_revision": null,
+      "qemu_revision": "6edcf02205fd1e8979dc3f3964257a81959b80c8",
       "upstream_revisions": [
         "6edcf02205fd1e8979dc3f3964257a81959b80c8"
       ]
     },
     {
       "name": "chromium_third_party_angle_rapidjson",
-      "qemu_revision": null,
+      "qemu_revision": "781a4e667d84aeedbeb8184b7b62425ea66ec59f",
       "upstream_revisions": [
         "781a4e667d84aeedbeb8184b7b62425ea66ec59f"
       ]
@@ -3996,7 +3996,7 @@
     },
     {
       "name": "chromium_fast_float",
-      "qemu_revision": null,
+      "qemu_revision": "cb1d42aaa1e14b09e1452cfdef373d051b8c02a4",
       "upstream_revisions": [
         "cb1d42aaa1e14b09e1452cfdef373d051b8c02a4"
       ]
@@ -4535,7 +4535,7 @@
     },
     {
       "name": "chromium_third_party_swiftshader",
-      "qemu_revision": "4b373c6dd494fdf76e3559e99e3647e26cc1989d",
+      "qemu_revision": "45196480f0f5981f8a9f41b6ab66cf9e5563d614",
       "upstream_revisions": [
         "7de929845e8d30e83be6416a15e76c235bb4784d"
       ]
@@ -4661,7 +4661,7 @@
     },
     {
       "name": "chromium_third_party_webrtc",
-      "qemu_revision": "0159a7bffb0a54551e9fa5dd25ff81f448419b05",
+      "qemu_revision": "0d5f0ae456d51bff55aa49e418e1805452d73c6a",
       "upstream_revisions": [
         "0159a7bffb0a54551e9fa5dd25ff81f448419b05"
       ]
@@ -4703,21 +4703,21 @@
     },
     {
       "name": "chromium_v8",
-      "qemu_revision": null,
+      "qemu_revision": "f39646c4eb2d784b43db321fc82b3ec183619862",
       "upstream_revisions": [
         "bb352490a41083cfb4fba0fadcb0c5099f4aafa7"
       ]
     },
     {
       "name": "busmanager_serial_manager",
-      "qemu_revision": "155fc741d1c9c371ebf058c8c3a20b5803ff8b7d",
+      "qemu_revision": "6d614300dd9753032cda25598f77272ae1ba2283",
       "upstream_revisions": [
         "c05fbbf156230982aa576373da6ee04378b09ca0"
       ]
     },
     {
       "name": "third_party_openvpn",
-      "qemu_revision": "dc1f569087135894ac2703aeabd7a960ee9452d4",
+      "qemu_revision": "6761526994e01f9bab1a03bfa9ee1ca88eb17055",
       "upstream_revisions": [
         "dc1f569087135894ac2703aeabd7a960ee9452d4"
       ]
@@ -4850,14 +4850,14 @@
     },
     {
       "name": "arkweb_web_webview",
-      "qemu_revision": null,
+      "qemu_revision": "201b4b57982c420b56c8c621a17e9a3dd96b5f9c",
       "upstream_revisions": [
         "4237e061441ea9392e83a353c0d52cb1c44404b3"
       ]
     },
     {
       "name": "arkweb_bounds_checking_function",
-      "qemu_revision": null,
+      "qemu_revision": "2ae82839ecaaa7d031e66ccbd2076d671acfd615",
       "upstream_revisions": [
         "2ae82839ecaaa7d031e66ccbd2076d671acfd615"
       ]

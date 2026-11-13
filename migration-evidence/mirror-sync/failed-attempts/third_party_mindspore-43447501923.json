@@ -1,0 +1,14 @@
+{
+  "repository": "openharmony-qemu/third_party_mindspore",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43447501923",
+  "job_id": 131960831028,
+  "completed_at": "2026-11-13T16:01:19Z",
+  "token_issued_at": "2026-11-13T15:01:18Z",
+  "lfs_upload_completed_at": "2026-11-13T15:57:21Z",
+  "baseline_ref_published_at": "2026-11-13T16:00:48Z",
+  "failure": "The original one-hour App token expired during branch publication after the LFS upload",
+  "full_branch_sync_complete": false,
+  "remedy": "Retry using renewable repository-scoped credentials introduced in mirror-sync commit 6ce6d408b3d26216ff59d606839e1734b687dc66",
+  "build_validated": false,
+  "runtime_validated": false
+}
