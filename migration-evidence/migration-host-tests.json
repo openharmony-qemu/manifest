@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-11-13T21:04:37.503574+00:00",
+  "command": "python3 -m unittest discover -s migration -v",
+  "tests": 15,
+  "result": "passed",
+  "root_commit": "6545840401b9358628e86c05113d88eb31de3a9d",
+  "python": "3.13.7",
+  "platform": "macOS-15.1.1-arm64-arm-64bit-Mach-O",
+  "git": "git version 2.39.5 (Apple Git-154)",
+  "log_sha256": "17f03caaea2de9b0a49b5cdcbba527dababb215c5a32b17810f79a6021553cc5",
+  "scope": "host-only migration utility tests with isolated fixtures; no package build or guest validation",
+  "build_validated": false,
+  "runtime_validated": false
+}

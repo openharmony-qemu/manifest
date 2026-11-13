@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-13T20:46:07.101454+00:00",
+  "checks": [
+    "XML include resolution",
+    "unique paths within each source tree",
+    "complete catalog coverage",
+    "uniform QEMU release branch",
+    "one fixed upstream revision per repository",
+    "six distinct architecture/device product contracts"
+  ],
+  "manifest_projects": {
+    "default.xml": 520,
+    "arkweb.xml": 156,
+    "external.xml": 20
+  },
+  "checkouts": 696,
+  "repositories": 695,
+  "baseline_branch": "OpenHarmony-7.0-Release-qemu",
+  "products": 6,
+  "input_sha256": {
+    "default.xml": "de0d596b77b1f79036e4d1b7f2212a76f597de415c1baa19236caba0a1cf8b8e",
+    "ohos.xml": "7262030d5eca4fab92a9652b81d86fffe37d0c29f602b1c8acb2e995e3bf0207",
+    "arkweb.xml": "91018620ec17132b31e7bfb85b34c7d2131bfab56648a174916daf13d45150a4",
+    "external.xml": "db01a8fc4d66286271bbe9b10418bb63dc455d7e8164873e49e83fd31b125647",
+    "repositories.json": "e90cf9f65bd1cc68523bf174d0b9cb7a1422e308566c54267c62ade068567c08",
+    "products.json": "a36034ac4ac74ac4b4f490ba9c1596656414c8fa1bd71845a65f965ab1bf2013"
+  },
+  "build_validated": false,
+  "runtime_validated": false
+}
