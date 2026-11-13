@@ -97,8 +97,8 @@
     }
   ],
   "mirrors_requiring_daily_sync": 186,
-  "mirrors_with_verified_production_sync": 183,
-  "snapshot_at": "2026-11-13T21:28:32.885450+00:00",
+  "mirrors_with_verified_production_sync": 184,
+  "snapshot_at": "2026-11-13T21:44:20.159598+00:00",
   "completion_gates": {
     "repository_creation": true,
     "component_actions_disabled": true,
@@ -110,7 +110,6 @@
     "legacy_input_cutover": true
   },
   "mirrors_awaiting_verification": [
-    "chromium_src",
     "chromium_third_party_angle_vk_gl_cts",
     "third_party_vk-gl-cts"
   ],
@@ -130,14 +129,14 @@
       "path": "patches/2in1/product_profile/apply.py",
       "sha256": "7cbf1ca3e1f99b10c212c9235cf9ba3358fe02b3e5f513e51bb949a66ac4b4df",
       "mode": "0o644",
-      "backup_name": "preserved-local-inputs-gzn57cjq",
+      "backup_name": "preserved-local-inputs-4v7idza2",
       "published": false
     },
     {
       "path": "scripts/configure_sceneboard_runtime.py",
       "sha256": "26833514bbe48b427bc0298c1146e14d4b0b12b67c5e10b630168375364d53b9",
       "mode": "0o755",
-      "backup_name": "preserved-local-inputs-gzn57cjq",
+      "backup_name": "preserved-local-inputs-4v7idza2",
       "published": false
     }
   ]
