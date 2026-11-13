@@ -5,7 +5,9 @@ build/runtime acceptance are separate states. See `migration-status.json` before
 using this manifest as a build input.
 
 All maintained components use `OpenHarmony-7.0-Release-qemu`, including components
-with no QEMU changes. Upstream synchronization writes only `upstream/*`; changes
+with no QEMU changes. The independent
+[mirror-sync repository](https://github.com/openharmony-qemu/mirror-sync) synchronizes
+all upstream branches under their original names without force pushing; changes
 to QEMU branches are reviewed source commits. A future major release uses its
 own `OpenHarmony-<major>.0-Release-qemu` branch across every component.
 
@@ -14,7 +16,9 @@ own `OpenHarmony-<major>.0-Release-qemu` branch across every component.
 paths and root linkfiles. `external.xml` records additional tool and backend
 sources. `repositories.json` records original upstream commits and ownership;
 these are not interchangeable with hosted commits after a required Git LFS
-conversion. Such mirrors record both identities in `UPSTREAM.json` and Git notes.
+conversion. Conversion records and fixed baseline provenance are maintained in
+`mirror-sync/provenance/` and its workflow artifacts. Component repositories do
+not contain mirror synchronization scripts or configuration.
 
 After source migration is complete, initialize each source tree with:
 
