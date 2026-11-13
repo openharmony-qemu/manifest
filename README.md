@@ -17,7 +17,7 @@ paths and root linkfiles. `external.xml` records additional tool and backend
 sources. `repositories.json` records original upstream commits and ownership;
 these are not interchangeable with hosted commits after a required Git LFS
 conversion. Conversion records and fixed baseline provenance are maintained in
-`mirror-sync/provenance/` and its workflow artifacts. Component repositories do
+`migration-evidence/mirror-sync/` and the synchronization workflow artifacts. Component repositories do
 not contain mirror synchronization scripts or configuration.
 
 After source migration is complete, initialize each source tree with:
