@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-11-13T23:47:19.325094+00:00",
+  "scope": "Migration-owned sync installation paths on the current QEMU branch; upstream historical workflows are preserved with component Actions disabled.",
+  "paths": [
+    ".github/scripts/sync_upstream.py",
+    ".github/workflows/sync-upstream.yml",
+    "UPSTREAM.json",
+    "README.qemu.md"
+  ],
+  "repositories": [
+    {
+      "repository": "openharmony-qemu/global_i18n",
+      "branch": "OpenHarmony-7.0-Release-qemu",
+      "migration_owned_paths_absent": true,
+      "remaining_paths": []
+    },
+    {
+      "repository": "openharmony-qemu/developtools_smartperf_host",
+      "branch": "OpenHarmony-7.0-Release-qemu",
+      "migration_owned_paths_absent": true,
+      "remaining_paths": []
+    },
+    {
+      "repository": "openharmony-qemu/device_soc_rockchip",
+      "branch": "OpenHarmony-7.0-Release-qemu",
+      "migration_owned_paths_absent": true,
+      "remaining_paths": []
+    },
+    {
+      "repository": "openharmony-qemu/multimedia_av_codec",
+      "branch": "OpenHarmony-7.0-Release-qemu",
+      "migration_owned_paths_absent": true,
+      "remaining_paths": []
+    },
+    {
+      "repository": "openharmony-qemu/kernel_linux_6.6",
+      "branch": "OpenHarmony-7.0-Release-qemu",
+      "migration_owned_paths_absent": true,
+      "remaining_paths": []
+    }
+  ]
+}
