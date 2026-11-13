@@ -3,7 +3,7 @@
   "status": "in_progress",
   "repository_creation_complete": true,
   "source_baselines_complete": false,
-  "patch_migration_complete": false,
+  "patch_migration_complete": true,
   "build_validated": false,
   "runtime_validated": false,
   "shared_revision_conflicts": [],
@@ -60,10 +60,10 @@
       }
     }
   ],
-  "source_components_published": 104,
+  "source_components_published": 105,
   "catalog_repositories": 695,
   "repositories_created": 695,
-  "qemu_branches_recorded": 692,
+  "qemu_branches_recorded": 693,
   "publication_phases": [
     {
       "journal": "source-publication.jsonl",
@@ -74,26 +74,20 @@
     {
       "journal": "arkweb-source-publication.jsonl",
       "required": 7,
-      "published": 6,
-      "pending": [
-        "chromium_src"
-      ]
+      "published": 7,
+      "pending": []
     },
     {
       "journal": "recipe-publication.jsonl",
       "required": 102,
-      "published": 101,
-      "pending": [
-        "chromium_src"
-      ]
+      "published": 102,
+      "pending": []
     },
     {
       "journal": "helper-publication.jsonl",
       "required": 21,
-      "published": 20,
-      "pending": [
-        "chromium_src"
-      ]
+      "published": 21,
+      "pending": []
     },
     {
       "journal": "restored-input-publication.jsonl",
@@ -103,22 +97,21 @@
     }
   ],
   "mirrors_requiring_daily_sync": 186,
-  "mirrors_with_verified_production_sync": 181,
-  "snapshot_at": "2026-11-13T19:55:29.567564+00:00",
+  "mirrors_with_verified_production_sync": 182,
+  "snapshot_at": "2026-11-13T20:25:15.594989+00:00",
   "completion_gates": {
     "repository_creation": true,
     "component_actions_disabled": true,
     "remote_branches_and_defaults": false,
-    "reviewed_publications": false,
-    "component_payloads": false,
+    "reviewed_publications": true,
+    "component_payloads": true,
     "daily_mirror_registry": true,
     "production_mirror_verification": false,
-    "legacy_input_cutover": false
+    "legacy_input_cutover": true
   },
   "mirrors_awaiting_verification": [
     "chromium_src",
     "chromium_third_party_angle_vk_gl_cts",
-    "qemu_dep_mesa3d_21_3",
     "qemu_sdk_llvm15",
     "third_party_vk-gl-cts"
   ],

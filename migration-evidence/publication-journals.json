@@ -1,5 +1,5 @@
 {
-  "snapshot_at": "2026-11-13T19:55:29.567564+00:00",
+  "snapshot_at": "2026-11-13T20:25:15.594989+00:00",
   "journals": [
     {
       "file": "publications/repository-creation.jsonl.gz",
@@ -41,29 +41,29 @@
     },
     {
       "file": "publications/arkweb-source-publication.jsonl.gz",
-      "uncompressed_sha256": "e314b452981ab632445cacd9ca39cf3a899269d5250d5a14e9ace3bb29b8d0b2",
-      "sha256": "9303e8dd6d545d247c183c63eb9a961480f80ba2b384e3e78bd85e5c1422a3bb",
-      "records": 6,
+      "uncompressed_sha256": "ac9fe7c8e7b028c80496da0de2bb3db5b79b02a667f2e8699d1f9b48c73607bd",
+      "sha256": "5fc7e8a1e89e23e22908e7e8affbfc3d2fb24a132f9a36abe5c7eeed38589ee9",
+      "records": 7,
       "latest_status_counts": {
-        "published": 6
+        "published": 7
       }
     },
     {
       "file": "publications/recipe-publication.jsonl.gz",
-      "uncompressed_sha256": "c9384b2267d17c816340d9d315c09065aa8006daf2693cdcab1aba43e93c8c1d",
-      "sha256": "c241b211f9951a556bde88a45131dd4d1c58e8887e4f38da64e2b7787d62a13e",
-      "records": 103,
+      "uncompressed_sha256": "cef5a246b1899831518cbbc443825db55aeeff4093fbe8710acc9fb295fc53f0",
+      "sha256": "f58c7bc8259ea3e2081b8508bd3808c69843083d5661702512ce358d228c3993",
+      "records": 104,
       "latest_status_counts": {
-        "published": 101
+        "published": 102
       }
     },
     {
       "file": "publications/helper-publication.jsonl.gz",
-      "uncompressed_sha256": "34b12e7f7e75ebad45a10675e4c00c10e750509eab1b18de881d5e5c38afff5e",
-      "sha256": "ac3efa73c0d124d5dfcdcd7e6090e196baad5140c8dab71a198edbfc0468ff8c",
-      "records": 21,
+      "uncompressed_sha256": "d27fa766c234d3d4a5923807a1e2043f09e727ba55d0fadb208dfeec27f5f78e",
+      "sha256": "2451a420dd99c933e8c2febdc82ed913b4c67a9b4a24d3bb7c01038b06714fe2",
+      "records": 22,
       "latest_status_counts": {
-        "published": 20
+        "published": 21
       }
     },
     {

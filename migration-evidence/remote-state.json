@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-11-13T19:17:39.218569+00:00",
+  "checked_at": "2026-11-13T20:07:11.533245+00:00",
   "catalog_repositories": 695,
   "created_repositories": 695,
-  "published_qemu_branches": 685,
-  "expected_revision_matches": 685,
-  "qemu_default_branches": 685,
+  "published_qemu_branches": 692,
+  "expected_revision_matches": 692,
+  "qemu_default_branches": 692,
   "missing_repositories": [],
   "repositories": [
     {
@@ -2529,10 +2529,10 @@
     },
     {
       "name": "kernel_linux_6.6",
-      "qemu_revision": null,
-      "default_branch": null,
-      "expected_revision": "14c77f1541a53e814d89ad6dea5f7f211f9895a6",
-      "matches_expected": false,
+      "qemu_revision": "116e16ca2ef68e23a9652fde1c2ad48afd703ae9",
+      "default_branch": "OpenHarmony-7.0-Release-qemu",
+      "expected_revision": "116e16ca2ef68e23a9652fde1c2ad48afd703ae9",
+      "matches_expected": true,
       "shared_baseline_requires_reconciliation": false
     },
     {
@@ -4377,10 +4377,10 @@
     },
     {
       "name": "chromium_crabbyavif",
-      "qemu_revision": null,
-      "default_branch": "144_sync",
+      "qemu_revision": "640d2758f8d2e59d1a55ae0933673f0f65de68c4",
+      "default_branch": "OpenHarmony-7.0-Release-qemu",
       "expected_revision": "640d2758f8d2e59d1a55ae0933673f0f65de68c4",
-      "matches_expected": false,
+      "matches_expected": true,
       "shared_baseline_requires_reconciliation": false
     },
     {
@@ -4881,10 +4881,10 @@
     },
     {
       "name": "chromium_libva-fake-driver",
-      "qemu_revision": null,
-      "default_branch": "114_trunk",
+      "qemu_revision": "a9bcab9cd6b15d4e3634ca44d5e5f7652c612194",
+      "default_branch": "OpenHarmony-7.0-Release-qemu",
       "expected_revision": "a9bcab9cd6b15d4e3634ca44d5e5f7652c612194",
-      "matches_expected": false,
+      "matches_expected": true,
       "shared_baseline_requires_reconciliation": false
     },
     {
@@ -5089,10 +5089,10 @@
     },
     {
       "name": "chromium_readability",
-      "qemu_revision": null,
-      "default_branch": "144_sync",
+      "qemu_revision": "d7949dc47dd9ed9ee1d3b34ffdcf3bce28cde435",
+      "default_branch": "OpenHarmony-7.0-Release-qemu",
       "expected_revision": "d7949dc47dd9ed9ee1d3b34ffdcf3bce28cde435",
-      "matches_expected": false,
+      "matches_expected": true,
       "shared_baseline_requires_reconciliation": false
     },
     {
@@ -5361,10 +5361,10 @@
     },
     {
       "name": "chromium_xnnpack",
-      "qemu_revision": null,
-      "default_branch": "144_sync",
+      "qemu_revision": "d3efd0a2fcd944931416811da6d24222c91ddd9d",
+      "default_branch": "OpenHarmony-7.0-Release-qemu",
       "expected_revision": "d3efd0a2fcd944931416811da6d24222c91ddd9d",
-      "matches_expected": false,
+      "matches_expected": true,
       "shared_baseline_requires_reconciliation": false
     },
     {
@@ -5409,10 +5409,10 @@
     },
     {
       "name": "qemu_sdk_llvm15",
-      "qemu_revision": null,
-      "default_branch": "migration/seed-llvm15-20261114",
-      "expected_revision": "3f002d04ba6b3a7659c601207c89d3a896b82546",
-      "matches_expected": false,
+      "qemu_revision": "aafec2ed25acdd23413b1768c570969e0150f8e8",
+      "default_branch": "OpenHarmony-7.0-Release-qemu",
+      "expected_revision": "aafec2ed25acdd23413b1768c570969e0150f8e8",
+      "matches_expected": true,
       "shared_baseline_requires_reconciliation": false
     },
     {
@@ -5521,10 +5521,10 @@
     },
     {
       "name": "qemu_dep_eigen",
-      "qemu_revision": null,
-      "default_branch": "2.0",
+      "qemu_revision": "3147391d946bb4b6c68edd901f2add6ac1f31f8c",
+      "default_branch": "OpenHarmony-7.0-Release-qemu",
       "expected_revision": "3147391d946bb4b6c68edd901f2add6ac1f31f8c",
-      "matches_expected": false,
+      "matches_expected": true,
       "shared_baseline_requires_reconciliation": false
     },
     {

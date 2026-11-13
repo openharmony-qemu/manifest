@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-13T16:34:26.281774+00:00",
+  "checked_at": "2026-11-13T20:19:10.602648+00:00",
   "index_sha256": "4028f759e441c169f991e2c8ba555c1853c972344809cbff5b40d9370498a03b",
-  "complete": false,
+  "complete": true,
   "files": 2160,
   "component_repositories": 104,
   "repositories": [
@@ -142,9 +142,9 @@
     {
       "repository": "arkweb_web_webview",
       "expected_files": 4,
-      "verified_files": 0,
-      "status": "incomplete",
-      "error": "No published component commit"
+      "verified_files": 4,
+      "qemu_commit": "201b4b57982c420b56c8c621a17e9a3dd96b5f9c",
+      "status": "verified"
     },
     {
       "repository": "base_location",
@@ -191,9 +191,9 @@
     {
       "repository": "chromium_src",
       "expected_files": 34,
-      "verified_files": 0,
-      "status": "incomplete",
-      "error": "No published component commit"
+      "verified_files": 34,
+      "qemu_commit": "2ff0941ba0da06aeb432f1745c3e36f3792de3d6",
+      "status": "verified"
     },
     {
       "repository": "chromium_third_party_angle",
@@ -219,9 +219,9 @@
     {
       "repository": "chromium_v8",
       "expected_files": 3,
-      "verified_files": 0,
-      "status": "incomplete",
-      "error": "No published component commit"
+      "verified_files": 3,
+      "qemu_commit": "f39646c4eb2d784b43db321fc82b3ec183619862",
+      "status": "verified"
     },
     {
       "repository": "commonlibrary_ets_utils",
@@ -380,9 +380,9 @@
     {
       "repository": "kernel_linux_6.6",
       "expected_files": 26,
-      "verified_files": 0,
-      "status": "incomplete",
-      "error": "No published component commit"
+      "verified_files": 26,
+      "qemu_commit": "116e16ca2ef68e23a9652fde1c2ad48afd703ae9",
+      "status": "verified"
     },
     {
       "repository": "kernel_linux_common_modules",
@@ -478,16 +478,16 @@
     {
       "repository": "qemu_dep_mesa3d_21_3",
       "expected_files": 7,
-      "verified_files": 0,
-      "status": "incomplete",
-      "error": "No published component commit"
+      "verified_files": 7,
+      "qemu_commit": "58aabe7d92197a5dbcd8dd863369eef8a9832732",
+      "status": "verified"
     },
     {
       "repository": "qemu_sdk_llvm15",
       "expected_files": 1,
-      "verified_files": 0,
-      "status": "incomplete",
-      "error": "No published component commit"
+      "verified_files": 1,
+      "qemu_commit": "aafec2ed25acdd23413b1768c570969e0150f8e8",
+      "status": "verified"
     },
     {
       "repository": "resourceschedule_device_usage_statistics",

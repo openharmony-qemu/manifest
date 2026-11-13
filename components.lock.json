@@ -3639,7 +3639,7 @@
     },
     {
       "name": "chromium_src",
-      "qemu_revision": null,
+      "qemu_revision": "2ff0941ba0da06aeb432f1745c3e36f3792de3d6",
       "upstream_revisions": [
         "a8168622b056f25c2e68d5f12fe2759bad2d9a44"
       ]
