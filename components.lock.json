@@ -2211,7 +2211,7 @@
     },
     {
       "name": "kernel_linux_6.6",
-      "qemu_revision": null,
+      "qemu_revision": "116e16ca2ef68e23a9652fde1c2ad48afd703ae9",
       "upstream_revisions": [
         "14c77f1541a53e814d89ad6dea5f7f211f9895a6"
       ]

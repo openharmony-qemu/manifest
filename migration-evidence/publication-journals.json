@@ -1,5 +1,5 @@
 {
-  "snapshot_at": "2026-11-13T19:32:10.559236+00:00",
+  "snapshot_at": "2026-11-13T19:55:29.567564+00:00",
   "journals": [
     {
       "file": "publications/repository-creation.jsonl.gz",
@@ -32,11 +32,11 @@
     },
     {
       "file": "publications/source-publication.jsonl.gz",
-      "uncompressed_sha256": "986f3a3fdd77136af8999a384b5d4dab45a369058417e7bae8702603496b5501",
-      "sha256": "4319d4e42ada2ac6e2f0f3ad0e27a0d59eb1c9b0e9facc308490edc901a5089c",
-      "records": 104,
+      "uncompressed_sha256": "eeb3dca3bcd2a3d65e5fcff0414dd4927638670330c7281bf5e72427704ed7e0",
+      "sha256": "244d125b9df4d182785b88e3a9491eb7a9289a1501eec20a8b306320d5a0df75",
+      "records": 105,
       "latest_status_counts": {
-        "published": 97
+        "published": 98
       }
     },
     {
@@ -50,11 +50,11 @@
     },
     {
       "file": "publications/recipe-publication.jsonl.gz",
-      "uncompressed_sha256": "a20c44afed39ee9bdc200eec48ca9e782acad29fc55dc0cae5d6f242017bc49b",
-      "sha256": "2fbbdc605f1abec1d1c8011ed2cacc7cdab109f937ee428ff7b5c10d3ba4be40",
-      "records": 102,
+      "uncompressed_sha256": "c9384b2267d17c816340d9d315c09065aa8006daf2693cdcab1aba43e93c8c1d",
+      "sha256": "c241b211f9951a556bde88a45131dd4d1c58e8887e4f38da64e2b7787d62a13e",
+      "records": 103,
       "latest_status_counts": {
-        "published": 100
+        "published": 101
       }
     },
     {

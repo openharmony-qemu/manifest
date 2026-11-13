@@ -1428,6 +1428,15 @@
     "central_sync_repository": "https://github.com/openharmony-qemu/mirror-sync"
   },
   {
+    "repository": "openharmony-qemu/kernel_linux_6.6",
+    "qemu_commit": "14c77f1541a53e814d89ad6dea5f7f211f9895a6",
+    "upstream_revision": "14c77f1541a53e814d89ad6dea5f7f211f9895a6",
+    "hosted_upstream_revision": "14c77f1541a53e814d89ad6dea5f7f211f9895a6",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
     "repository": "openharmony-qemu/multimedia_audio_framework",
     "qemu_commit": "742eec972e9b896c3cdade52f955b7373b4aab6b",
     "upstream_revision": "6932fa64335b8272ca4a59de7808ab0d6c9eae7a",

@@ -1,0 +1,28 @@
+{
+  "repository": "openharmony-qemu/kernel_linux_6.6",
+  "checked_at": "2026-11-13T19:54:15.572733+00:00",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43491283686",
+  "artifact_id": 14071652366,
+  "artifact_created_at": "2026-11-13T19:52:01Z",
+  "upstream_branches": 180,
+  "results": {
+    "updated": 1,
+    "created": 180
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "116e16ca2ef68e23a9652fde1c2ad48afd703ae9",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "14c77f1541a53e814d89ad6dea5f7f211f9895a6"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "14c77f1541a53e814d89ad6dea5f7f211f9895a6"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "conflicts": [],
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": [],
+    "directory": "commit-maps/kernel_linux_6.6/14071652366"
+  }
+}
