@@ -1,0 +1,24 @@
+{
+  "repository": "openharmony-qemu/chromium_federated-compute",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43458185732",
+  "artifact_id": 14059339425,
+  "artifact_created_at": "2026-11-13T17:06:29Z",
+  "upstream_branches": 10,
+  "results": {
+    "created": 11
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": null,
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "e51058dfe7888094ecc09cda38bfceffd4d4664b"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "e51058dfe7888094ecc09cda38bfceffd4d4664b"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": []
+  }
+}

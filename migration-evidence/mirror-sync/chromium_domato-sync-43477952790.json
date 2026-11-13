@@ -1,0 +1,25 @@
+{
+  "repository": "openharmony-qemu/chromium_domato",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43477952790",
+  "artifact_id": 14066201198,
+  "artifact_created_at": "2026-11-13T18:25:10Z",
+  "upstream_branches": 10,
+  "results": {
+    "created": 11
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": null,
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "053714bccbda79cf76dac3fee48ab2b27f21925e"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "053714bccbda79cf76dac3fee48ab2b27f21925e"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": [],
+    "directory": "commit-maps/chromium_domato/14066201198"
+  }
+}

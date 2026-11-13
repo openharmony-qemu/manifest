@@ -1,0 +1,25 @@
+{
+  "repository": "openharmony-qemu/chromium_third_party_vulkan_deps_spirv_cross",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43477952790",
+  "artifact_id": 14066882156,
+  "artifact_created_at": "2026-11-13T18:38:49Z",
+  "upstream_branches": 111,
+  "results": {
+    "created": 112
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": null,
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "b8fcf307f1f347089e3c46eb4451d27f32ebc8d3"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "b8fcf307f1f347089e3c46eb4451d27f32ebc8d3"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": [],
+    "directory": "commit-maps/chromium_third_party_vulkan_deps_spirv_cross/14066882156"
+  }
+}

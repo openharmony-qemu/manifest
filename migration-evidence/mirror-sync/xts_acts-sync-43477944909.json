@@ -1,0 +1,32 @@
+{
+  "repository": "openharmony-qemu/xts_acts",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43477944909",
+  "artifact_id": 14065579638,
+  "artifact_created_at": "2026-11-13T18:40:28Z",
+  "upstream_branches": 422,
+  "results": {
+    "unchanged": 35,
+    "created": 388
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": null,
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "12ed38d7aec9c680ed1510a77a96efcc7b101489"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "7c8122a47ca1c04e6fc6e3d52071369f31e4e503"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "42a487b287fc00d09462ba44a99f66426d81280660024fd891aea5d56963702b",
+    "chunks": [
+      {
+        "file": "00000.csv.gz",
+        "rows": 61044,
+        "sha256": "42a487b287fc00d09462ba44a99f66426d81280660024fd891aea5d56963702b"
+      }
+    ],
+    "directory": "commit-maps/xts_acts/14065579638"
+  }
+}

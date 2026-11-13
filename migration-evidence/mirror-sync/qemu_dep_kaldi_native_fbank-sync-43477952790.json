@@ -1,0 +1,26 @@
+{
+  "repository": "openharmony-qemu/qemu_dep_kaldi_native_fbank",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43477952790",
+  "artifact_id": 14066654351,
+  "artifact_created_at": "2026-11-13T18:47:28Z",
+  "upstream_branches": 5,
+  "results": {
+    "unchanged": 5,
+    "created": 1
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "84c24202dc56e5e25c912983f8a6ad5baed55b2c",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "84c24202dc56e5e25c912983f8a6ad5baed55b2c"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "84c24202dc56e5e25c912983f8a6ad5baed55b2c"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": [],
+    "directory": "commit-maps/qemu_dep_kaldi_native_fbank/14066654351"
+  }
+}

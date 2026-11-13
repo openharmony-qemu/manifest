@@ -1,0 +1,12 @@
+[
+  {
+    "issue": "https://github.com/openharmony-qemu/mirror-sync/issues/1",
+    "repository": "openharmony-qemu/chromium_third_party_angle_vk_gl_cts",
+    "ref": "refs/heads/132_trunk_weekly_20251016",
+    "expected": "dd6eaf278e3aa97a7cd5591645fceec29c2b4293",
+    "observed": "dd6eaf278e3aa97a7cd5591645fceec29c2b4293",
+    "checked_at": "2026-11-13T18:40:03.905810+00:00",
+    "resolution": "exact_remote_match_after_lost_success_response",
+    "forced": false
+  }
+]

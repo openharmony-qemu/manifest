@@ -1,0 +1,16 @@
+{
+  "repository": "openharmony-qemu/qemu_dep_mesa3d_21_3",
+  "original_upstream": "https://gitcode.com/openharmony/third_party_mesa3d.git",
+  "object_source": "https://github.com/eclipse-oniro-mirrors/third_party_mesa3d",
+  "baseline_original_revision": "995d2506d18924b48db0cf40e6ad7de04fc4e558",
+  "baseline_hosted_revision": "995d2506d18924b48db0cf40e6ad7de04fc4e558",
+  "remote_ref": "refs/heads/upstream/baseline-7.0",
+  "remote_ref_verified": true,
+  "complete_parent_history_verified": true,
+  "lfs_pointer_count": 0,
+  "oversized_blobs": false,
+  "all_upstream_branches_synchronized": false,
+  "checked_at": "2026-11-13T17:20:36.940776+00:00",
+  "build_validated": false,
+  "runtime_validated": false
+}

@@ -1,0 +1,26 @@
+{
+  "repository": "openharmony-qemu/qemu_dep_espeak_ng",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43477952790",
+  "artifact_id": 14067990493,
+  "artifact_created_at": "2026-11-13T18:47:56Z",
+  "upstream_branches": 6,
+  "results": {
+    "unchanged": 6,
+    "created": 1
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "f6fed6c58b5e0998b8e68c6610125e2d07d595a7",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "f6fed6c58b5e0998b8e68c6610125e2d07d595a7"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "f6fed6c58b5e0998b8e68c6610125e2d07d595a7"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": [],
+    "directory": "commit-maps/qemu_dep_espeak_ng/14067990493"
+  }
+}

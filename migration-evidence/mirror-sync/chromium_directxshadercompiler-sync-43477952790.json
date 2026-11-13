@@ -1,0 +1,25 @@
+{
+  "repository": "openharmony-qemu/chromium_directxshadercompiler",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43477952790",
+  "artifact_id": 14064569801,
+  "artifact_created_at": "2026-11-13T18:23:41Z",
+  "upstream_branches": 11,
+  "results": {
+    "created": 12
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": null,
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "3f85295cfc982e5447f9faaa36f345366faca11d"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "3f85295cfc982e5447f9faaa36f345366faca11d"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": [],
+    "directory": "commit-maps/chromium_directxshadercompiler/14064569801"
+  }
+}

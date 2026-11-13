@@ -1,24 +1,33 @@
 {
-  "snapshot_at": "2026-11-13T16:55:37.198190+00:00",
+  "snapshot_at": "2026-11-13T18:47:57.633043+00:00",
   "journals": [
     {
       "file": "publications/repository-creation.jsonl.gz",
-      "uncompressed_sha256": "d24f3319d226e4d574eb884db3b3ef0ffcda671b7f8e931405995493174b0723",
-      "sha256": "bc7b64a216ce7cdfa2debcc30e40716bd8aaade00502de439501a389fb8effec",
-      "records": 689,
+      "uncompressed_sha256": "772c5ecbe564087474198a2f7ccd5bcc9984392929aa6c32fbb2d514000cbaaa",
+      "sha256": "22849e062c6de14495418ac0f174af5eee5d19e05f74b1f5472408cb1085f515",
+      "records": 704,
       "latest_status_counts": {
-        "created": 680
+        "created": 695
       }
     },
     {
       "file": "publications/baseline-publication.jsonl.gz",
-      "uncompressed_sha256": "0851ef8256ad524da968d5ec9bbddf94f72f15fbd5114ae27af282eaa8bbf9c3",
-      "sha256": "daafb36d950f63954ff56e93d159fb44247b9326413af5220758be3d4632f325",
-      "records": 592,
+      "uncompressed_sha256": "108ba5507aba6c1215aab59ac4b3b0f2b188f188523f0c908b3b15ae1a1309e1",
+      "sha256": "4d13d4879173087d0e42338da1efaee392dd710ca2f5dc7b79fc0c4f97b65e57",
+      "records": 613,
       "latest_status_counts": {
-        "preserved_existing": 39,
-        "published": 472,
+        "preserved_existing": 40,
+        "published": 486,
         "failed": 3
+      }
+    },
+    {
+      "file": "publications/component-automation.jsonl.gz",
+      "uncompressed_sha256": "5b244bead0882fd4cd28cef3b12bc57810590e058110d56d2291b4bbf6631458",
+      "sha256": "9b07e07b771b3e388a34b20f1fea932bde06368f3044976db1bd7f14c8609684",
+      "records": 697,
+      "latest_status_counts": {
+        "disabled": 695
       }
     },
     {
@@ -41,20 +50,20 @@
     },
     {
       "file": "publications/recipe-publication.jsonl.gz",
-      "uncompressed_sha256": "50af2abf828dae999fd332a3e658909e8f825c14090d3eafbbb4a7bd737cda3f",
-      "sha256": "f9e47a7acd4b1f317532527095823a28b508923e19a5380bf7e10ac84eaf155d",
-      "records": 101,
+      "uncompressed_sha256": "a20c44afed39ee9bdc200eec48ca9e782acad29fc55dc0cae5d6f242017bc49b",
+      "sha256": "2fbbdc605f1abec1d1c8011ed2cacc7cdab109f937ee428ff7b5c10d3ba4be40",
+      "records": 102,
       "latest_status_counts": {
-        "published": 99
+        "published": 100
       }
     },
     {
       "file": "publications/helper-publication.jsonl.gz",
-      "uncompressed_sha256": "0e68a3e4e4088450ce157028b2877bdfb582e68adfe8744139590b94d22e564a",
-      "sha256": "7db76e3050b91a4c591071da24db75e8c3ee66a9090336ad7295e413806d2184",
-      "records": 19,
+      "uncompressed_sha256": "b240d541c03decf3ecb08661e37301d53c1c5009936df24538be1c3cfd90bfbd",
+      "sha256": "df3a858e25686852c5fc575684ebeb2fd338f2e3c45e5ad83e888d4743dfff59",
+      "records": 20,
       "latest_status_counts": {
-        "published": 18
+        "published": 19
       }
     },
     {

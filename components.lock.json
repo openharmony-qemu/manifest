@@ -3737,91 +3737,91 @@
     },
     {
       "name": "chromium_anonymous-tokens",
-      "qemu_revision": null,
+      "qemu_revision": "50e04fb27eacd49a5e2bfde5977ac689e13ebeeb",
       "upstream_revisions": [
         "50e04fb27eacd49a5e2bfde5977ac689e13ebeeb"
       ]
     },
     {
       "name": "chromium_third_party_boringssl",
-      "qemu_revision": null,
+      "qemu_revision": "b94d71f87ff943a617d77f3ff029f9a01a1ec6bc",
       "upstream_revisions": [
         "b94d71f87ff943a617d77f3ff029f9a01a1ec6bc"
       ]
     },
     {
       "name": "chromium_third_party_breakpad",
-      "qemu_revision": null,
+      "qemu_revision": "d0b41ca2a38c7b14c4b7853254eb5bf3b4039691",
       "upstream_revisions": [
         "d0b41ca2a38c7b14c4b7853254eb5bf3b4039691"
       ]
     },
     {
       "name": "chromium_third_party_cast_core",
-      "qemu_revision": null,
+      "qemu_revision": "f5ee589bdaea60418f670fa176be15ccb9a34942",
       "upstream_revisions": [
         "f5ee589bdaea60418f670fa176be15ccb9a34942"
       ]
     },
     {
       "name": "chromium_third_party_catapult",
-      "qemu_revision": null,
+      "qemu_revision": "a202c86635d505fa893d73bad1e220a66bb644e6",
       "upstream_revisions": [
         "a202c86635d505fa893d73bad1e220a66bb644e6"
       ]
     },
     {
       "name": "chromium_third_party_ced",
-      "qemu_revision": null,
+      "qemu_revision": "ba412eaaacd3186085babcd901679a48863c7dd5",
       "upstream_revisions": [
         "ba412eaaacd3186085babcd901679a48863c7dd5"
       ]
     },
     {
       "name": "chromium_clang-format",
-      "qemu_revision": null,
+      "qemu_revision": "c2725e0622e1a86d55f14514f2177a39efea4a0e",
       "upstream_revisions": [
         "c2725e0622e1a86d55f14514f2177a39efea4a0e"
       ]
     },
     {
       "name": "chromium_third_party_cld_3",
-      "qemu_revision": null,
+      "qemu_revision": "b48dc46512566f5a2d41118c8c1116c4f96dc661",
       "upstream_revisions": [
         "b48dc46512566f5a2d41118c8c1116c4f96dc661"
       ]
     },
     {
       "name": "chromium_third_party_colorama",
-      "qemu_revision": null,
+      "qemu_revision": "3de9f013df4b470069d03d250224062e8cf15c49",
       "upstream_revisions": [
         "3de9f013df4b470069d03d250224062e8cf15c49"
       ]
     },
     {
       "name": "chromium_compiler-rt",
-      "qemu_revision": null,
+      "qemu_revision": "cb2de163a470f2e9d56ec8a4f912f644378b7191",
       "upstream_revisions": [
         "cb2de163a470f2e9d56ec8a4f912f644378b7191"
       ]
     },
     {
       "name": "chromium_content_analysis_sdk",
-      "qemu_revision": null,
+      "qemu_revision": "9a408736204513e0e95dd2ab3c08de0d95963efc",
       "upstream_revisions": [
         "9a408736204513e0e95dd2ab3c08de0d95963efc"
       ]
     },
     {
       "name": "chromium_cpu_features",
-      "qemu_revision": null,
+      "qemu_revision": "936b9ab5515dead115606559502e3864958f7f6e",
       "upstream_revisions": [
         "936b9ab5515dead115606559502e3864958f7f6e"
       ]
     },
     {
       "name": "chromium_cpuinfo",
-      "qemu_revision": null,
+      "qemu_revision": "161a9ec374884f4b3e85725cb22e05f9458fdc93",
       "upstream_revisions": [
         "161a9ec374884f4b3e85725cb22e05f9458fdc93"
       ]
@@ -3835,42 +3835,42 @@
     },
     {
       "name": "chromium_third_party_crc32c",
-      "qemu_revision": null,
+      "qemu_revision": "d3d60ac6e0f16780bcfcc825385e1d338801a558",
       "upstream_revisions": [
         "d3d60ac6e0f16780bcfcc825385e1d338801a558"
       ]
     },
     {
       "name": "chromium_cros_components",
-      "qemu_revision": null,
+      "qemu_revision": "7ccdbf60606671c2c057628125908fbfef9bd0c8",
       "upstream_revisions": [
         "7ccdbf60606671c2c057628125908fbfef9bd0c8"
       ]
     },
     {
       "name": "chromium_third_party_cros_system_api",
-      "qemu_revision": null,
+      "qemu_revision": "5f1ffac5e855229e27c6e4356ffb189f3010283f",
       "upstream_revisions": [
         "5f1ffac5e855229e27c6e4356ffb189f3010283f"
       ]
     },
     {
       "name": "chromium_crossbench",
-      "qemu_revision": null,
+      "qemu_revision": "77240be1ccd1dc99b73be332223a8856641a2073",
       "upstream_revisions": [
         "77240be1ccd1dc99b73be332223a8856641a2073"
       ]
     },
     {
       "name": "chromium_web-tests",
-      "qemu_revision": null,
+      "qemu_revision": "3c76c8201f0732fe9781742229ab8ac43bf90cbf",
       "upstream_revisions": [
         "3c76c8201f0732fe9781742229ab8ac43bf90cbf"
       ]
     },
     {
       "name": "chromium_third_party_dav1d",
-      "qemu_revision": null,
+      "qemu_revision": "fcbc3d1b93f91c709293ed9faea8b7cbcac9030b",
       "upstream_revisions": [
         "fcbc3d1b93f91c709293ed9faea8b7cbcac9030b"
       ]
@@ -3884,56 +3884,56 @@
     },
     {
       "name": "chromium_directxshadercompiler",
-      "qemu_revision": null,
+      "qemu_revision": "3f85295cfc982e5447f9faaa36f345366faca11d",
       "upstream_revisions": [
         "3f85295cfc982e5447f9faaa36f345366faca11d"
       ]
     },
     {
       "name": "chromium_directx-headers",
-      "qemu_revision": null,
+      "qemu_revision": "980971e835876dc0cde415e8f9bc646e64667bf7",
       "upstream_revisions": [
         "980971e835876dc0cde415e8f9bc646e64667bf7"
       ]
     },
     {
       "name": "chromium_third_party_glfw",
-      "qemu_revision": null,
+      "qemu_revision": "b35641f4a3c62aa86a0b3c983d163bc0fe36026d",
       "upstream_revisions": [
         "b35641f4a3c62aa86a0b3c983d163bc0fe36026d"
       ]
     },
     {
       "name": "chromium_egl-registry",
-      "qemu_revision": null,
+      "qemu_revision": "7dea2ed79187cd13f76183c4b9100159b9e3e071",
       "upstream_revisions": [
         "7dea2ed79187cd13f76183c4b9100159b9e3e071"
       ]
     },
     {
       "name": "chromium_opengl-registry",
-      "qemu_revision": null,
+      "qemu_revision": "5bae8738b23d06968e7c3a41308568120943ae77",
       "upstream_revisions": [
         "5bae8738b23d06968e7c3a41308568120943ae77"
       ]
     },
     {
       "name": "chromium_third_party_webgpu_cts",
-      "qemu_revision": null,
+      "qemu_revision": "ecd2f1963e1c4c31beb579e99d6ba144ae1e01b2",
       "upstream_revisions": [
         "ecd2f1963e1c4c31beb579e99d6ba144ae1e01b2"
       ]
     },
     {
       "name": "chromium_webgpu-headers",
-      "qemu_revision": null,
+      "qemu_revision": "079d4e5153eaabc4033584cc399c27f1acbb2548",
       "upstream_revisions": [
         "079d4e5153eaabc4033584cc399c27f1acbb2548"
       ]
     },
     {
       "name": "chromium_third_party_depot_tools",
-      "qemu_revision": null,
+      "qemu_revision": "6182daef96f6bcf4a61afcba676e87f871d0423f",
       "upstream_revisions": [
         "6182daef96f6bcf4a61afcba676e87f871d0423f"
       ]
@@ -3947,21 +3947,21 @@
     },
     {
       "name": "chromium_third_party_dom_distiller_js",
-      "qemu_revision": null,
+      "qemu_revision": "b619b54601ad02e4ba396f40ad5cbd8a57b20ef7",
       "upstream_revisions": [
         "b619b54601ad02e4ba396f40ad5cbd8a57b20ef7"
       ]
     },
     {
       "name": "chromium_domato",
-      "qemu_revision": null,
+      "qemu_revision": "053714bccbda79cf76dac3fee48ab2b27f21925e",
       "upstream_revisions": [
         "053714bccbda79cf76dac3fee48ab2b27f21925e"
       ]
     },
     {
       "name": "chromium_dragonbox",
-      "qemu_revision": null,
+      "qemu_revision": "6c7c925b571d54486b9ffae8d9d18a822801cbda",
       "upstream_revisions": [
         "6c7c925b571d54486b9ffae8d9d18a822801cbda"
       ]
@@ -4003,147 +4003,147 @@
     },
     {
       "name": "chromium_federated-compute",
-      "qemu_revision": null,
+      "qemu_revision": "e51058dfe7888094ecc09cda38bfceffd4d4664b",
       "upstream_revisions": [
         "e51058dfe7888094ecc09cda38bfceffd4d4664b"
       ]
     },
     {
       "name": "chromium_third_party_ffmpeg",
-      "qemu_revision": null,
+      "qemu_revision": "089b28673a1a01aafe0d2b8d47da04d2589bf7d0",
       "upstream_revisions": [
         "089b28673a1a01aafe0d2b8d47da04d2589bf7d0"
       ]
     },
     {
       "name": "chromium_third_party_flac",
-      "qemu_revision": null,
+      "qemu_revision": "807e251d9f8c5dd6059e547931e9c6a4251967af",
       "upstream_revisions": [
         "807e251d9f8c5dd6059e547931e9c6a4251967af"
       ]
     },
     {
       "name": "chromium_third_party_flatbuffers",
-      "qemu_revision": null,
+      "qemu_revision": "187240970746d00bbd26b0f5873ed54d2477f9f3",
       "upstream_revisions": [
         "187240970746d00bbd26b0f5873ed54d2477f9f3"
       ]
     },
     {
       "name": "chromium_third_party_fontconfig",
-      "qemu_revision": null,
+      "qemu_revision": "23b3fc6e58a13d126b9c30fafc9a16f8bd7143e9",
       "upstream_revisions": [
         "23b3fc6e58a13d126b9c30fafc9a16f8bd7143e9"
       ]
     },
     {
       "name": "chromium_third_party_fp16",
-      "qemu_revision": null,
+      "qemu_revision": "0a603df2a49756f65284625ca58a4db2e789b8bb",
       "upstream_revisions": [
         "0a603df2a49756f65284625ca58a4db2e789b8bb"
       ]
     },
     {
       "name": "chromium_third_party_freetype",
-      "qemu_revision": null,
+      "qemu_revision": "4a3f908f4ef3870837023e1bcaaef90e369192c7",
       "upstream_revisions": [
         "4a3f908f4ef3870837023e1bcaaef90e369192c7"
       ]
     },
     {
       "name": "chromium_fuzztest",
-      "qemu_revision": null,
+      "qemu_revision": "7406afb783ff5e7f3a1a66aebb81090622716412",
       "upstream_revisions": [
         "7406afb783ff5e7f3a1a66aebb81090622716412"
       ]
     },
     {
       "name": "chromium_fxdiv",
-      "qemu_revision": null,
+      "qemu_revision": "63058eff77e11aa15bf531df5dd34395ec3017c8",
       "upstream_revisions": [
         "63058eff77e11aa15bf531df5dd34395ec3017c8"
       ]
     },
     {
       "name": "chromium_third_party_gemmlowp",
-      "qemu_revision": null,
+      "qemu_revision": "16e8662c34917be0065110bfcd9cc27d30f52fdf",
       "upstream_revisions": [
         "16e8662c34917be0065110bfcd9cc27d30f52fdf"
       ]
     },
     {
       "name": "chromium_third_party_vulkan_deps_glslang",
-      "qemu_revision": null,
+      "qemu_revision": "7a47e2531cb334982b2a2dd8513dca0a3de4373d",
       "upstream_revisions": [
         "7a47e2531cb334982b2a2dd8513dca0a3de4373d"
       ]
     },
     {
       "name": "chromium_benchmark",
-      "qemu_revision": null,
+      "qemu_revision": "188e8278990a9069ffc84441cb5a024fd0bede37",
       "upstream_revisions": [
         "188e8278990a9069ffc84441cb5a024fd0bede37"
       ]
     },
     {
       "name": "chromium_third_party_googletest",
-      "qemu_revision": null,
+      "qemu_revision": "4fe3307fb2d9f86d19777c7eb0e4809e9694dde7",
       "upstream_revisions": [
         "4fe3307fb2d9f86d19777c7eb0e4809e9694dde7"
       ]
     },
     {
       "name": "chromium_third_party_harfbuzz_ng",
-      "qemu_revision": null,
+      "qemu_revision": "20b8ca9acc661990280bc2c87c27831c7482aa32",
       "upstream_revisions": [
         "20b8ca9acc661990280bc2c87c27831c7482aa32"
       ]
     },
     {
       "name": "chromium_third_party_highway",
-      "qemu_revision": null,
+      "qemu_revision": "84379d1c73de9681b54fbe1c035a23c7bd5d272d",
       "upstream_revisions": [
         "84379d1c73de9681b54fbe1c035a23c7bd5d272d"
       ]
     },
     {
       "name": "chromium_third_party_hunspell_dictionaries",
-      "qemu_revision": null,
+      "qemu_revision": "cccf64a8acc951afe3f47fee023908e55699bc58",
       "upstream_revisions": [
         "cccf64a8acc951afe3f47fee023908e55699bc58"
       ]
     },
     {
       "name": "chromium_third_party_icu",
-      "qemu_revision": null,
+      "qemu_revision": "4652914326450b9674a8f61883c961fecdd611f3",
       "upstream_revisions": [
         "4652914326450b9674a8f61883c961fecdd611f3"
       ]
     },
     {
       "name": "chromium_ink",
-      "qemu_revision": null,
+      "qemu_revision": "11ca89062782d7e5a57741a303a925f510b91015",
       "upstream_revisions": [
         "11ca89062782d7e5a57741a303a925f510b91015"
       ]
     },
     {
       "name": "chromium_ink-stroke-modeler",
-      "qemu_revision": null,
+      "qemu_revision": "2cd45e8683025c28fa2efcf672ad46607e8af869",
       "upstream_revisions": [
         "2cd45e8683025c28fa2efcf672ad46607e8af869"
       ]
     },
     {
       "name": "chromium_instrumented_libraries",
-      "qemu_revision": null,
+      "qemu_revision": "69015643b3f68dbd438c010439c59adc52cac808",
       "upstream_revisions": [
         "69015643b3f68dbd438c010439c59adc52cac808"
       ]
     },
     {
       "name": "chromium_jetstream",
-      "qemu_revision": null,
+      "qemu_revision": "f88580ef6265b59295f37eb0c6666466b11a0e74",
       "upstream_revisions": [
         "f88580ef6265b59295f37eb0c6666466b11a0e74"
       ]
@@ -4738,91 +4738,91 @@
     },
     {
       "name": "qemu_dep_sherpa_onnx",
-      "qemu_revision": null,
+      "qemu_revision": "419f7fea0a9a3f7b047dee53ad7da266767a425f",
       "upstream_revisions": [
         "419f7fea0a9a3f7b047dee53ad7da266767a425f"
       ]
     },
     {
       "name": "qemu_dep_node_addon_api",
-      "qemu_revision": null,
+      "qemu_revision": "c679f6f4c9dc6bf9fc0d99cbe5982bd24a5e2c7b",
       "upstream_revisions": [
         "c679f6f4c9dc6bf9fc0d99cbe5982bd24a5e2c7b"
       ]
     },
     {
       "name": "qemu_dep_kaldi_native_fbank",
-      "qemu_revision": null,
+      "qemu_revision": "84c24202dc56e5e25c912983f8a6ad5baed55b2c",
       "upstream_revisions": [
         "84c24202dc56e5e25c912983f8a6ad5baed55b2c"
       ]
     },
     {
       "name": "qemu_dep_kaldi_decoder",
-      "qemu_revision": null,
+      "qemu_revision": "503eacc12af7d7835c523a6aecb474279b906170",
       "upstream_revisions": [
         "503eacc12af7d7835c523a6aecb474279b906170"
       ]
     },
     {
       "name": "qemu_dep_simple_sentencepiece",
-      "qemu_revision": null,
+      "qemu_revision": "62dd423df1d51da5ea06f1c3a046fc04f01b4f39",
       "upstream_revisions": [
         "62dd423df1d51da5ea06f1c3a046fc04f01b4f39"
       ]
     },
     {
       "name": "qemu_dep_websocketpp",
-      "qemu_revision": null,
+      "qemu_revision": "b9aeec6eaf3d5610503439b4fae3581d9aff08e8",
       "upstream_revisions": [
         "b9aeec6eaf3d5610503439b4fae3581d9aff08e8"
       ]
     },
     {
       "name": "qemu_dep_asio",
-      "qemu_revision": null,
+      "qemu_revision": "147f7225a96d45a2807a64e443177f621844e51c",
       "upstream_revisions": [
         "147f7225a96d45a2807a64e443177f621844e51c"
       ]
     },
     {
       "name": "qemu_dep_espeak_ng",
-      "qemu_revision": null,
+      "qemu_revision": "f6fed6c58b5e0998b8e68c6610125e2d07d595a7",
       "upstream_revisions": [
         "f6fed6c58b5e0998b8e68c6610125e2d07d595a7"
       ]
     },
     {
       "name": "qemu_dep_piper_phonemize",
-      "qemu_revision": null,
+      "qemu_revision": "78a788e0b719013401572d70fef372e77bff8e43",
       "upstream_revisions": [
         "78a788e0b719013401572d70fef372e77bff8e43"
       ]
     },
     {
       "name": "qemu_dep_cppjieba",
-      "qemu_revision": null,
+      "qemu_revision": "f03dd931a00330c279c8590275850fd1f6749a18",
       "upstream_revisions": [
         "f03dd931a00330c279c8590275850fd1f6749a18"
       ]
     },
     {
       "name": "qemu_dep_hclust_cpp",
-      "qemu_revision": null,
+      "qemu_revision": "aa12a4671cd3c93427da32157b9c55635e5289ff",
       "upstream_revisions": [
         "aa12a4671cd3c93427da32157b9c55635e5289ff"
       ]
     },
     {
       "name": "qemu_dep_kaldifst",
-      "qemu_revision": null,
+      "qemu_revision": "4e226e21cc9343d4e9ecf388390cb6eb39a2406f",
       "upstream_revisions": [
         "4e226e21cc9343d4e9ecf388390cb6eb39a2406f"
       ]
     },
     {
       "name": "qemu_dep_openfst",
-      "qemu_revision": null,
+      "qemu_revision": "a1cdead2da17e15ef46a5b9fde0a07da394e3a72",
       "upstream_revisions": [
         "a1cdead2da17e15ef46a5b9fde0a07da394e3a72"
       ]
@@ -4836,14 +4836,14 @@
     },
     {
       "name": "qemu_dep_openal_soft",
-      "qemu_revision": null,
+      "qemu_revision": "dc7d7054a5b4f3bec1dc23a42fd616a0847af948",
       "upstream_revisions": [
         "dc7d7054a5b4f3bec1dc23a42fd616a0847af948"
       ]
     },
     {
       "name": "qemu_dep_jsoncpp",
-      "qemu_revision": null,
+      "qemu_revision": "5defb4ed1a4293b8e2bf641e16b156fb9de498cc",
       "upstream_revisions": [
         "5defb4ed1a4293b8e2bf641e16b156fb9de498cc"
       ]
@@ -4864,7 +4864,7 @@
     },
     {
       "name": "qemu_dep_mesa3d_21_3",
-      "qemu_revision": null,
+      "qemu_revision": "58aabe7d92197a5dbcd8dd863369eef8a9832732",
       "upstream_revisions": [
         "995d2506d18924b48db0cf40e6ad7de04fc4e558"
       ]

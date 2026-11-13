@@ -1,0 +1,25 @@
+{
+  "repository": "openharmony-qemu/chromium_buildtools_libunwind",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43477952790",
+  "artifact_id": 14066681478,
+  "artifact_created_at": "2026-11-13T18:31:35Z",
+  "upstream_branches": 111,
+  "results": {
+    "created": 112
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": null,
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "c65639bf792928e0d38aed822dc34d3e72066a6c"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "c65639bf792928e0d38aed822dc34d3e72066a6c"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": [],
+    "directory": "commit-maps/chromium_buildtools_libunwind/14066681478"
+  }
+}

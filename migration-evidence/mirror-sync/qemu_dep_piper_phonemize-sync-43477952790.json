@@ -1,0 +1,26 @@
+{
+  "repository": "openharmony-qemu/qemu_dep_piper_phonemize",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43477952790",
+  "artifact_id": 14067043008,
+  "artifact_created_at": "2026-11-13T18:48:03Z",
+  "upstream_branches": 8,
+  "results": {
+    "unchanged": 8,
+    "created": 1
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "78a788e0b719013401572d70fef372e77bff8e43",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "78a788e0b719013401572d70fef372e77bff8e43"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "78a788e0b719013401572d70fef372e77bff8e43"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": [],
+    "directory": "commit-maps/qemu_dep_piper_phonemize/14067043008"
+  }
+}

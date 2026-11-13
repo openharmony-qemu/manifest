@@ -1,0 +1,32 @@
+{
+  "repository": "openharmony-qemu/third_party_mindspore",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43477944909",
+  "artifact_id": 14064638334,
+  "artifact_created_at": "2026-11-13T18:17:03Z",
+  "upstream_branches": 309,
+  "results": {
+    "unchanged": 96,
+    "created": 214
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "85fa9e0507f4eae34191d9d4a8b9c8c14e6a13b0",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "c34a149209fb4dfb81f2af0cc167d7e7be96559b"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "6fa03ff28bdf0115d29a52b59d4be1446ef22c33"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "fe19b3b17fc7ff2fb602d8a0b457b92794d9cca38b1eeb8a2fa0adddefc94e3c",
+    "chunks": [
+      {
+        "file": "00000.csv.gz",
+        "rows": 822,
+        "sha256": "fe19b3b17fc7ff2fb602d8a0b457b92794d9cca38b1eeb8a2fa0adddefc94e3c"
+      }
+    ],
+    "directory": "commit-maps/third_party_mindspore/14064638334"
+  }
+}

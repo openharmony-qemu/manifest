@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "chromium_crabbyavif",
+    "failed_run": 43477952790,
+    "failed_job": 132076321357,
+    "reason": "GitHub App Git write HTTP 403; configured scope and permissions verified",
+    "retry_run": 43482392818,
+    "retry_job": 132082126376,
+    "retry_conclusion": "success"
+  },
+  {
+    "repository": "chromium_libva-fake-driver",
+    "failed_run": 43477952790,
+    "failed_job": 132085442199,
+    "reason": "GitHub App Git write HTTP 403",
+    "retry_conclusion": "success",
+    "retry_run": 43484298318,
+    "retry_job": 132088716279
+  }
+]

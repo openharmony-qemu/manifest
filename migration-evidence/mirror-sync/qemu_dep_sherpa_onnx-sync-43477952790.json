@@ -1,0 +1,26 @@
+{
+  "repository": "openharmony-qemu/qemu_dep_sherpa_onnx",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43477952790",
+  "artifact_id": 14067237683,
+  "artifact_created_at": "2026-11-13T18:47:25Z",
+  "upstream_branches": 3,
+  "results": {
+    "unchanged": 3,
+    "created": 1
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "419f7fea0a9a3f7b047dee53ad7da266767a425f",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "419f7fea0a9a3f7b047dee53ad7da266767a425f"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "419f7fea0a9a3f7b047dee53ad7da266767a425f"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": [],
+    "directory": "commit-maps/qemu_dep_sherpa_onnx/14067237683"
+  }
+}
