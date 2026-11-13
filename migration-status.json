@@ -97,8 +97,8 @@
     }
   ],
   "mirrors_requiring_daily_sync": 186,
-  "mirrors_with_verified_production_sync": 182,
-  "snapshot_at": "2026-11-13T20:25:15.594989+00:00",
+  "mirrors_with_verified_production_sync": 183,
+  "snapshot_at": "2026-11-13T20:37:39.570775+00:00",
   "completion_gates": {
     "repository_creation": true,
     "component_actions_disabled": true,
@@ -112,7 +112,6 @@
   "mirrors_awaiting_verification": [
     "chromium_src",
     "chromium_third_party_angle_vk_gl_cts",
-    "qemu_sdk_llvm15",
     "third_party_vk-gl-cts"
   ],
   "upstream_conflicts": [

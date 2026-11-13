@@ -1,0 +1,81 @@
+{
+  "run": 43491283686,
+  "checked_at": "2026-11-13T20:30:32.069943+00:00",
+  "reason": "Use tested bounded original-object transfer recovery for the failed Chromium 157 branch and unfinished Vulkan histories; completed kernel, Mesa and LLVM publications are preserved",
+  "jobs": [
+    {
+      "id": 132112826486,
+      "name": "plan",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-11-13T19:20:36Z",
+      "completed_at": "2026-11-13T19:20:49Z"
+    },
+    {
+      "id": 132112964962,
+      "name": "synchronize (third_party_vk-gl-cts)",
+      "status": "in_progress",
+      "conclusion": null,
+      "started_at": "2026-11-13T19:20:52Z",
+      "completed_at": null
+    },
+    {
+      "id": 132112965015,
+      "name": "synchronize (kernel_linux_6.6)",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-11-13T19:20:52Z",
+      "completed_at": "2026-11-13T19:52:02Z"
+    },
+    {
+      "id": 132112965095,
+      "name": "synchronize (chromium_src)",
+      "status": "completed",
+      "conclusion": "failure",
+      "started_at": "2026-11-13T19:20:52Z",
+      "completed_at": "2026-11-13T20:12:09Z"
+    },
+    {
+      "id": 132112965098,
+      "name": "synchronize (chromium_third_party_angle_vk_gl_cts)",
+      "status": "in_progress",
+      "conclusion": null,
+      "started_at": "2026-11-13T19:20:52Z",
+      "completed_at": null
+    },
+    {
+      "id": 132129818813,
+      "name": "synchronize (qemu_sdk_llvm15)",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-11-13T19:52:06Z",
+      "completed_at": "2026-11-13T20:25:30Z"
+    },
+    {
+      "id": 132140689415,
+      "name": "synchronize (qemu_dep_mesa3d_21_3)",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-11-13T20:12:12Z",
+      "completed_at": "2026-11-13T20:13:39Z"
+    }
+  ],
+  "cancellation_requested": true,
+  "retry_commit": "5c781e0ceeb97bbdd07a0cca8c2a5d29c652478c",
+  "local_validation": [
+    "23 integration/unit tests passed",
+    "concurrent writer and unexpected transfer tag tests passed",
+    "real receive-pack size limit with original-blob staging and exact tag cleanup passed"
+  ],
+  "retry_run": 43502289255,
+  "proactive_retry_reason": "Cancelled job logs confirm LFS upload finished; the remaining delay is the oversized Git pack. Enable tested proactive bounded transfer before retrying.",
+  "superseded_retry_run": 43502289255,
+  "superseded_retry_cancellation_requested": true,
+  "proactive_retry_commit": "5c0e80311525302a89094e4af9c9cb26afe8392d",
+  "proactive_validation": [
+    "real receive-pack cap: no oversized initial push",
+    "non-fast-forward writer preserved during proactive staging",
+    "registry regeneration retains all transport settings"
+  ],
+  "proactive_retry_run": 43503109180
+}
