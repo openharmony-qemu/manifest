@@ -16,5 +16,13 @@
     "retry_conclusion": "success",
     "retry_run": 43484298318,
     "retry_job": 132088716279
+  },
+  {
+    "repository": "chromium_readability",
+    "failed_run": 43477952790,
+    "failed_job": 132088679061,
+    "reason": "GitHub App Git write HTTP 403",
+    "retry_run": 43485874542,
+    "retry_conclusion": "success"
   }
 ]

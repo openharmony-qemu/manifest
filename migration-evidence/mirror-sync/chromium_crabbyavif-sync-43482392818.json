@@ -1,0 +1,27 @@
+{
+  "repository": "openharmony-qemu/chromium_crabbyavif",
+  "checked_at": "2026-11-13T19:17:27.236142+00:00",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43482392818",
+  "artifact_id": 14064873926,
+  "artifact_created_at": "2026-11-13T18:25:43Z",
+  "upstream_branches": 10,
+  "results": {
+    "created": 11
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": null,
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "640d2758f8d2e59d1a55ae0933673f0f65de68c4"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "640d2758f8d2e59d1a55ae0933673f0f65de68c4"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "conflicts": [],
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": [],
+    "directory": "commit-maps/chromium_crabbyavif/14064873926"
+  }
+}

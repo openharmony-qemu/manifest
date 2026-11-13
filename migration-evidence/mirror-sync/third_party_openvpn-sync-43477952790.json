@@ -1,0 +1,39 @@
+{
+  "repository": "openharmony-qemu/third_party_openvpn",
+  "checked_at": "2026-11-13T19:04:04.212646+00:00",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43477952790",
+  "artifact_id": 14067720693,
+  "artifact_created_at": "2026-11-13T18:47:14Z",
+  "upstream_branches": 20,
+  "results": {
+    "unchanged": 17,
+    "updated": 2,
+    "conflict": 1,
+    "created": 1
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "6761526994e01f9bab1a03bfa9ee1ca88eb17055",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "dc1f569087135894ac2703aeabd7a960ee9452d4"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "dc1f569087135894ac2703aeabd7a960ee9452d4"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "conflicts": [
+    {
+      "ref": "refs/heads/renovate/vcpkg-digest",
+      "old": "ba58b35420f5b08028ef43481b7b5b4e05b62a64",
+      "incoming": "c0d54d51dbf976c90dd1c353646f4d49c78d3ede",
+      "issue_url": "https://github.com/openharmony-qemu/mirror-sync/issues/2",
+      "issue_verified": true,
+      "issue_body_sha256": "c0e5bb8b603ef1fae286b7a88cac3a75924dd67c92edb1d3b02d8b3fb3de279e"
+    }
+  ],
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": [],
+    "directory": "commit-maps/third_party_openvpn/14067720693"
+  }
+}

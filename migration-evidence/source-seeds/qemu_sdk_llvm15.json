@@ -1,0 +1,26 @@
+{
+  "repository": "openharmony-qemu/qemu_sdk_llvm15",
+  "original_upstream": "https://gitcode.com/openharmony/third_party_llvm-project.git",
+  "object_source": "https://github.com/openharmony/third_party_llvm-project",
+  "baseline_original_revision": "3f002d04ba6b3a7659c601207c89d3a896b82546",
+  "baseline_hosted_revision": "3f002d04ba6b3a7659c601207c89d3a896b82546",
+  "remote_ref": "refs/heads/upstream/baseline-7.0",
+  "remote_ref_verified": true,
+  "complete_parent_history_verified": true,
+  "lfs_pointer_count": 0,
+  "oversized_blobs": false,
+  "all_upstream_branches_synchronized": false,
+  "checked_at": "2026-11-13T19:26:45.116762+00:00",
+  "build_validated": false,
+  "runtime_validated": false,
+  "temporary_seed_ref_removed": true,
+  "git_commit_count": 433084,
+  "first_parent_commits": 372711,
+  "object_inventory": {
+    "objects": 4926791,
+    "small_blobs": 190798,
+    "oversized_blobs": 0,
+    "possible_lfs_pointers": 0,
+    "seconds": 53.75
+  }
+}

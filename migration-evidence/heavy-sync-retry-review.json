@@ -1,0 +1,74 @@
+{
+  "run": 43477944909,
+  "checked_at": "2026-11-13T19:19:06.970804+00:00",
+  "reason": "Replace unfinished transfers with tested HTTP/1.1, fixed-baseline priority and resumable ancestor publication",
+  "jobs": [
+    {
+      "id": 132066644141,
+      "name": "plan",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-11-13T18:06:39Z",
+      "completed_at": "2026-11-13T18:06:51Z"
+    },
+    {
+      "id": 132071722138,
+      "name": "synchronize (kernel_linux_6.6)",
+      "status": "in_progress",
+      "conclusion": null,
+      "started_at": "2026-11-13T18:11:41Z",
+      "completed_at": null
+    },
+    {
+      "id": 132071722246,
+      "name": "synchronize (third_party_vk-gl-cts)",
+      "status": "in_progress",
+      "conclusion": null,
+      "started_at": "2026-11-13T18:10:49Z",
+      "completed_at": null
+    },
+    {
+      "id": 132071722277,
+      "name": "synchronize (xts_acts)",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-11-13T18:10:49Z",
+      "completed_at": "2026-11-13T18:40:43Z"
+    },
+    {
+      "id": 132071722340,
+      "name": "synchronize (third_party_mindspore)",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-11-13T18:10:49Z",
+      "completed_at": "2026-11-13T18:17:05Z"
+    },
+    {
+      "id": 132077545668,
+      "name": "synchronize (chromium_src)",
+      "status": "completed",
+      "conclusion": "failure",
+      "started_at": "2026-11-13T18:18:22Z",
+      "completed_at": "2026-11-13T18:51:22Z"
+    },
+    {
+      "id": 132090806337,
+      "name": "synchronize (chromium_third_party_angle_vk_gl_cts)",
+      "status": "in_progress",
+      "conclusion": null,
+      "started_at": "2026-11-13T18:40:47Z",
+      "completed_at": null
+    },
+    {
+      "id": 132096703405,
+      "name": "synchronize (qemu_sdk_llvm15)",
+      "status": "in_progress",
+      "conclusion": null,
+      "started_at": "2026-11-13T18:51:24Z",
+      "completed_at": null
+    }
+  ],
+  "retry_run": 43491283686,
+  "retry_commit": "943852c504c45f97bb6a548e218e25b78c144ca4",
+  "cancellation_requested": true
+}

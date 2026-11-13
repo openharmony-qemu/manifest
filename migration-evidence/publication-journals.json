@@ -1,5 +1,5 @@
 {
-  "snapshot_at": "2026-11-13T18:47:57.633043+00:00",
+  "snapshot_at": "2026-11-13T19:32:10.559236+00:00",
   "journals": [
     {
       "file": "publications/repository-creation.jsonl.gz",
@@ -59,11 +59,11 @@
     },
     {
       "file": "publications/helper-publication.jsonl.gz",
-      "uncompressed_sha256": "b240d541c03decf3ecb08661e37301d53c1c5009936df24538be1c3cfd90bfbd",
-      "sha256": "df3a858e25686852c5fc575684ebeb2fd338f2e3c45e5ad83e888d4743dfff59",
-      "records": 20,
+      "uncompressed_sha256": "34b12e7f7e75ebad45a10675e4c00c10e750509eab1b18de881d5e5c38afff5e",
+      "sha256": "ac3efa73c0d124d5dfcdcd7e6090e196baad5140c8dab71a198edbfc0468ff8c",
+      "records": 21,
       "latest_status_counts": {
-        "published": 19
+        "published": 20
       }
     },
     {

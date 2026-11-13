@@ -54,6 +54,42 @@
     "runtime_validated": false
   },
   {
+    "repository": "openharmony-qemu/chromium_buildtools",
+    "qemu_commit": "fba2905150c974240f14aa5334c3e5c93f873032",
+    "upstream_revision": "fba2905150c974240f14aa5334c3e5c93f873032",
+    "hosted_upstream_revision": "fba2905150c974240f14aa5334c3e5c93f873032",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_buildtools_libcpp",
+    "qemu_commit": "07572e7b169225ef3a999584cba9d9004631ae66",
+    "upstream_revision": "07572e7b169225ef3a999584cba9d9004631ae66",
+    "hosted_upstream_revision": "07572e7b169225ef3a999584cba9d9004631ae66",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_buildtools_libcppapi",
+    "qemu_commit": "83a852080747b9a362e8f9e361366b7a601f302c",
+    "upstream_revision": "83a852080747b9a362e8f9e361366b7a601f302c",
+    "hosted_upstream_revision": "83a852080747b9a362e8f9e361366b7a601f302c",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_buildtools_libunwind",
+    "qemu_commit": "c65639bf792928e0d38aed822dc34d3e72066a6c",
+    "upstream_revision": "c65639bf792928e0d38aed822dc34d3e72066a6c",
+    "hosted_upstream_revision": "c65639bf792928e0d38aed822dc34d3e72066a6c",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
     "repository": "openharmony-qemu/chromium_cdm",
     "qemu_commit": "a4cbc4325e6de42ead733f2af43c08292d0e65a8",
     "upstream_revision": "a4cbc4325e6de42ead733f2af43c08292d0e65a8",
@@ -139,6 +175,15 @@
     "qemu_commit": "161a9ec374884f4b3e85725cb22e05f9458fdc93",
     "upstream_revision": "161a9ec374884f4b3e85725cb22e05f9458fdc93",
     "hosted_upstream_revision": "161a9ec374884f4b3e85725cb22e05f9458fdc93",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_crabbyavif",
+    "qemu_commit": "640d2758f8d2e59d1a55ae0933673f0f65de68c4",
+    "upstream_revision": "640d2758f8d2e59d1a55ae0933673f0f65de68c4",
+    "hosted_upstream_revision": "640d2758f8d2e59d1a55ae0933673f0f65de68c4",
     "scope": "source_migration_only",
     "build_validated": false,
     "runtime_validated": false
@@ -297,6 +342,69 @@
     "runtime_validated": false
   },
   {
+    "repository": "openharmony-qemu/chromium_libc",
+    "qemu_commit": "fe97633934c21742a74962d52c17b3bcba7ad824",
+    "upstream_revision": "fe97633934c21742a74962d52c17b3bcba7ad824",
+    "hosted_upstream_revision": "fe97633934c21742a74962d52c17b3bcba7ad824",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_libipp",
+    "qemu_commit": "4be5f77f672a3a9f1bbf3c935fb0ea8b3f86ce61",
+    "upstream_revision": "4be5f77f672a3a9f1bbf3c935fb0ea8b3f86ce61",
+    "hosted_upstream_revision": "4be5f77f672a3a9f1bbf3c935fb0ea8b3f86ce61",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_libva-fake-driver",
+    "qemu_commit": "a9bcab9cd6b15d4e3634ca44d5e5f7652c612194",
+    "upstream_revision": "a9bcab9cd6b15d4e3634ca44d5e5f7652c612194",
+    "hosted_upstream_revision": "a9bcab9cd6b15d4e3634ca44d5e5f7652c612194",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_libwebp",
+    "qemu_commit": "c00d83f6642e7838a12bb03bca94237f03cc2e00",
+    "upstream_revision": "c00d83f6642e7838a12bb03bca94237f03cc2e00",
+    "hosted_upstream_revision": "c00d83f6642e7838a12bb03bca94237f03cc2e00",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_material-color-utilities",
+    "qemu_commit": "13434b50dcb64a482cc91191f8cf6151d90f5465",
+    "upstream_revision": "13434b50dcb64a482cc91191f8cf6151d90f5465",
+    "hosted_upstream_revision": "13434b50dcb64a482cc91191f8cf6151d90f5465",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_nearby-connections",
+    "qemu_commit": "0bad8b0c9877f92eeeb550654f1ea51a71a085e4",
+    "upstream_revision": "0bad8b0c9877f92eeeb550654f1ea51a71a085e4",
+    "hosted_upstream_revision": "0bad8b0c9877f92eeeb550654f1ea51a71a085e4",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_oak",
+    "qemu_commit": "96c00a6c99ac382f3f3a8f376bc7a70890d1adaa",
+    "upstream_revision": "96c00a6c99ac382f3f3a8f376bc7a70890d1adaa",
+    "hosted_upstream_revision": "96c00a6c99ac382f3f3a8f376bc7a70890d1adaa",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
     "repository": "openharmony-qemu/chromium_opengl-registry",
     "qemu_commit": "5bae8738b23d06968e7c3a41308568120943ae77",
     "upstream_revision": "5bae8738b23d06968e7c3a41308568120943ae77",
@@ -306,10 +414,73 @@
     "runtime_validated": false
   },
   {
+    "repository": "openharmony-qemu/chromium_ots",
+    "qemu_commit": "46bea9879127d0ff1c6601b078e2ce98e83fcd33",
+    "upstream_revision": "46bea9879127d0ff1c6601b078e2ce98e83fcd33",
+    "hosted_upstream_revision": "46bea9879127d0ff1c6601b078e2ce98e83fcd33",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_protobuf-javascript",
+    "qemu_commit": "e6d763860001ba1a76a63adcff5efb12b1c96024",
+    "upstream_revision": "e6d763860001ba1a76a63adcff5efb12b1c96024",
+    "hosted_upstream_revision": "e6d763860001ba1a76a63adcff5efb12b1c96024",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_pthreadpool",
+    "qemu_commit": "d90cd6f1493e09d12c407243f7f331a8cda55efb",
+    "upstream_revision": "d90cd6f1493e09d12c407243f7f331a8cda55efb",
+    "hosted_upstream_revision": "d90cd6f1493e09d12c407243f7f331a8cda55efb",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
     "repository": "openharmony-qemu/chromium_quiche",
     "qemu_commit": "dd5f831424b2b60023028f7081634022e0cc7535",
     "upstream_revision": "dd5f831424b2b60023028f7081634022e0cc7535",
     "hosted_upstream_revision": "dd5f831424b2b60023028f7081634022e0cc7535",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_readability",
+    "qemu_commit": "d7949dc47dd9ed9ee1d3b34ffdcf3bce28cde435",
+    "upstream_revision": "d7949dc47dd9ed9ee1d3b34ffdcf3bce28cde435",
+    "hosted_upstream_revision": "d7949dc47dd9ed9ee1d3b34ffdcf3bce28cde435",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_search_engines_data",
+    "qemu_commit": "97355b69daee73d74ac38f2227788458bd95d372",
+    "upstream_revision": "97355b69daee73d74ac38f2227788458bd95d372",
+    "hosted_upstream_revision": "97355b69daee73d74ac38f2227788458bd95d372",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_speedometer",
+    "qemu_commit": "e2e2538900938c5d6819e9456bf33d48f806c96c",
+    "upstream_revision": "e2e2538900938c5d6819e9456bf33d48f806c96c",
+    "hosted_upstream_revision": "e2e2538900938c5d6819e9456bf33d48f806c96c",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_text-fragments-polyfill",
+    "qemu_commit": "c036420683f672d685e27415de0a5f5e85bdc23f",
+    "upstream_revision": "c036420683f672d685e27415de0a5f5e85bdc23f",
+    "hosted_upstream_revision": "c036420683f672d685e27415de0a5f5e85bdc23f",
     "scope": "source_migration_only",
     "build_validated": false,
     "runtime_validated": false
@@ -445,6 +616,15 @@
     "qemu_commit": "6182daef96f6bcf4a61afcba676e87f871d0423f",
     "upstream_revision": "6182daef96f6bcf4a61afcba676e87f871d0423f",
     "hosted_upstream_revision": "6182daef96f6bcf4a61afcba676e87f871d0423f",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_devtools_frontend",
+    "qemu_commit": "ce5febc62d3d108259f6c370e4cdc39dc2c26ab0",
+    "upstream_revision": "31bb4e203f0bf83335578f43e00cccaac9ff0f28",
+    "hosted_upstream_revision": "ce5febc62d3d108259f6c370e4cdc39dc2c26ab0",
     "scope": "source_migration_only",
     "build_validated": false,
     "runtime_validated": false
@@ -612,10 +792,316 @@
     "runtime_validated": false
   },
   {
+    "repository": "openharmony-qemu/chromium_third_party_jsoncpp",
+    "qemu_commit": "42e892d96e47b1f6e29844cc705e148ec4856448",
+    "upstream_revision": "42e892d96e47b1f6e29844cc705e148ec4856448",
+    "hosted_upstream_revision": "42e892d96e47b1f6e29844cc705e148ec4856448",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_leveldatabase",
+    "qemu_commit": "4ee78d7ea98330f7d7599c42576ca99e3c6ff9c5",
+    "upstream_revision": "4ee78d7ea98330f7d7599c42576ca99e3c6ff9c5",
+    "hosted_upstream_revision": "4ee78d7ea98330f7d7599c42576ca99e3c6ff9c5",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_libFuzzer",
+    "qemu_commit": "bea408a6e01f0f7e6c82a43121fe3af4506c932e",
+    "upstream_revision": "bea408a6e01f0f7e6c82a43121fe3af4506c932e",
+    "hosted_upstream_revision": "bea408a6e01f0f7e6c82a43121fe3af4506c932e",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_libaddressinput",
+    "qemu_commit": "0c7e9434dc08d2f3ee0a912567340b6f207e5488",
+    "upstream_revision": "0c7e9434dc08d2f3ee0a912567340b6f207e5488",
+    "hosted_upstream_revision": "0c7e9434dc08d2f3ee0a912567340b6f207e5488",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_libaom",
+    "qemu_commit": "5afceb5c874e7aa278ee524f2fc7f08bbacad1df",
+    "upstream_revision": "5afceb5c874e7aa278ee524f2fc7f08bbacad1df",
+    "hosted_upstream_revision": "5afceb5c874e7aa278ee524f2fc7f08bbacad1df",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_libdrm",
+    "qemu_commit": "ad78bb591d02162d3b90890aa4d0a238b2a37cde",
+    "upstream_revision": "ad78bb591d02162d3b90890aa4d0a238b2a37cde",
+    "hosted_upstream_revision": "ad78bb591d02162d3b90890aa4d0a238b2a37cde",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_libgav1",
+    "qemu_commit": "c05bf9be660cf170d7c26bd06bb42b3322180e58",
+    "upstream_revision": "c05bf9be660cf170d7c26bd06bb42b3322180e58",
+    "hosted_upstream_revision": "c05bf9be660cf170d7c26bd06bb42b3322180e58",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_libjpeg_turbo",
+    "qemu_commit": "4a25a308a1f30767de80386cfb77a6267be97302",
+    "upstream_revision": "4a25a308a1f30767de80386cfb77a6267be97302",
+    "hosted_upstream_revision": "4a25a308a1f30767de80386cfb77a6267be97302",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_liblouis",
+    "qemu_commit": "9700847afb92cb35969bdfcbbfbbb74b9c7b3376",
+    "upstream_revision": "9700847afb92cb35969bdfcbbfbbb74b9c7b3376",
+    "hosted_upstream_revision": "9700847afb92cb35969bdfcbbfbbb74b9c7b3376",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_libphonenumber",
+    "qemu_commit": "9d46308f313f2bf8dbce1dfd4f364633ca869ca7",
+    "upstream_revision": "9d46308f313f2bf8dbce1dfd4f364633ca869ca7",
+    "hosted_upstream_revision": "9d46308f313f2bf8dbce1dfd4f364633ca869ca7",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_libprotobuf_mutator",
+    "qemu_commit": "7bf98f78a30b067e22420ff699348f084f802e12",
+    "upstream_revision": "7bf98f78a30b067e22420ff699348f084f802e12",
+    "hosted_upstream_revision": "7bf98f78a30b067e22420ff699348f084f802e12",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_libsrtp",
+    "qemu_commit": "a52756acb1c5e133089c798736dd171567df11f5",
+    "upstream_revision": "a52756acb1c5e133089c798736dd171567df11f5",
+    "hosted_upstream_revision": "a52756acb1c5e133089c798736dd171567df11f5",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_libsync",
+    "qemu_commit": "fcb40c9ae8ea5738b3a9d5e8df696ef729e17fde",
+    "upstream_revision": "fcb40c9ae8ea5738b3a9d5e8df696ef729e17fde",
+    "hosted_upstream_revision": "fcb40c9ae8ea5738b3a9d5e8df696ef729e17fde",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_libvpx",
+    "qemu_commit": "01c36277c0d0e6fbb54ce1f0dde08266cddce748",
+    "upstream_revision": "01c36277c0d0e6fbb54ce1f0dde08266cddce748",
+    "hosted_upstream_revision": "01c36277c0d0e6fbb54ce1f0dde08266cddce748",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_libwebm",
+    "qemu_commit": "8c75fdb5a93e9449272904b68f7baa15e7a4180b",
+    "upstream_revision": "8c75fdb5a93e9449272904b68f7baa15e7a4180b",
+    "hosted_upstream_revision": "8c75fdb5a93e9449272904b68f7baa15e7a4180b",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_libyuv",
+    "qemu_commit": "8c791052ce648e45e73ee4467440946bf1d08caa",
+    "upstream_revision": "8c791052ce648e45e73ee4467440946bf1d08caa",
+    "hosted_upstream_revision": "8c791052ce648e45e73ee4467440946bf1d08caa",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_lss",
+    "qemu_commit": "639c8b9a1dbf3aab5030ae04eb2e243f98d3ce8d",
+    "upstream_revision": "639c8b9a1dbf3aab5030ae04eb2e243f98d3ce8d",
+    "hosted_upstream_revision": "639c8b9a1dbf3aab5030ae04eb2e243f98d3ce8d",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_minigbm",
+    "qemu_commit": "3018207f4d89395cc271278fb9a6558b660885f5",
+    "upstream_revision": "3018207f4d89395cc271278fb9a6558b660885f5",
+    "hosted_upstream_revision": "3018207f4d89395cc271278fb9a6558b660885f5",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_nasm",
+    "qemu_commit": "af5eeeb054bebadfbb79c7bcd100a95e2ad4525f",
+    "upstream_revision": "af5eeeb054bebadfbb79c7bcd100a95e2ad4525f",
+    "hosted_upstream_revision": "af5eeeb054bebadfbb79c7bcd100a95e2ad4525f",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_neon_2_sse",
+    "qemu_commit": "eb8b80b28f956275e291ea04a7beb5ed8289e872",
+    "upstream_revision": "eb8b80b28f956275e291ea04a7beb5ed8289e872",
+    "hosted_upstream_revision": "eb8b80b28f956275e291ea04a7beb5ed8289e872",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_openh264",
+    "qemu_commit": "652bdb7719f30b52b08e506645a7322ff1b2cc6f",
+    "upstream_revision": "652bdb7719f30b52b08e506645a7322ff1b2cc6f",
+    "hosted_upstream_revision": "652bdb7719f30b52b08e506645a7322ff1b2cc6f",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
     "repository": "openharmony-qemu/chromium_third_party_openscreen",
     "qemu_commit": "c5f78b119a5c68153a41ca0fff8ebf98a87f23be",
     "upstream_revision": "c5f78b119a5c68153a41ca0fff8ebf98a87f23be",
     "hosted_upstream_revision": "c5f78b119a5c68153a41ca0fff8ebf98a87f23be",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_openscreen_tinycbor",
+    "qemu_commit": "fc42a049853b802e45f49588f8148fc29d7b4d9c",
+    "upstream_revision": "fc42a049853b802e45f49588f8148fc29d7b4d9c",
+    "hosted_upstream_revision": "fc42a049853b802e45f49588f8148fc29d7b4d9c",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_pdfium",
+    "qemu_commit": "f467ad7b6de4e6026a8c70f9a4f840fc9a3de4dd",
+    "upstream_revision": "f467ad7b6de4e6026a8c70f9a4f840fc9a3de4dd",
+    "hosted_upstream_revision": "f467ad7b6de4e6026a8c70f9a4f840fc9a3de4dd",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_perfetto",
+    "qemu_commit": "bf7c3ad9e9698ded537c2f068c2b1132ac77a22c",
+    "upstream_revision": "bf7c3ad9e9698ded537c2f068c2b1132ac77a22c",
+    "hosted_upstream_revision": "bf7c3ad9e9698ded537c2f068c2b1132ac77a22c",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_pyelftools",
+    "qemu_commit": "19b3e610c86fcadb837d252c794cb5e8008826ae",
+    "upstream_revision": "19b3e610c86fcadb837d252c794cb5e8008826ae",
+    "hosted_upstream_revision": "19b3e610c86fcadb837d252c794cb5e8008826ae",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_pywebsocket3",
+    "qemu_commit": "50602a14f1b6da17e0b619833a13addc6ea78bc2",
+    "upstream_revision": "50602a14f1b6da17e0b619833a13addc6ea78bc2",
+    "hosted_upstream_revision": "50602a14f1b6da17e0b619833a13addc6ea78bc2",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_quic_trace",
+    "qemu_commit": "352288a06d2c83ae68b5a402b2219f4678be9f39",
+    "upstream_revision": "352288a06d2c83ae68b5a402b2219f4678be9f39",
+    "hosted_upstream_revision": "352288a06d2c83ae68b5a402b2219f4678be9f39",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_re2",
+    "qemu_commit": "e7aec5985072c1dbe735add802653ef4b36c231a",
+    "upstream_revision": "e7aec5985072c1dbe735add802653ef4b36c231a",
+    "hosted_upstream_revision": "e7aec5985072c1dbe735add802653ef4b36c231a",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_ruy",
+    "qemu_commit": "1e6e50872655a73b5250f954d7b9da9a87292fd3",
+    "upstream_revision": "1e6e50872655a73b5250f954d7b9da9a87292fd3",
+    "hosted_upstream_revision": "1e6e50872655a73b5250f954d7b9da9a87292fd3",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_securemessage",
+    "qemu_commit": "fa07beb12babc3b25e0c5b1f38c16aa8cb6b8f84",
+    "upstream_revision": "fa07beb12babc3b25e0c5b1f38c16aa8cb6b8f84",
+    "hosted_upstream_revision": "fa07beb12babc3b25e0c5b1f38c16aa8cb6b8f84",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_skia",
+    "qemu_commit": "e742cbf7a397b11aef80c664999b758fb8d01a58",
+    "upstream_revision": "e742cbf7a397b11aef80c664999b758fb8d01a58",
+    "hosted_upstream_revision": "e742cbf7a397b11aef80c664999b758fb8d01a58",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_smhasher",
+    "qemu_commit": "0ff96f7835817a27d0487325b6c16033e2992eb5",
+    "upstream_revision": "0ff96f7835817a27d0487325b6c16033e2992eb5",
+    "hosted_upstream_revision": "0ff96f7835817a27d0487325b6c16033e2992eb5",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_snappy",
+    "qemu_commit": "32ded457c0b1fe78ceb8397632c416568d6714a0",
+    "upstream_revision": "32ded457c0b1fe78ceb8397632c416568d6714a0",
+    "hosted_upstream_revision": "32ded457c0b1fe78ceb8397632c416568d6714a0",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_sqlite",
+    "qemu_commit": "7d348fc79216a09b864ff881d8561a6222301666",
+    "upstream_revision": "7d348fc79216a09b864ff881d8561a6222301666",
+    "hosted_upstream_revision": "7d348fc79216a09b864ff881d8561a6222301666",
     "scope": "source_migration_only",
     "build_validated": false,
     "runtime_validated": false
@@ -630,10 +1116,163 @@
     "runtime_validated": false
   },
   {
+    "repository": "openharmony-qemu/chromium_third_party_tflite",
+    "qemu_commit": "621ffb9c2120c8d1d54a604bfc260a2f83fbec64",
+    "upstream_revision": "621ffb9c2120c8d1d54a604bfc260a2f83fbec64",
+    "hosted_upstream_revision": "621ffb9c2120c8d1d54a604bfc260a2f83fbec64",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_ukey2",
+    "qemu_commit": "0275885d8e6038c39b8a8ca55e75d1d4d1727f47",
+    "upstream_revision": "0275885d8e6038c39b8a8ca55e75d1d4d1727f47",
+    "hosted_upstream_revision": "0275885d8e6038c39b8a8ca55e75d1d4d1727f47",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_vulkan_deps",
+    "qemu_commit": "327bc9dec2a42806ad78c284829363657bb728dc",
+    "upstream_revision": "327bc9dec2a42806ad78c284829363657bb728dc",
+    "hosted_upstream_revision": "327bc9dec2a42806ad78c284829363657bb728dc",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
     "repository": "openharmony-qemu/chromium_third_party_vulkan_deps_glslang",
     "qemu_commit": "7a47e2531cb334982b2a2dd8513dca0a3de4373d",
     "upstream_revision": "7a47e2531cb334982b2a2dd8513dca0a3de4373d",
     "hosted_upstream_revision": "7a47e2531cb334982b2a2dd8513dca0a3de4373d",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_vulkan_deps_spirv_cross",
+    "qemu_commit": "b8fcf307f1f347089e3c46eb4451d27f32ebc8d3",
+    "upstream_revision": "b8fcf307f1f347089e3c46eb4451d27f32ebc8d3",
+    "hosted_upstream_revision": "b8fcf307f1f347089e3c46eb4451d27f32ebc8d3",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_vulkan_deps_spirv_headers",
+    "qemu_commit": "b824a462d4256d720bebb40e78b9eb8f78bbb305",
+    "upstream_revision": "b824a462d4256d720bebb40e78b9eb8f78bbb305",
+    "hosted_upstream_revision": "b824a462d4256d720bebb40e78b9eb8f78bbb305",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_vulkan_deps_spirv_tools",
+    "qemu_commit": "f410b3c178740f9f5bd28d5b22a71d4bc10acd49",
+    "upstream_revision": "f410b3c178740f9f5bd28d5b22a71d4bc10acd49",
+    "hosted_upstream_revision": "f410b3c178740f9f5bd28d5b22a71d4bc10acd49",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_vulkan_deps_vulkan_headers",
+    "qemu_commit": "234f716cb893a145c6c8d0ca6508954f2aa9f5bc",
+    "upstream_revision": "234f716cb893a145c6c8d0ca6508954f2aa9f5bc",
+    "hosted_upstream_revision": "234f716cb893a145c6c8d0ca6508954f2aa9f5bc",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_vulkan_deps_vulkan_loader",
+    "qemu_commit": "000ea70d499339da68178b47d0ce2a797844fef2",
+    "upstream_revision": "000ea70d499339da68178b47d0ce2a797844fef2",
+    "hosted_upstream_revision": "000ea70d499339da68178b47d0ce2a797844fef2",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_vulkan_deps_vulkan_tools",
+    "qemu_commit": "48b5d246b2d0b1a41ee7ea1b69525ae7bb38a2ae",
+    "upstream_revision": "48b5d246b2d0b1a41ee7ea1b69525ae7bb38a2ae",
+    "hosted_upstream_revision": "48b5d246b2d0b1a41ee7ea1b69525ae7bb38a2ae",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_vulkan_deps_vulkan_validation_layers",
+    "qemu_commit": "5e175a92548d1a507bd81fdc5db6fa1d2572a6ea",
+    "upstream_revision": "5e175a92548d1a507bd81fdc5db6fa1d2572a6ea",
+    "hosted_upstream_revision": "5e175a92548d1a507bd81fdc5db6fa1d2572a6ea",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_vulkan_memory_allocator",
+    "qemu_commit": "cb0597213b0fcb999caa9ed08c2f88dc45eb7d50",
+    "upstream_revision": "cb0597213b0fcb999caa9ed08c2f88dc45eb7d50",
+    "hosted_upstream_revision": "cb0597213b0fcb999caa9ed08c2f88dc45eb7d50",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_wayland",
+    "qemu_commit": "b317806f93aba691cb94e5075e6dc72345dffc34",
+    "upstream_revision": "b317806f93aba691cb94e5075e6dc72345dffc34",
+    "hosted_upstream_revision": "b317806f93aba691cb94e5075e6dc72345dffc34",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_wayland_protocols_gtk",
+    "qemu_commit": "40ebed3a03aef096addc0af09fec4ec529d882a0",
+    "upstream_revision": "40ebed3a03aef096addc0af09fec4ec529d882a0",
+    "hosted_upstream_revision": "40ebed3a03aef096addc0af09fec4ec529d882a0",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_wayland_protocols_kde",
+    "qemu_commit": "0b07950714b3a36c9b9f71fc025fc7783e82926e",
+    "upstream_revision": "0b07950714b3a36c9b9f71fc025fc7783e82926e",
+    "hosted_upstream_revision": "0b07950714b3a36c9b9f71fc025fc7783e82926e",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_wayland_protocols_src",
+    "qemu_commit": "efbc060534be948b63e1f395d69b583eebba3235",
+    "upstream_revision": "efbc060534be948b63e1f395d69b583eebba3235",
+    "hosted_upstream_revision": "efbc060534be948b63e1f395d69b583eebba3235",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_webdriver",
+    "qemu_commit": "1e954903022e9386b9acf452c24f4458dd4c4fc1",
+    "upstream_revision": "1e954903022e9386b9acf452c24f4458dd4c4fc1",
+    "hosted_upstream_revision": "1e954903022e9386b9acf452c24f4458dd4c4fc1",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_webgl",
+    "qemu_commit": "c01b768bce4a143e152c1870b6ba99ea6267d2b0",
+    "upstream_revision": "c01b768bce4a143e152c1870b6ba99ea6267d2b0",
+    "hosted_upstream_revision": "c01b768bce4a143e152c1870b6ba99ea6267d2b0",
     "scope": "source_migration_only",
     "build_validated": false,
     "runtime_validated": false
@@ -657,10 +1296,46 @@
     "runtime_validated": false
   },
   {
+    "repository": "openharmony-qemu/chromium_third_party_weston",
+    "qemu_commit": "bdba2f9adaca673fd58339d8140bc04727ee279d",
+    "upstream_revision": "bdba2f9adaca673fd58339d8140bc04727ee279d",
+    "hosted_upstream_revision": "bdba2f9adaca673fd58339d8140bc04727ee279d",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_wuffs",
+    "qemu_commit": "e3f919ccfe3ef542cfc983a82146070258fb57f8",
+    "upstream_revision": "e3f919ccfe3ef542cfc983a82146070258fb57f8",
+    "hosted_upstream_revision": "e3f919ccfe3ef542cfc983a82146070258fb57f8",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_third_party_xdg_utils",
+    "qemu_commit": "cb54d9db2e535ee4ef13cc91b65a1e2741a94a44",
+    "upstream_revision": "cb54d9db2e535ee4ef13cc91b65a1e2741a94a44",
+    "hosted_upstream_revision": "cb54d9db2e535ee4ef13cc91b65a1e2741a94a44",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
     "repository": "openharmony-qemu/chromium_v8",
     "qemu_commit": "bb352490a41083cfb4fba0fadcb0c5099f4aafa7",
     "upstream_revision": "bb352490a41083cfb4fba0fadcb0c5099f4aafa7",
     "hosted_upstream_revision": "bb352490a41083cfb4fba0fadcb0c5099f4aafa7",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_vulkan-utility-libraries",
+    "qemu_commit": "c010c19e796035e92fb3b0462cb887518a41a7c1",
+    "upstream_revision": "c010c19e796035e92fb3b0462cb887518a41a7c1",
+    "hosted_upstream_revision": "c010c19e796035e92fb3b0462cb887518a41a7c1",
     "scope": "source_migration_only",
     "build_validated": false,
     "runtime_validated": false
@@ -679,6 +1354,33 @@
     "qemu_commit": "079d4e5153eaabc4033584cc399c27f1acbb2548",
     "upstream_revision": "079d4e5153eaabc4033584cc399c27f1acbb2548",
     "hosted_upstream_revision": "079d4e5153eaabc4033584cc399c27f1acbb2548",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_webpagereplay",
+    "qemu_commit": "052833a44dd2f538b85936092bad545b6062e193",
+    "upstream_revision": "052833a44dd2f538b85936092bad545b6062e193",
+    "hosted_upstream_revision": "052833a44dd2f538b85936092bad545b6062e193",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_xnnpack",
+    "qemu_commit": "d3efd0a2fcd944931416811da6d24222c91ddd9d",
+    "upstream_revision": "d3efd0a2fcd944931416811da6d24222c91ddd9d",
+    "hosted_upstream_revision": "d3efd0a2fcd944931416811da6d24222c91ddd9d",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/chromium_zstd",
+    "qemu_commit": "a25c1fc96f431e69abea38f52cb31e6bc074e9f1",
+    "upstream_revision": "a25c1fc96f431e69abea38f52cb31e6bc074e9f1",
+    "hosted_upstream_revision": "a25c1fc96f431e69abea38f52cb31e6bc074e9f1",
     "scope": "source_migration_only",
     "build_validated": false,
     "runtime_validated": false
@@ -744,6 +1446,15 @@
     "runtime_validated": false
   },
   {
+    "repository": "openharmony-qemu/qemu_dep_eigen",
+    "qemu_commit": "3147391d946bb4b6c68edd901f2add6ac1f31f8c",
+    "upstream_revision": "3147391d946bb4b6c68edd901f2add6ac1f31f8c",
+    "hosted_upstream_revision": "3147391d946bb4b6c68edd901f2add6ac1f31f8c",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
     "repository": "openharmony-qemu/qemu_dep_mesa3d_21_3",
     "qemu_commit": "995d2506d18924b48db0cf40e6ad7de04fc4e558",
     "upstream_revision": "995d2506d18924b48db0cf40e6ad7de04fc4e558",
@@ -753,10 +1464,28 @@
     "runtime_validated": false
   },
   {
+    "repository": "openharmony-qemu/qemu_sdk_llvm15",
+    "qemu_commit": "3f002d04ba6b3a7659c601207c89d3a896b82546",
+    "upstream_revision": "3f002d04ba6b3a7659c601207c89d3a896b82546",
+    "hosted_upstream_revision": "3f002d04ba6b3a7659c601207c89d3a896b82546",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
     "repository": "openharmony-qemu/third_party_mindspore",
     "qemu_commit": "6fa03ff28bdf0115d29a52b59d4be1446ef22c33",
     "upstream_revision": "c34a149209fb4dfb81f2af0cc167d7e7be96559b",
     "hosted_upstream_revision": "6fa03ff28bdf0115d29a52b59d4be1446ef22c33",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
+    "repository": "openharmony-qemu/xts_acts",
+    "qemu_commit": "7c8122a47ca1c04e6fc6e3d52071369f31e4e503",
+    "upstream_revision": "12ed38d7aec9c680ed1510a77a96efcc7b101489",
+    "hosted_upstream_revision": "7c8122a47ca1c04e6fc6e3d52071369f31e4e503",
     "scope": "source_migration_only",
     "build_validated": false,
     "runtime_validated": false

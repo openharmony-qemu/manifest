@@ -1,0 +1,82 @@
+[
+  {
+    "checkpoints": [
+      "2d228cef505c9f6e39f59d39b951990dc5182bde",
+      "bdf42b336d9df44c51a1377c585730e46fbc0e5c",
+      "d913448b38bab6ace92ae5057b917eb57035f83b",
+      "d95d100c285f7a0eb54845b1c4eedcde8aa95705",
+      "5cd7be3c17ec68ae42d87b586ba608430488dde6",
+      "4d4f0922837de3f1aa9862ae8a8d941b3b6e5f78",
+      "3f002d04ba6b3a7659c601207c89d3a896b82546"
+    ],
+    "final_revision": "3f002d04ba6b3a7659c601207c89d3a896b82546",
+    "operation": "start",
+    "original_ref_absent": true,
+    "recorded_at": "2026-11-13T19:00:25.760807+00:00",
+    "seed_ref": "refs/heads/migration/seed-llvm15-20261114"
+  },
+  {
+    "checkpoint": "1",
+    "recorded_at": "2026-11-13T19:01:41.338499+00:00",
+    "ref": "refs/heads/migration/seed-llvm15-20261114",
+    "revision": "2d228cef505c9f6e39f59d39b951990dc5182bde",
+    "transport_exit": 0,
+    "verified": true
+  },
+  {
+    "checkpoint": "2",
+    "recorded_at": "2026-11-13T19:03:39.342238+00:00",
+    "ref": "refs/heads/migration/seed-llvm15-20261114",
+    "revision": "bdf42b336d9df44c51a1377c585730e46fbc0e5c",
+    "transport_exit": 0,
+    "verified": true
+  },
+  {
+    "checkpoint": "3",
+    "recorded_at": "2026-11-13T19:06:21.936227+00:00",
+    "ref": "refs/heads/migration/seed-llvm15-20261114",
+    "revision": "d913448b38bab6ace92ae5057b917eb57035f83b",
+    "transport_exit": 0,
+    "verified": true
+  },
+  {
+    "checkpoint": "4",
+    "recorded_at": "2026-11-13T19:09:18.779919+00:00",
+    "ref": "refs/heads/migration/seed-llvm15-20261114",
+    "revision": "d95d100c285f7a0eb54845b1c4eedcde8aa95705",
+    "transport_exit": 0,
+    "verified": true
+  },
+  {
+    "checkpoint": "5",
+    "recorded_at": "2026-11-13T19:13:22.567992+00:00",
+    "ref": "refs/heads/migration/seed-llvm15-20261114",
+    "revision": "5cd7be3c17ec68ae42d87b586ba608430488dde6",
+    "transport_exit": 0,
+    "verified": true
+  },
+  {
+    "checkpoint": "6",
+    "recorded_at": "2026-11-13T19:18:13.648954+00:00",
+    "ref": "refs/heads/migration/seed-llvm15-20261114",
+    "revision": "4d4f0922837de3f1aa9862ae8a8d941b3b6e5f78",
+    "transport_exit": 0,
+    "verified": true
+  },
+  {
+    "checkpoint": "7",
+    "recorded_at": "2026-11-13T19:25:39.377831+00:00",
+    "ref": "refs/heads/migration/seed-llvm15-20261114",
+    "revision": "3f002d04ba6b3a7659c601207c89d3a896b82546",
+    "transport_exit": 0,
+    "verified": true
+  },
+  {
+    "checkpoint": "final-baseline",
+    "recorded_at": "2026-11-13T19:25:50.791451+00:00",
+    "ref": "refs/heads/upstream/baseline-7.0",
+    "revision": "3f002d04ba6b3a7659c601207c89d3a896b82546",
+    "transport_exit": 0,
+    "verified": true
+  }
+]
