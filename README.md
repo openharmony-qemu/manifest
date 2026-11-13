@@ -37,6 +37,9 @@ No build, package or runtime acceptance is implied by source synchronization.
 Product component dependencies remain owned by the source repositories through
 `bundle.json`, GN targets and `vendor/ohemu` product profiles. The manifest owns
 repository selection and cross-tree build prerequisites, not a second patch stack.
+`dependencies.json` records those prerequisites, their consuming repositories and
+the selected checkout locations. Serial SIG is checked out in the system tree at
+`base/busmanager/serial_manager`.
 
 Current scope follows the user's instruction to complete migration prerequisites
 without starting package builds or guest validation.

@@ -78,7 +78,7 @@
       ],
       "checkouts": [
         {
-          "tree": "external",
+          "tree": "ohos",
           "path": "base/busmanager/serial_manager",
           "revision": "c05fbbf156230982aa576373da6ee04378b09ca0"
         }

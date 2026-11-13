@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-11-13T23:05:03.770704+00:00",
+  "checks": [
+    "All declared source dependencies resolve to actual selected tree/repository/path tuples",
+    "Consumers are catalog repositories",
+    "Original source revisions retain catalog identity",
+    "Cross-tree stage dependencies exist and are acyclic",
+    "All stage manifest and contract references exist",
+    "Six distinct architecture/device archive contracts"
+  ],
+  "source_dependency_repositories": 21,
+  "source_dependency_checkouts": 21,
+  "stages": 8,
+  "manifest_projects": {
+    "default.xml": 520,
+    "arkweb.xml": 156,
+    "external.xml": 20
+  },
+  "serial_sig_checkout": "ohos:base/busmanager/serial_manager",
+  "input_sha256": {
+    "dependencies.json": "2a647db064faf4d1cdb7acbf4ae021c05f99cf6775e579847ad5f213e9410d62",
+    "products.json": "a36034ac4ac74ac4b4f490ba9c1596656414c8fa1bd71845a65f965ab1bf2013",
+    "default.xml": "de0d596b77b1f79036e4d1b7f2212a76f597de415c1baa19236caba0a1cf8b8e",
+    "ohos.xml": "7262030d5eca4fab92a9652b81d86fffe37d0c29f602b1c8acb2e995e3bf0207",
+    "arkweb.xml": "91018620ec17132b31e7bfb85b34c7d2131bfab56648a174916daf13d45150a4",
+    "external.xml": "db01a8fc4d66286271bbe9b10418bb63dc455d7e8164873e49e83fd31b125647",
+    "repositories.json": "e90cf9f65bd1cc68523bf174d0b9cb7a1422e308566c54267c62ade068567c08"
+  },
+  "generator_sha256": "143656ba93068702f05110e752ea4c2fe070fa097527ad49f9052873ca7c4669",
+  "build_validated": false,
+  "runtime_validated": false
+}
