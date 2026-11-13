@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "stages": [
+    {
+      "name": "ohos_sources",
+      "manifest": "default.xml",
+      "requires": []
+    },
+    {
+      "name": "external_sources",
+      "manifest": "external.xml",
+      "requires": []
+    },
+    {
+      "name": "arkweb_sources",
+      "manifest": "arkweb.xml",
+      "requires": []
+    },
+    {
+      "name": "ohos_sdk",
+      "requires": [
+        "ohos_sources"
+      ]
+    },
+    {
+      "name": "arkweb_m144",
+      "requires": [
+        "arkweb_sources",
+        "ohos_sdk",
+        "external_sources"
+      ],
+      "outputs": [
+        "ArkWebCore.hap",
+        "libv8_shared.so",
+        "libvk_swiftshader.so",
+        "libopenh264.so"
+      ]
+    },
+    {
+      "name": "mesa_llvm",
+      "requires": [
+        "arkweb_sources",
+        "ohos_sdk"
+      ],
+      "outputs": [
+        "libllvm.a"
+      ]
+    },
+    {
+      "name": "system_images",
+      "requires": [
+        "ohos_sources",
+        "external_sources",
+        "arkweb_m144",
+        "mesa_llvm"
+      ]
+    },
+    {
+      "name": "qemu_packages",
+      "requires": [
+        "system_images"
+      ],
+      "contract": "products.json"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "baseline_branch": "OpenHarmony-7.0-Release-qemu",
+  "products": [
+    {
+      "product": "arm64_virt",
+      "guest_arch": "arm64",
+      "device_type": "phone",
+      "archive": "openharmony-qemu-arm64-arm64_virt-phone.tar.gz",
+      "kernel": "Image",
+      "profile": "qemu_phone_full_source"
+    },
+    {
+      "product": "arm64_virt",
+      "guest_arch": "arm64",
+      "device_type": "2in1",
+      "archive": "openharmony-qemu-arm64-arm64_virt-2in1.tar.gz",
+      "kernel": "Image",
+      "profile": "qemu_2in1_full_source"
+    },
+    {
+      "product": "x86_64_virt",
+      "guest_arch": "x86_64",
+      "device_type": "phone",
+      "archive": "openharmony-qemu-x86_64-x86_64_virt-phone.tar.gz",
+      "kernel": "bzImage",
+      "profile": "qemu_phone_full_source"
+    },
+    {
+      "product": "x86_64_virt",
+      "guest_arch": "x86_64",
+      "device_type": "2in1",
+      "archive": "openharmony-qemu-x86_64-x86_64_virt-2in1.tar.gz",
+      "kernel": "bzImage",
+      "profile": "qemu_2in1_full_source"
+    },
+    {
+      "product": "armv7a_virt",
+      "guest_arch": "armv7a",
+      "device_type": "phone",
+      "archive": "openharmony-qemu-armv7a-armv7a_virt-phone.tar.gz",
+      "kernel": "zImage",
+      "profile": "qemu_phone_full_source"
+    },
+    {
+      "product": "armv7a_virt",
+      "guest_arch": "armv7a",
+      "device_type": "2in1",
+      "archive": "openharmony-qemu-armv7a-armv7a_virt-2in1.tar.gz",
+      "kernel": "zImage",
+      "profile": "qemu_2in1_full_source"
+    }
+  ],
+  "required_images": [
+    "ramdisk.img",
+    "system.img",
+    "vendor.img",
+    "userdata.img",
+    "sys_prod.img",
+    "chip_prod.img",
+    "updater.img"
+  ],
+  "required_launchers": [
+    "launch/linux.sh",
+    "launch/macos.command",
+    "launch/windows.ps1"
+  ],
+  "required_tools": [
+    "tools/sign-hap.sh",
+    "tools/install-hap-signer.sh"
+  ],
+  "required_evidence": [
+    "manifest.json",
+    "device-profile.json",
+    "resolved-manifest.xml",
+    "source-baseline.json",
+    "kernel.config",
+    "kernel-inputs.json"
+  ],
+  "matrix_evidence": [
+    "SHA256SUMS",
+    "matrix-manifest.json"
+  ],
+  "validation": "Build and runtime validation are deferred by user instruction; no acceptance claimed."
+}

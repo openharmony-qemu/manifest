@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+  <remote name="qemu" fetch="https://github.com/openharmony-qemu/" />
+  <default remote="qemu" revision="OpenHarmony-7.0-Release-qemu" sync-j="8" />
+  <include name="ohos.xml" />
+</manifest>

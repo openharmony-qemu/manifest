@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "status": "in_progress",
+  "repository_creation_complete": false,
+  "source_baselines_complete": false,
+  "patch_migration_complete": false,
+  "build_validated": false,
+  "runtime_validated": false,
+  "shared_revision_conflicts": [
+    "web_webview",
+    "third_party_bounds_checking_function"
+  ],
+  "note": "Creation/ref/import journals are retained in the migration checkout; replace this status only after remote verification."
+}

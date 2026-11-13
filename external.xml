@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+  <remote name="qemu" fetch="https://github.com/openharmony-qemu/" />
+  <default remote="qemu" revision="OpenHarmony-7.0-Release-qemu" sync-j="8" />
+  <project name="third_party_openvpn" path="third_party/openvpn" />
+  <project name="qemu_tool_gn" path="tools/gn" />
+  <project name="qemu_sdk_llvm15" path="tools/sdk-llvm15" />
+</manifest>
