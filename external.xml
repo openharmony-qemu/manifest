@@ -5,4 +5,20 @@
   <project name="third_party_openvpn" path="third_party/openvpn" />
   <project name="qemu_tool_gn" path="tools/gn" />
   <project name="qemu_sdk_llvm15" path="tools/sdk-llvm15" />
+  <project name="qemu_dep_sherpa_onnx" path="dependencies/sherpa_onnx" />
+  <project name="qemu_dep_node_addon_api" path="dependencies/node_addon_api" />
+  <project name="qemu_dep_kaldi_native_fbank" path="dependencies/kaldi_native_fbank" />
+  <project name="qemu_dep_kaldi_decoder" path="dependencies/kaldi_decoder" />
+  <project name="qemu_dep_simple_sentencepiece" path="dependencies/simple_sentencepiece" />
+  <project name="qemu_dep_websocketpp" path="dependencies/websocketpp" />
+  <project name="qemu_dep_asio" path="dependencies/asio" />
+  <project name="qemu_dep_espeak_ng" path="dependencies/espeak_ng" />
+  <project name="qemu_dep_piper_phonemize" path="dependencies/piper_phonemize" />
+  <project name="qemu_dep_cppjieba" path="dependencies/cppjieba" />
+  <project name="qemu_dep_hclust_cpp" path="dependencies/hclust_cpp" />
+  <project name="qemu_dep_kaldifst" path="dependencies/kaldifst" />
+  <project name="qemu_dep_openfst" path="dependencies/openfst" />
+  <project name="qemu_dep_eigen" path="dependencies/eigen" />
+  <project name="qemu_dep_openal_soft" path="dependencies/openal_soft" />
+  <project name="qemu_dep_jsoncpp" path="dependencies/jsoncpp" />
 </manifest>

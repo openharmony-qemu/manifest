@@ -1,0 +1,10 @@
+{
+  "repository": "developtools_profiler",
+  "repository_id": 1455970789,
+  "backup_name": "developtools_profiler-upstream-fork-backup",
+  "refs": "24259b16b87cbaf2dcfc49ef8d07d345300bc275\trefs/heads/OpenHarmony-2.2-Beta2\n2d75f87399240e900bdfc5b57f7abe6a72c4f6d1\trefs/heads/OpenHarmony-3.0-LTS\n5a0257afeb5de33a560116bb912632cf2649ed95\trefs/heads/OpenHarmony-v2.2-Beta\n89bdc094fc84c40accb8c0e82dc8bbc7e85f0387\trefs/heads/master\n",
+  "reason": "GitHub LFS uploads into a fork are charged to the upstream network owner; preserve the old fork and establish an independently maintained mirror",
+  "failed_workflow": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43438905143",
+  "pull_requests": [],
+  "releases": []
+}

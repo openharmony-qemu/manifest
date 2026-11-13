@@ -2,7 +2,7 @@
 <manifest>
   <remote name="qemu" fetch="https://github.com/openharmony-qemu/" />
   <default remote="qemu" revision="OpenHarmony-7.0-Release-qemu" sync-j="8" />
-  <project name="web_webview" path="deps_code/webview" />
+  <project name="arkweb_web_webview" path="deps_code/webview" />
   <project name="chromium_src" path="src">
     <linkfile dest="build_arkweb.sh" src="arkweb/build/build_tpc.sh" />
     <linkfile dest="build" src="arkweb/build/build" />
@@ -23,7 +23,7 @@
   <project name="chromium_third_party_angle_rapidjson" path="src/third_party/angle/third_party/rapidjson/src" />
   <project name="chromium_anonymous-tokens" path="src/third_party/anonymous_tokens/src" />
   <project name="chromium_third_party_boringssl" path="src/third_party/boringssl/src" />
-  <project name="third_party_bounds_checking_function" path="src/third_party/bounds_checking_function" />
+  <project name="arkweb_bounds_checking_function" path="src/third_party/bounds_checking_function" />
   <project name="chromium_third_party_breakpad" path="src/third_party/breakpad/breakpad" />
   <project name="chromium_third_party_cast_core" path="src/third_party/cast_core/public/src" />
   <project name="chromium_third_party_catapult" path="src/third_party/catapult" />

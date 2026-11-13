@@ -1,0 +1,7 @@
+{
+  "repository": "openharmony-qemu/multimedia_audio_framework",
+  "repository_id": 1456097356,
+  "retained_backup": "openharmony-qemu/multimedia_audio_framework-upstream-fork-backup",
+  "refs": "",
+  "reason": "Upstream fork network LFS quota blocks current source synchronization"
+}

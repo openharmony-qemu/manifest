@@ -6,9 +6,59 @@
   "patch_migration_complete": false,
   "build_validated": false,
   "runtime_validated": false,
-  "shared_revision_conflicts": [
-    "web_webview",
-    "third_party_bounds_checking_function"
+  "shared_revision_conflicts": [],
+  "note": "Creation/ref/import journals are retained in the migration checkout; replace this status only after remote verification.",
+  "resolved_checkout_variants": [
+    {
+      "upstream_project": "web_webview",
+      "system_repository": "web_webview",
+      "arkweb_repository": "arkweb_web_webview",
+      "resolution": "separate mirrors preserve original locked source versions",
+      "original_conflict": {
+        "name": "web_webview",
+        "upstream_url": "https://gitcode.com/openharmony/web_webview.git",
+        "github_upstream": "openharmony/web_webview",
+        "baseline_branch": "OpenHarmony-7.0-Release-qemu",
+        "auto_sync": false,
+        "inputs": [
+          {
+            "tree": "ohos",
+            "path": "base/web/webview",
+            "revision": "d421b6b549fa3038ad01cf34589b959286137be9"
+          },
+          {
+            "tree": "arkweb",
+            "path": "deps_code/webview",
+            "revision": "4237e061441ea9392e83a353c0d52cb1c44404b3"
+          }
+        ]
+      }
+    },
+    {
+      "upstream_project": "third_party_bounds_checking_function",
+      "system_repository": "third_party_bounds_checking_function",
+      "arkweb_repository": "arkweb_bounds_checking_function",
+      "resolution": "separate mirrors preserve original locked source versions",
+      "original_conflict": {
+        "name": "third_party_bounds_checking_function",
+        "upstream_url": "https://gitcode.com/openharmony/third_party_bounds_checking_function.git",
+        "github_upstream": "openharmony/third_party_bounds_checking_function",
+        "baseline_branch": "OpenHarmony-7.0-Release-qemu",
+        "auto_sync": false,
+        "inputs": [
+          {
+            "tree": "ohos",
+            "path": "third_party/bounds_checking_function",
+            "revision": "61baa7a3eb9347efca58397d1d0504faa96d79f0"
+          },
+          {
+            "tree": "arkweb",
+            "path": "src/third_party/bounds_checking_function",
+            "revision": "2ae82839ecaaa7d031e66ccbd2076d671acfd615"
+          }
+        ]
+      }
+    }
   ],
-  "note": "Creation/ref/import journals are retained in the migration checkout; replace this status only after remote verification."
+  "source_components_published": 54
 }

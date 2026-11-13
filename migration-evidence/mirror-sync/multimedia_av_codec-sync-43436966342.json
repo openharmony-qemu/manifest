@@ -1,0 +1,30 @@
+{
+  "repository": "openharmony-qemu/multimedia_av_codec",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43436966342",
+  "artifact_id": 14046326193,
+  "artifact_created_at": "2026-11-13T14:27:28Z",
+  "upstream_branches": 278,
+  "results": {
+    "created": 279
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": null,
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "e5c525670d1f6622d441c9e5bf975ea0579ea177"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "ca2543d500947748b2c2c122025dc9804a643e1f"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "6b57445958448a8754c9e06841e707b581ba18b8e8bf3dcf0ae875f40a407f92",
+    "chunks": [
+      {
+        "file": "00000.csv.gz",
+        "rows": 23365,
+        "sha256": "6b57445958448a8754c9e06841e707b581ba18b8e8bf3dcf0ae875f40a407f92"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "repository": "openharmony-qemu/device_soc_rockchip",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43436966342",
+  "artifact_id": 14044261509,
+  "artifact_created_at": "2026-11-13T14:00:54Z",
+  "upstream_branches": 311,
+  "results": {
+    "created": 311,
+    "unchanged": 1
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "dd5ebde1df6a8586ea45476a5e6b46de5ae77995",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "0aa6ba16f89844023137fb84ac03189b30c8780b"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "b65ad1ce197b2f534ff66b0f7c3f2eb78d78f16f"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "b4a55241c4276fb693479a77be04f51ad34e909cd153c74e21fec9cf52830792",
+    "chunks": [
+      {
+        "file": "00000.csv.gz",
+        "rows": 409,
+        "sha256": "b4a55241c4276fb693479a77be04f51ad34e909cd153c74e21fec9cf52830792"
+      }
+    ]
+  }
+}

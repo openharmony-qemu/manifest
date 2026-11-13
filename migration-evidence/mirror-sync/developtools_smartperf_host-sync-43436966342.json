@@ -1,0 +1,31 @@
+{
+  "repository": "openharmony-qemu/developtools_smartperf_host",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43436966342",
+  "artifact_id": 14044181945,
+  "artifact_created_at": "2026-11-13T14:01:18Z",
+  "upstream_branches": 239,
+  "results": {
+    "created": 239,
+    "unchanged": 1
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "908ec7f27a6e65d2dd8a8372944d0bb0fcfee7d2",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "260b028b289befa8dc2f85b98687d323c7d20fa0"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "3dc69554ba9743806fbc043d14ffbeb091d61f89"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "sha256": "bf4974ed7838d912e859e4718ccf2151339a48a4fe43af8d848d483db705ce34",
+    "chunks": [
+      {
+        "file": "00000.csv.gz",
+        "rows": 2534,
+        "sha256": "bf4974ed7838d912e859e4718ccf2151339a48a4fe43af8d848d483db705ce34"
+      }
+    ]
+  }
+}
