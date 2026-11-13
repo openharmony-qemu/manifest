@@ -28,5 +28,19 @@
     "note": "Plan from the prior failed publication; earlier accepted object packs were reused."
   },
   "build_validated": false,
-  "runtime_validated": false
+  "runtime_validated": false,
+  "angle_retry": {
+    "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43518125242",
+    "job_id": 132205390772,
+    "conclusion": "failure",
+    "preparation_succeeded": true,
+    "failed_phase": "publish",
+    "completed_at": "2026-11-13T23:02:52Z",
+    "failure": "GitHub quarantine pack file was missing during concurrent object receives; remote unpack failed: index-pack failed",
+    "local_log": "angle-vk-second-attempt-failure.log",
+    "local_log_sha256": "e067eca8864a599658a701cc38fbc19d5cb8aa30893841f11da04a6f83e2ac01",
+    "remaining_original_blobs_at_prior_plan": 62279,
+    "remaining_uncompressed_blob_bytes_at_prior_plan": 243081088911,
+    "retry_workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43524675043"
+  }
 }

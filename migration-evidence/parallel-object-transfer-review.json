@@ -105,5 +105,19 @@
     "local_log": "system-vk-parallel-publication-failure.log",
     "local_log_sha256": "358fd28a5fe84c46cb5da37394313a491498974376ad502df2e622ee120968d6",
     "superseding_workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43521794559"
+  },
+  "angle_production_validation": {
+    "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43518125242",
+    "job_id": 132205390772,
+    "conclusion": "failure",
+    "preparation_succeeded": true,
+    "failed_phase": "publish",
+    "completed_at": "2026-11-13T23:02:52Z",
+    "failure": "GitHub quarantine pack file was missing during concurrent object receives; remote unpack failed: index-pack failed",
+    "local_log": "angle-vk-second-attempt-failure.log",
+    "local_log_sha256": "e067eca8864a599658a701cc38fbc19d5cb8aa30893841f11da04a6f83e2ac01",
+    "remaining_original_blobs_at_prior_plan": 62279,
+    "remaining_uncompressed_blob_bytes_at_prior_plan": 243081088911,
+    "retry_workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43524675043"
   }
 }
