@@ -1,0 +1,27 @@
+{
+  "repository": "openharmony-qemu/chromium_src",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43491283686",
+  "job_id": 132112965095,
+  "artifact_id": 14073491645,
+  "completed_at": "2026-11-13T20:12:09Z",
+  "failure": "Repeated HTTP 500 during Git publication of the Chromium 157 branch; complete LFS upload and the fixed M144 baseline had already succeeded",
+  "failed_ref": "refs/heads/157.0.8103.14",
+  "original_revision": "baf229b257b674550c406a1255a05af8bf9d406e",
+  "hosted_revision": "c3ffcd920465b4119be47a684416990e032ff555",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "a8168622b056f25c2e68d5f12fe2759bad2d9a44"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "81adb7a3cbeaf89ab90c3848e1c8f829e87636fe"
+  },
+  "full_branch_sync_complete": false,
+  "retry_workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43503109180",
+  "remedy": "Preserve existing refs and original commit identities; proactively stage bounded packs of original blobs through temporary content-addressed tree tags",
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "file": "chromium_src-43491283686-commit-map.csv.gz",
+    "uncompressed_sha256": "3cef152afb90469de6584608384c8efd6ae92febcb162ba78261eac4267cfb3e",
+    "sha256": "d0807d08a2d0fccb531302b82d22061d91972b98171e961b0fd0081725340825"
+  }
+}

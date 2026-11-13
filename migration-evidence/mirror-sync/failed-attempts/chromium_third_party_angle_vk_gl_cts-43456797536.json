@@ -1,0 +1,12 @@
+{
+  "repository": "openharmony-qemu/chromium_third_party_angle_vk_gl_cts",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43456797536",
+  "job_id": 131998462300,
+  "completed_at": "2026-11-13T17:06:30Z",
+  "failure": "HTTP/2 stream canceled during Git branch push after repeated LFS scanning; 83 earlier refs were published",
+  "full_branch_sync_complete": false,
+  "retry_workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43470285943",
+  "remedy": "Retry with complete explicit LFS uploads and transient push retry with remote read-back",
+  "build_validated": false,
+  "runtime_validated": false
+}

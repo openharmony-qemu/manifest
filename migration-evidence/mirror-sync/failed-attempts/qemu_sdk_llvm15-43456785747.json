@@ -1,0 +1,22 @@
+{
+  "repository": "openharmony-qemu/qemu_sdk_llvm15",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43456785747",
+  "job_id": 131993019222,
+  "disposition": "Canceled after prolonged publication-stage history scanning; replaced by optimized synchronization",
+  "retry_workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43472114788",
+  "original_upstream_branches": 96,
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "3f002d04ba6b3a7659c601207c89d3a896b82546"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "3f002d04ba6b3a7659c601207c89d3a896b82546"
+  },
+  "full_branch_sync_complete": false,
+  "build_validated": false,
+  "runtime_validated": false,
+  "commit_map": {
+    "file": "qemu_sdk_llvm15-43456785747-commit-map.csv.gz",
+    "uncompressed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64"
+  }
+}
