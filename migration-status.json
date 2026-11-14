@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "status": "in_progress",
+  "status": "source_migration_complete_with_reported_conflicts",
   "repository_creation_complete": true,
-  "source_baselines_complete": false,
+  "source_baselines_complete": true,
   "patch_migration_complete": true,
   "build_validated": false,
   "runtime_validated": false,
@@ -63,7 +63,7 @@
   "source_components_published": 105,
   "catalog_repositories": 695,
   "repositories_created": 695,
-  "qemu_branches_recorded": 694,
+  "qemu_branches_recorded": 695,
   "publication_phases": [
     {
       "journal": "source-publication.jsonl",
@@ -97,30 +97,28 @@
     }
   ],
   "mirrors_requiring_daily_sync": 186,
-  "mirrors_with_verified_production_sync": 185,
-  "snapshot_at": "2026-11-14T00:22:09.279400+00:00",
+  "mirrors_with_verified_production_sync": 186,
+  "snapshot_at": "2026-11-14T02:05:04.283645+00:00",
   "completion_gates": {
     "repository_creation": true,
     "component_actions_disabled": true,
-    "remote_branches_and_defaults": false,
+    "remote_branches_and_defaults": true,
     "reviewed_publications": true,
     "component_payloads": true,
     "daily_mirror_registry": true,
-    "production_mirror_verification": false,
+    "production_mirror_verification": true,
     "legacy_input_cutover": true
   },
-  "mirrors_awaiting_verification": [
-    "chromium_third_party_angle_vk_gl_cts"
-  ],
+  "mirrors_awaiting_verification": [],
   "upstream_conflicts": [
     {
       "repository": "openharmony-qemu/third_party_openvpn",
       "ref": "refs/heads/renovate/vcpkg-digest",
       "old": "ba58b35420f5b08028ef43481b7b5b4e05b62a64",
-      "incoming": "c0d54d51dbf976c90dd1c353646f4d49c78d3ede",
+      "incoming": "ce89e945f2b7dc08d027d7e5c00f3c08a3f388c5",
       "issue_url": "https://github.com/openharmony-qemu/mirror-sync/issues/2",
       "issue_verified": true,
-      "issue_body_sha256": "c0e5bb8b603ef1fae286b7a88cac3a75924dd67c92edb1d3b02d8b3fb3de279e"
+      "issue_body_sha256": "2d2d569b707859abfd5ccfb7e97a15be30b9125ded34c76823ebcdcf5567724d"
     }
   ],
   "unpublished_local_input_changes": [
@@ -128,14 +126,14 @@
       "path": "patches/2in1/product_profile/apply.py",
       "sha256": "7cbf1ca3e1f99b10c212c9235cf9ba3358fe02b3e5f513e51bb949a66ac4b4df",
       "mode": "0o644",
-      "backup_name": "preserved-local-inputs-5yl5q63c",
+      "backup_name": "preserved-local-inputs-0t5rw7wt",
       "published": false
     },
     {
       "path": "scripts/configure_sceneboard_runtime.py",
       "sha256": "26833514bbe48b427bc0298c1146e14d4b0b12b67c5e10b630168375364d53b9",
       "mode": "0o755",
-      "backup_name": "preserved-local-inputs-5yl5q63c",
+      "backup_name": "preserved-local-inputs-0t5rw7wt",
       "published": false
     }
   ]

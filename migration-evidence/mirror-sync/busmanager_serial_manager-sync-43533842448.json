@@ -1,0 +1,27 @@
+{
+  "repository": "openharmony-qemu/busmanager_serial_manager",
+  "checked_at": "2026-11-14T01:57:11.047143+00:00",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43533842448",
+  "artifact_id": 14090434786,
+  "artifact_created_at": "2026-11-14T01:12:59Z",
+  "upstream_branches": 4,
+  "results": {
+    "unchanged": 5
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "6d614300dd9753032cda25598f77272ae1ba2283",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "c05fbbf156230982aa576373da6ee04378b09ca0"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "c05fbbf156230982aa576373da6ee04378b09ca0"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "conflicts": [],
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": [],
+    "directory": "commit-maps/busmanager_serial_manager/14090434786"
+  }
+}

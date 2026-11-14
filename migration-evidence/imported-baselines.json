@@ -522,6 +522,15 @@
     "runtime_validated": false
   },
   {
+    "repository": "openharmony-qemu/chromium_third_party_angle_vk_gl_cts",
+    "qemu_commit": "634727b4bcb9c2da9dbba49ba7f48a70ed154471",
+    "upstream_revision": "74b1c1d8ea3f30af1b9a76fadcdf9d469afc2a57",
+    "hosted_upstream_revision": "634727b4bcb9c2da9dbba49ba7f48a70ed154471",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
     "repository": "openharmony-qemu/chromium_third_party_boringssl",
     "qemu_commit": "b94d71f87ff943a617d77f3ff029f9a01a1ec6bc",
     "upstream_revision": "b94d71f87ff943a617d77f3ff029f9a01a1ec6bc",

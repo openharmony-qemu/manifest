@@ -1,0 +1,27 @@
+{
+  "repository": "openharmony-qemu/chromium_third_party_libwebm",
+  "checked_at": "2026-11-14T01:55:17.230985+00:00",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43533842448",
+  "artifact_id": 14090258057,
+  "artifact_created_at": "2026-11-14T01:01:44Z",
+  "upstream_branches": 112,
+  "results": {
+    "unchanged": 113
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "8c75fdb5a93e9449272904b68f7baa15e7a4180b",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "8c75fdb5a93e9449272904b68f7baa15e7a4180b"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "8c75fdb5a93e9449272904b68f7baa15e7a4180b"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "conflicts": [],
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": [],
+    "directory": "commit-maps/chromium_third_party_libwebm/14090258057"
+  }
+}

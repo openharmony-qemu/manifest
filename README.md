@@ -1,8 +1,10 @@
 # OpenHarmony QEMU manifest
 
-Migration is in progress. Repository creation, source import, patch migration and
-build/runtime acceptance are separate states. See `migration-status.json` before
-using this manifest as a build input.
+Source repository migration for OpenHarmony 7.0 is complete. All 695 component
+repositories have verified QEMU branch commits and defaults; all 186 daily mirrors
+have completed production verification records. `components.lock.json` records
+the published baseline. See `migration-status.json` for completion evidence and
+reported upstream branch conflicts. Build and runtime acceptance remain deferred.
 
 All maintained components use `OpenHarmony-7.0-Release-qemu`, including components
 with no QEMU changes. The independent
@@ -20,7 +22,7 @@ conversion. Conversion records and fixed baseline provenance are maintained in
 `migration-evidence/mirror-sync/` and the synchronization workflow artifacts. Component repositories do
 not contain mirror synchronization scripts or configuration.
 
-After source migration is complete, install Git LFS (`git lfs install`) and initialize each source tree with:
+Install Git LFS (`git lfs install`) and initialize each source tree with:
 
 ```sh
 repo init -u https://github.com/openharmony-qemu/manifest.git -b OpenHarmony-7.0-Release-qemu -m default.xml
@@ -48,7 +50,9 @@ The ownership index `adaptations.json` maps legacy source-preparation inputs to
 component repositories and preserves the original file hashes and permissions.
 It contains no patch payloads. Component recipes live under `.qemu/adaptations/`;
 the materializer is maintained in the `build` repository. `components.lock.json`
-will authorize retrieval only after all referenced publications are verified.
+authorizes retrieval of the verified published inputs at their exact component
+commits. All 2,160 reconstructed inputs have verified hashes and file modes across
+104 owning repositories.
 The old packaging checkout's `scripts/prepare_component_inputs.py` retrieves those
 locked inputs into an ignored generated directory; it does not apply patches or
 start a build. Historical source guards are retained with the transferred recipes.

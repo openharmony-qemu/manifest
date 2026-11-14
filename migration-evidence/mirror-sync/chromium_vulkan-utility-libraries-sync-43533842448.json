@@ -1,0 +1,27 @@
+{
+  "repository": "openharmony-qemu/chromium_vulkan-utility-libraries",
+  "checked_at": "2026-11-14T01:56:48.806483+00:00",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43533842448",
+  "artifact_id": 14090004559,
+  "artifact_created_at": "2026-11-14T01:08:57Z",
+  "upstream_branches": 10,
+  "results": {
+    "unchanged": 11
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "c010c19e796035e92fb3b0462cb887518a41a7c1",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "c010c19e796035e92fb3b0462cb887518a41a7c1"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "c010c19e796035e92fb3b0462cb887518a41a7c1"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "conflicts": [],
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": [],
+    "directory": "commit-maps/chromium_vulkan-utility-libraries/14090004559"
+  }
+}

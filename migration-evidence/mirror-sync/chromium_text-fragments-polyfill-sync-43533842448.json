@@ -1,0 +1,27 @@
+{
+  "repository": "openharmony-qemu/chromium_text-fragments-polyfill",
+  "checked_at": "2026-11-14T01:56:23.497571+00:00",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43533842448",
+  "artifact_id": 14091080093,
+  "artifact_created_at": "2026-11-14T01:06:35Z",
+  "upstream_branches": 10,
+  "results": {
+    "unchanged": 11
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "c036420683f672d685e27415de0a5f5e85bdc23f",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "c036420683f672d685e27415de0a5f5e85bdc23f"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "c036420683f672d685e27415de0a5f5e85bdc23f"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "conflicts": [],
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": [],
+    "directory": "commit-maps/chromium_text-fragments-polyfill/14091080093"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "repository": "openharmony-qemu/chromium_third_party_vulkan_deps_vulkan_validation_layers",
+  "checked_at": "2026-11-14T01:56:39.602350+00:00",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43533842448",
+  "artifact_id": 14090424171,
+  "artifact_created_at": "2026-11-14T01:09:47Z",
+  "upstream_branches": 111,
+  "results": {
+    "unchanged": 112
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "5e175a92548d1a507bd81fdc5db6fa1d2572a6ea",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "5e175a92548d1a507bd81fdc5db6fa1d2572a6ea"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "5e175a92548d1a507bd81fdc5db6fa1d2572a6ea"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "conflicts": [],
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": [],
+    "directory": "commit-maps/chromium_third_party_vulkan_deps_vulkan_validation_layers/14090424171"
+  }
+}

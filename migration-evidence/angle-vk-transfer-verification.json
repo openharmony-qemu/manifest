@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-11-14T02:02:12.314143+00:00",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43524675043",
+  "workflow_commit": "a5314e79bef9d2de5938e8bef00e671c2e9ae861",
+  "conclusion": "success",
+  "artifact_id": 14092816883,
+  "upstream_branches": 113,
+  "verified_results": {
+    "created": 19,
+    "unchanged": 95
+  },
+  "default_branch": "OpenHarmony-7.0-Release-qemu",
+  "qemu_commit": "634727b4bcb9c2da9dbba49ba7f48a70ed154471",
+  "original_baseline": {
+    "refs/heads/upstream/baseline-7.0": "74b1c1d8ea3f30af1b9a76fadcdf9d469afc2a57"
+  },
+  "hosted_baseline": {
+    "refs/heads/upstream/baseline-7.0": "634727b4bcb9c2da9dbba49ba7f48a70ed154471"
+  },
+  "artifact_remaining_transfer_refs": {},
+  "remote_remaining_transfer_refs": 0,
+  "commit_map_sha256": "4dcc4062bbb16124546e805f0b00ffda71453a860b873ad7061e5f0749d42c7c",
+  "build_validated": false,
+  "runtime_validated": false
+}

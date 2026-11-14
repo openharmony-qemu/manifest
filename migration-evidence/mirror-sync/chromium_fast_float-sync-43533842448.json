@@ -1,0 +1,27 @@
+{
+  "repository": "openharmony-qemu/chromium_fast_float",
+  "checked_at": "2026-11-14T01:54:04.039910+00:00",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43533842448",
+  "artifact_id": 14090605849,
+  "artifact_created_at": "2026-11-14T00:55:17Z",
+  "upstream_branches": 10,
+  "results": {
+    "unchanged": 11
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "cb1d42aaa1e14b09e1452cfdef373d051b8c02a4",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "cb1d42aaa1e14b09e1452cfdef373d051b8c02a4"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "cb1d42aaa1e14b09e1452cfdef373d051b8c02a4"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "conflicts": [],
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": [],
+    "directory": "commit-maps/chromium_fast_float/14090605849"
+  }
+}

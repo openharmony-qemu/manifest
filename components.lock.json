@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "complete": false,
+  "complete": true,
   "baseline_branch": "OpenHarmony-7.0-Release-qemu",
   "adaptations_sha256": "4028f759e441c169f991e2c8ba555c1853c972344809cbff5b40d9370498a03b",
   "repositories": [
@@ -3716,7 +3716,7 @@
     },
     {
       "name": "chromium_third_party_angle_vk_gl_cts",
-      "qemu_revision": null,
+      "qemu_revision": "634727b4bcb9c2da9dbba49ba7f48a70ed154471",
       "upstream_revisions": [
         "74b1c1d8ea3f30af1b9a76fadcdf9d469afc2a57"
       ]

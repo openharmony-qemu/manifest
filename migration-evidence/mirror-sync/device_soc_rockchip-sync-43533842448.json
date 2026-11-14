@@ -1,0 +1,33 @@
+{
+  "repository": "openharmony-qemu/device_soc_rockchip",
+  "checked_at": "2026-11-14T01:52:06.455954+00:00",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43533842448",
+  "artifact_id": 14088522772,
+  "artifact_created_at": "2026-11-14T00:24:49Z",
+  "upstream_branches": 311,
+  "results": {
+    "unchanged": 312
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "dd5ebde1df6a8586ea45476a5e6b46de5ae77995",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "0aa6ba16f89844023137fb84ac03189b30c8780b"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "b65ad1ce197b2f534ff66b0f7c3f2eb78d78f16f"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "conflicts": [],
+  "commit_map": {
+    "sha256": "b4a55241c4276fb693479a77be04f51ad34e909cd153c74e21fec9cf52830792",
+    "chunks": [
+      {
+        "file": "00000.csv.gz",
+        "rows": 409,
+        "sha256": "b4a55241c4276fb693479a77be04f51ad34e909cd153c74e21fec9cf52830792"
+      }
+    ],
+    "directory": "commit-maps/device_soc_rockchip/14088522772"
+  }
+}

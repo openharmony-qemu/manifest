@@ -1,0 +1,27 @@
+{
+  "repository": "openharmony-qemu/chromium_speedometer",
+  "checked_at": "2026-11-14T01:56:26.266070+00:00",
+  "workflow_url": "https://github.com/openharmony-qemu/mirror-sync/actions/runs/43533842448",
+  "artifact_id": 14090872462,
+  "artifact_created_at": "2026-11-14T01:05:28Z",
+  "upstream_branches": 10,
+  "results": {
+    "unchanged": 11
+  },
+  "remote_refs_verified": true,
+  "qemu_branch_revision": "e2e2538900938c5d6819e9456bf33d48f806c96c",
+  "baseline_original_refs": {
+    "refs/heads/upstream/baseline-7.0": "e2e2538900938c5d6819e9456bf33d48f806c96c"
+  },
+  "baseline_hosted_refs": {
+    "refs/heads/upstream/baseline-7.0": "e2e2538900938c5d6819e9456bf33d48f806c96c"
+  },
+  "build_validated": false,
+  "runtime_validated": false,
+  "conflicts": [],
+  "commit_map": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chunks": [],
+    "directory": "commit-maps/chromium_speedometer/14090872462"
+  }
+}
