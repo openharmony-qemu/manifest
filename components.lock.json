@@ -3555,7 +3555,7 @@
     },
     {
       "name": "third_party_vk-gl-cts",
-      "qemu_revision": null,
+      "qemu_revision": "2a0546f00951f8c2fde135be7e00ce5af4f037f0",
       "upstream_revisions": [
         "9536bc43fa66beb1a89fad20030156c49ad4e982"
       ]

@@ -1500,6 +1500,15 @@
     "runtime_validated": false
   },
   {
+    "repository": "openharmony-qemu/third_party_vk-gl-cts",
+    "qemu_commit": "2a0546f00951f8c2fde135be7e00ce5af4f037f0",
+    "upstream_revision": "9536bc43fa66beb1a89fad20030156c49ad4e982",
+    "hosted_upstream_revision": "2a0546f00951f8c2fde135be7e00ce5af4f037f0",
+    "scope": "source_migration_only",
+    "build_validated": false,
+    "runtime_validated": false
+  },
+  {
     "repository": "openharmony-qemu/xts_acts",
     "qemu_commit": "7c8122a47ca1c04e6fc6e3d52071369f31e4e503",
     "upstream_revision": "12ed38d7aec9c680ed1510a77a96efcc7b101489",
