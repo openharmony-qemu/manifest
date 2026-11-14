@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-11-14T02:14:29.722772+00:00",
+  "command": "python3 scripts/prepare_component_inputs.py --manifest .tmp/organization-migration/manifest --output .qemu/component-inputs-locked-verified",
+  "exit_code": 0,
+  "manifest_commit": "d361b79f059fa4c79eb3fd70e00974a79cab9fee",
+  "component_lock_sha256": "2cf20efd44b7d02e480500b87e6e589452bd158e43d81f211cbdde5a5f0be131",
+  "ownership_index_sha256": "4028f759e441c169f991e2c8ba555c1853c972344809cbff5b40d9370498a03b",
+  "retriever_sha256": "977a9c0f7272fc7ebd667f15bedfd38989ed5896613555875004400844a96e70",
+  "materializer_sha256": "ea8b468641dc3727cf22976fe3b20051648a8ade6ec4d2099aa435aeb62cc70c",
+  "locked_component_checkouts_verified": 104,
+  "reconstructed_files_verified": 2160,
+  "file_bytes_and_modes_verified": true,
+  "output_directory": ".qemu/component-inputs-locked-verified",
+  "active_input_directory_replaced": false,
+  "environment": {
+    "system": "Darwin",
+    "machine": "arm64",
+    "python": "3.13.7"
+  },
+  "log_file": "locked-input-retrieval.log.gz",
+  "log_sha256": "58a8caeba532254ae0e203abb212bd9be79cae0da99c2ec4f605d0299f35a71d",
+  "compressed_log_sha256": "1043b587f87ba53b63207d386a1822275ee1c7ee2fb561b0c5ee0f77db90175f",
+  "build_validated": false,
+  "runtime_validated": false
+}
